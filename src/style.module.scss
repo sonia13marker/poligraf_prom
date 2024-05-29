@@ -1,10 +1,94 @@
-/* main colors */
+/* colors */
 $main-white: #FDFEFF;
 $main-black: #282828;
 $main-gray: #D5D6D7;
-$main-page-color: #007CBC;
-$provider-page-color: #DF0E86;
-$catalog-page-color: #FFC419;
-$news-page-color: #01A3D4;
-$contacts-page-color: #2E379E;
-$about-page-color: #DC2C1D;
+
+/* text styles */
+@mixin inter-medium-50 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: -2.2%;
+}
+
+@mixin inter-medium-35 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 150%;
+  letter-spacing: -2.2%;
+}
+
+@mixin inter-regular-35 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 150%;
+  letter-spacing: -2.2%;
+}
+
+@mixin inter-regular-25 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: -2.2%;
+}
+
+@mixin  inter-medium-20 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -2.2%;
+}
+
+@mixin inter-regular-20 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: -2.2%;
+}
+
+@mixin  inter-regular-18 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: -2.2%;
+}
+
+@mixin inter-medium-14 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -2.2%;
+}
+@mixin inter-regular-14 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: -2.2%;
+}
+@mixin inter-regular-10 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: -2.2%;
+}
+
+/* layout */
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
