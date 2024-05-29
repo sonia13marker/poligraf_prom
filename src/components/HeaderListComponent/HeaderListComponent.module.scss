@@ -16,12 +16,35 @@
     text-decoration: none;
     transition: background-color 0.3s;
 
-    &.main-page-color:hover, &.main-page-color:active { color: $main-white; background-color: map-get($colors, main-page-color); }
-    &.provider-page-color:hover, &.provider-page-color:active { color: $main-white; background-color: map-get($colors, provider-page-color); }
-    &.catalog-page-color:hover, &.catalog-page-color:active  { color: $main-white; background-color: map-get($colors, catalog-page-color); }
-    &.news-page-color:hover, &.news-page-color:active  { color: $main-white; background-color: map-get($colors, news-page-color); }
-    &.contacts-page-color:hover, &.contacts-page-color:active { color: $main-white; background-color: map-get($colors, contacts-page-color); }
-    &.about-page-color:hover, &.about-page-color:active { color: $main-white; background-color: map-get($colors, about-page-color); }
+    &.main-page-color:hover, &.main-page-color:active {
+      color: $main-white;
+      background-color: map-get($colors, main-page-color);
+    }
+
+    &.provider-page-color:hover, &.provider-page-color:active {
+      color: $main-white;
+      background-color: map-get($colors, provider-page-color);
+    }
+
+    &.catalog-page-color:hover, &.catalog-page-color:active {
+      color: $main-white;
+      background-color: map-get($colors, catalog-page-color);
+    }
+
+    &.news-page-color:hover, &.news-page-color:active {
+      color: $main-white;
+      background-color: map-get($colors, news-page-color);
+    }
+
+    &.contacts-page-color:hover, &.contacts-page-color:active {
+      color: $main-white;
+      background-color: map-get($colors, contacts-page-color);
+    }
+
+    &.about-page-color:hover, &.about-page-color:active {
+      color: $main-white;
+      background-color: map-get($colors, about-page-color);
+    }
 
   }
 }

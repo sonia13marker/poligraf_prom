@@ -1,0 +1,42 @@
+@import '../../style.module';
+
+.headerButtons {
+  min-width: 365px;
+  width: 100%;
+  height: 100%;
+  background-color: $main-white;
+  border-radius: 15px;
+  border: 2px solid $main-page-color;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  @include inter-medium-20;
+  color: $main-black;
+  text-decoration: none;
+  padding: 20px;
+
+  &::after {
+    content: "→";
+    color: currentColor;
+    padding-left: 10px;
+  }
+
+  &:hover {
+    color: $main-page-color;
+  }
+
+  &:active {
+    border-color: $contacts-page-color;
+    color: $contacts-page-color;
+  }
+
+   &.firstSelected {
+    color: $main-page-color;
+
+     &:active {
+       color: $contacts-page-color;
+     }
+  }
+
+}
