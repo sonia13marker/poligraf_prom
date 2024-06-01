@@ -1,0 +1,24 @@
+@import "../../style.module";
+
+.wrapper {
+  margin: $indent-150 0;
+  //max-width: 1300px;
+  width: 100%;
+  //height: 100%;
+
+  &__header {
+    width: 100%;
+
+
+    &__title {
+    @include inter-medium-50;
+      margin-bottom: $indent-35;
+    }
+  }
+
+  &__slider {
+    @include flex-row;
+    width: 100%;
+    overflow: hidden;
+  }
+}

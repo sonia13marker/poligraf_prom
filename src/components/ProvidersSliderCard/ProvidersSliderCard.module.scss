@@ -1,0 +1,51 @@
+@import "../../style.module";
+
+.card {
+  @include flex-column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 300px;
+  height: 285px;
+  color: $main-black;
+  background-color: $main-white;
+  border-radius: $border-radius;
+  border: 2px solid $main-gray;
+  overflow: hidden;
+  transition: 0.5s all;
+
+  &:hover {
+    background-color: $provider-page-color;
+    color: $main-white;
+  }
+
+  &__image {
+    width: 100%;
+    height: 170px;
+    background-color: $main-white;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+
+  &__wrapper {
+    width: 100%;
+    @include flex-row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    &__name {
+    @include inter-regular-25;
+      max-width: 195px;
+      width: 100%;
+    }
+
+    &__arrow {
+      text-decoration: none;
+
+      &::after {
+        content: "→";
+        color: $main-white;
+      }
+    }
+  }
+}
