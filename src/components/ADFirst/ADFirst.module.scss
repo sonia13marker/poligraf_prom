@@ -1,0 +1,40 @@
+@import "../../style.module";
+
+.background {
+  max-width: 1300px;
+  width: 100%;
+  min-height: 400px;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-color: $main-page-color;
+  border-radius: $border-radius;
+  padding: 45px 0 0 40px;
+  margin-bottom: $indent-150;
+
+  &__text {
+    max-width: 770px;
+    width: 100%;
+    @include flex-column;
+    align-items: flex-start;
+    gap: $indent-65;
+
+    &__title {
+    @include inter-medium-50;
+      color: $main-white;
+    }
+
+    &__p {
+      @include inter-regular-25;
+      font-weight: 500;
+      letter-spacing: -1px;
+      color: $main-white;
+    }
+  }
+
+  &__image {
+  position: absolute;
+    bottom: 0;
+    right: 50px;
+  }
+}
