@@ -1,0 +1,18 @@
+@import "../../style.module";
+
+.wrapper {
+  @include flex-column;
+  align-items: flex-start;
+  gap: $indent-65;
+  margin-bottom: $indent-150;
+
+  &__title {
+  @include inter-medium-50;
+    color: $main-black;
+  }
+
+  &__twoBlocks {
+    @include flex-row;
+    width: 100%;
+  }
+}

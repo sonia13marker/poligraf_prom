@@ -3,6 +3,7 @@ import AboutCompanyComponent from "../../components/AboutCompanyComponent/AboutC
 import AboutCompanySlider from "../../components/AboutCompanySlider/AboutCompanySlider";
 import ADFirst from "../../components/ADFirst/ADFirst";
 import ProvidersSlider from "../../components/ProvidersSlider/ProvidersSlider";
+import PartnersComponent from "../../components/PartnersComponent/PartnersComponent";
 
 
 export default function MainPage() {
@@ -12,5 +13,6 @@ export default function MainPage() {
 		<AboutCompanySlider />
 		<ADFirst />
 		<ProvidersSlider />
+		<PartnersComponent />
 	</div>
 }
