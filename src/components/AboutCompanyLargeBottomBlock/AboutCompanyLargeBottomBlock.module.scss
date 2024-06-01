@@ -1,0 +1,50 @@
+@import "../../style.module";
+
+.block {
+  @include flex-column;
+  justify-content: flex-end;
+  width: 290px;
+  height: 480px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid $main-gray;
+  background-color: $main-white;
+  position: relative;
+  overflow: hidden;
+
+  &__circle {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: 1;
+    transition: width 3s;
+  }
+
+  &__text {
+    @include inter-medium-20;
+    color: $main-black;
+    line-height: 150%;
+    max-width: 250px;
+    width: 100%;
+    text-align: left;
+    z-index: 2;
+
+    &:hover {
+      //color: $main-white;
+      z-index: 5;
+    }
+  }
+}
+
+.hoverCircle {
+  width: 400px;
+  height: 400px;
+  top: -50%;
+  right: -20%;
+  background-color: #DC2C1D;
+}
+

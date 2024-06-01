@@ -15,6 +15,17 @@ $news-page-color: #01A3D4;
 $contacts-page-color: #2E379E;
 $about-page-color: #DC2C1D;
 
+/* variables */
+$border-radius: 15px;
+
+$indent-150: 150px;
+$indent-65: 65px;
+$indent-35: 35px;
+$indent-20: 20px;
+$indent-5: 5px;
+$indent-10: 10px;
+
+
 /* text styles */
 @mixin inter-medium-50 {
   font-family: "Inter", sans-serif;

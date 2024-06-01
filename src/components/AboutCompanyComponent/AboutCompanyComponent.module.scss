@@ -1,0 +1,47 @@
+@import '../../style.module';
+
+.about {
+  margin: $indent-150 0;
+
+  &__title {
+  @include inter-medium-50;
+    padding-bottom: $indent-35;
+  }
+
+  &__wrapper {
+    @include flex-row;
+    justify-content: center;
+    gap: 20px;
+
+    &__oneHalf {
+    @include flex-column;
+      align-items: flex-start;
+      gap: 20px;
+
+      &__one {
+        @include flex-row;
+        gap: 20px;
+      }
+    }
+
+    &__twoHalf {
+      @include flex-row;
+
+      &__wrapper {
+        @include flex-row;
+        gap: 20px;
+
+        &__one {
+          @include flex-column;
+          gap: 20px;
+        }
+
+        &__two {
+          @include flex-column;
+          gap: 20px;
+        }
+      }
+
+    }
+  }
+}

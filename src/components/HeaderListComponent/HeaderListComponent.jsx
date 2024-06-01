@@ -13,6 +13,5 @@ export default function HeaderListComponent({links}) {
 				className={`${styles.listComponent__component} ${styles[link.colorClass]}`}
 			> {link.name} </NavLink>
 		))}
-		{/*<NavLink to={linkTo} style={colorStyle} className={styles.listComponent__component}>{title}</NavLink>*/}
 	</nav>
 }
