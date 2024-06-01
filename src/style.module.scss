@@ -32,7 +32,7 @@ $indent-10: 10px;
   font-weight: 500;
   font-size: 50px;
   line-height: 150%;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-medium-35 {
@@ -40,7 +40,7 @@ $indent-10: 10px;
   font-weight: 500;
   font-size: 35px;
   line-height: 150%;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-regular-35 {
@@ -48,7 +48,7 @@ $indent-10: 10px;
   font-weight: 300;
   font-size: 35px;
   line-height: 150%;
-  letter-spacing: -2.2%;
+  letter-spacing: -2.2px;
 }
 
 @mixin inter-regular-25 {
@@ -56,28 +56,28 @@ $indent-10: 10px;
   font-weight: 300;
   font-size: 25px;
   line-height: 150%;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-medium-20 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-regular-20 {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-regular-18 {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 18px;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-medium-14 {
@@ -85,14 +85,14 @@ $indent-10: 10px;
   font-weight: 500;
   font-size: 14px;
   line-height: 25px;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-regular-14 {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 14px;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 @mixin inter-regular-10 {
@@ -100,7 +100,7 @@ $indent-10: 10px;
   font-weight: 500;
   font-size: 50px;
   line-height: 150%;
-  letter-spacing: -2.2%;
+  //letter-spacing: -2.2px;
 }
 
 /* layout */
