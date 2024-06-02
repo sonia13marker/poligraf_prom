@@ -4,6 +4,7 @@ import AboutCompanySlider from "../../components/AboutCompanySlider/AboutCompany
 import ADFirst from "../../components/ADFirst/ADFirst";
 import ProvidersSlider from "../../components/ProvidersSlider/ProvidersSlider";
 import PartnersComponent from "../../components/PartnersComponent/PartnersComponent";
+import SmallNewsComponent from "../../components/SmallNewsComponent/SmallNewsComponent";
 
 
 export default function MainPage() {
@@ -14,5 +15,6 @@ export default function MainPage() {
 		<ADFirst />
 		<ProvidersSlider />
 		<PartnersComponent />
+		<SmallNewsComponent />
 	</div>
 }

@@ -25,6 +25,24 @@ $indent-20: 20px;
 $indent-5: 5px;
 $indent-10: 10px;
 
+/*main button styles*/
+@mixin main-button {
+  @include inter-regular-20;
+  width: max-content;
+  height: auto;
+  background-color: $main-white;
+  border: 1px solid $main-page-color;
+  border-radius: $border-radius;
+  padding: 10px 10px;
+  color: $main-page-color;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+@mixin main-button-hover {
+  background-color: $main-page-color;
+  color: $main-white;
+}
 
 /* text styles */
 @mixin inter-medium-50 {

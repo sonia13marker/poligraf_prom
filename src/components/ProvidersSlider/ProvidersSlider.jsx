@@ -4,6 +4,7 @@ import logo2 from '../../images/pr-logo-2.png';
 import logo3 from '../../images/pr-logo-3.png';
 import logo4 from '../../images/pr-logo-4.png';
 import ProvidersSliderCard from "../ProvidersSliderCard/ProvidersSliderCard";
+import {Link} from "react-router-dom";
 
 
 export default function ProvidersSlider() {
@@ -26,5 +27,9 @@ export default function ProvidersSlider() {
 		<ProvidersSliderCard index={i} name={provider.name} image={provider.image}/>
 	)}
 		</div>
+
+		<Link to={"/providers"} className={styles.wrapper__button}>
+			Посмотреть еще
+		</Link>
 	</span>
 }

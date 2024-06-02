@@ -1,0 +1,34 @@
+@import "../../style.module";
+
+.wrapper {
+  display: block;
+  max-width: 1300px;
+  width: 100%;
+  @include flex-column;
+  align-items: flex-start;
+  gap: $indent-65;
+  margin-bottom: $indent-150;
+
+
+  &__title {
+    @include inter-medium-50;
+    margin-bottom: $indent-35;
+  }
+
+  &__elements {
+    width: 100%;
+  @include flex-row;
+    //flex-wrap: wrap;
+    //gap: 5px;
+  }
+
+  &__button {
+    align-self: center;
+    display: block;
+    @include main-button;
+
+    &:hover {
+      @include main-button-hover;
+    }
+  }
+}

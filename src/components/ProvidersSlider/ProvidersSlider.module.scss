@@ -1,7 +1,7 @@
 @import "../../style.module";
 
 .wrapper {
-  display: block;
+  @include flex-column;
   margin: $indent-150 0;
   max-width: 1300px;
   width: 100%;
@@ -20,5 +20,15 @@
     @include flex-row;
     width: 100%;
     overflow: hidden;
+    padding-bottom: $indent-65;
+  }
+
+  &__button {
+    display: block;
+    @include main-button;
+
+    &:hover {
+      @include main-button-hover;
+    }
   }
 }
