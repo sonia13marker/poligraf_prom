@@ -22,7 +22,7 @@
     padding: 20px;
 
     &__text {
-    @include inter-regular-35;
+      @include inter-regular-35;
       max-width: 400px;
       width: 100%;
       color: $main-page-color;

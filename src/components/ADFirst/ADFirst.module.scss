@@ -20,7 +20,7 @@
     gap: $indent-65;
 
     &__title {
-    @include inter-medium-50;
+      @include inter-medium-50;
       color: $main-white;
     }
 
@@ -33,7 +33,7 @@
   }
 
   &__image {
-  position: absolute;
+    position: absolute;
     bottom: 0;
     right: 50px;
   }

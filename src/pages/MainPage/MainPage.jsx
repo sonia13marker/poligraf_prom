@@ -6,15 +6,16 @@ import ProvidersSlider from "../../components/ProvidersSlider/ProvidersSlider";
 import PartnersComponent from "../../components/PartnersComponent/PartnersComponent";
 import SmallNewsComponent from "../../components/SmallNewsComponent/SmallNewsComponent";
 
-
 export default function MainPage() {
-	return <div>
-		<HeaderMainBlock/>
-		<AboutCompanyComponent />
-		<AboutCompanySlider />
-		<ADFirst />
-		<ProvidersSlider />
-		<PartnersComponent />
-		<SmallNewsComponent />
-	</div>
+  return (
+    <>
+      <HeaderMainBlock />
+      <AboutCompanyComponent />
+      <AboutCompanySlider />
+      <ADFirst />
+      <ProvidersSlider />
+      <PartnersComponent />
+      <SmallNewsComponent />
+    </>
+  );
 }

@@ -1,0 +1,7 @@
+@import './style.module';
+
+.App {
+  width: 100%;
+  overflow-x: hidden;
+  @include flex-column;
+}

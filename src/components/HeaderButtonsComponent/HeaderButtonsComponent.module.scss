@@ -31,12 +31,12 @@
     color: $contacts-page-color;
   }
 
-   &.firstSelected {
+  &.firstSelected {
     color: $main-page-color;
 
-     &:active {
-       color: $contacts-page-color;
-     }
+    &:active {
+      color: $contacts-page-color;
+    }
   }
 
 }

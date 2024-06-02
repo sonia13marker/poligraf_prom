@@ -1,0 +1,21 @@
+@import "../../style.module";
+
+.wrapper {
+  @include flex-column;
+  align-items: flex-start;
+  width: max-content;
+  gap: $indent-5;
+
+  &__title {
+    @include inter-medium-14;
+    color: $main-gray;
+
+  }
+
+  &__text {
+    @include inter-medium-20;
+    color: $main-page-color;
+    max-width: 295px;
+    width: 100%;
+  }
+}

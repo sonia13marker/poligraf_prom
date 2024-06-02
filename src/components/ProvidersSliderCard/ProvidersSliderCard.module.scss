@@ -34,7 +34,7 @@
     padding: 20px;
 
     &__name {
-    @include inter-regular-25;
+      @include inter-regular-25;
       max-width: 195px;
       width: 100%;
     }

@@ -1,0 +1,44 @@
+@import '../../style.module';
+
+.footer {
+  background-color: $main-white;
+  border-radius: $border-radius;
+  border: 2px solid $main-gray;
+  padding: 60px 40px;
+  max-width: 1300px;
+  width: 100%;
+
+  &__wrapper {
+    @include flex-column;
+
+    &__text {
+      @include inter-regular-14;
+      margin: 30px 0;
+    }
+  }
+
+  &__logo {
+    display: block;
+    width: 505px;
+    height: 70px;
+    margin-bottom: 80px;
+  }
+
+  &__twoBlock {
+    @include flex-column;
+    align-items: flex-start;
+    gap: $indent-35;
+
+    &__two {
+      width: 100%;
+      @include flex-row;
+      align-items: stretch;
+
+      &__adressList {
+        @include flex-row;
+        align-items: flex-start;
+        gap: $indent-20;
+      }
+    }
+  }
+}

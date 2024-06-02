@@ -1,0 +1,25 @@
+@import '../../style.module';
+
+.button {
+  display: block;
+  //position: fixed;
+  //bottom: 20px;
+  //right: 20px;
+  background-color: $main-page-color;
+  color: $main-white;
+  width: 82px;
+  height: 82px;
+  border: none;
+  border-radius: 50%;
+  padding: 20px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $contacts-page-color;
+  }
+
+  &:active {
+    background-color: $news-page-color;
+  }
+}

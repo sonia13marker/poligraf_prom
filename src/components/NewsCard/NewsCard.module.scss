@@ -1,7 +1,7 @@
 @import "../../style.module";
 
 .wrapper {
-  @include  flex-column;
+  @include flex-column;
   justify-content: flex-start;
   position: relative;
   width: 400px;
@@ -19,7 +19,7 @@
   &__tag {
     @include inter-regular-14;
     line-height: normal;
-  display: block;
+    display: block;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -32,7 +32,7 @@
 
   &__image {
     background-color: $main-white;
-max-width: 420px;
+    max-width: 420px;
     max-height: 201px;
     width: 100%;
     height: 100%;
@@ -40,7 +40,7 @@ max-width: 420px;
   }
 
   &__textBlock {
-@include flex-column;
+    @include flex-column;
     align-items: flex-start;
     padding: 20px;
     width: 100%;
