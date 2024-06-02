@@ -1,0 +1,50 @@
+@import "../../style.module";
+
+.background {
+  @include flex-column;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 1300px;
+  height: 470px;
+  background: url("../../images/AD-2.png") center center no-repeat;
+  padding: 40px 30px;
+  margin-bottom: $indent-150;
+
+  &__textList {
+    @include flex-column;
+    align-items: flex-end;
+
+    &__text {
+      @include inter-medium-50;
+      font-weight: 400;
+      padding: 10px 15px;
+      color: $main-black;
+      background-color: $main-white;
+    }
+  }
+
+  &__text2 {
+    width: max-content;
+    @include inter-regular-20;
+    font-weight: 400;
+    padding: 8px 15px;
+    color: $main-black;
+    background-color: $main-white;
+    border-radius: $border-radius;
+  }
+}
+
+.text1 {
+  border-radius: $border-radius;
+  border-bottom-right-radius: 0;
+}
+
+.text2 {
+  border-bottom-left-radius: $border-radius;
+}
+
+.text3 {
+  border-radius: $border-radius;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
