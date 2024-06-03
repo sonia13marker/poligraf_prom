@@ -5,7 +5,7 @@ import style from "./Wrapper.module.scss";
 
 export default function Wrapper() {
   return (
-    <div>
+    <div className={style.wrapper}>
       <Header />
       <div className={style.content}>
         <Outlet />
