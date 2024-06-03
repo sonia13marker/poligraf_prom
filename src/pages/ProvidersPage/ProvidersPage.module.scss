@@ -7,5 +7,6 @@
 .tagList {
   @include flex-row;
   align-items: flex-start;
+  margin-bottom: $indent-65;
 
 }

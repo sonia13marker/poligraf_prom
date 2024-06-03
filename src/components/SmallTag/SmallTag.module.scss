@@ -1,0 +1,19 @@
+@import '../../style.module';
+
+.wrapper {
+  @include inter-regular-10;
+  //line-height: normal;
+  width: max-content;
+  //height: 100%;
+  padding: 5px 8px;
+  background-color: $main-white;
+  color: $main-black;
+  border-radius: $border-radius;
+  border: 1px solid $main-black;
+  user-select: none;
+  transition: 0.3s all;
+
+  &:hover {
+    border-color: $main-white;
+  }
+}

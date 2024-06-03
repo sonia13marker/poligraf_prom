@@ -26,6 +26,7 @@ export default function ProvidersSlider() {
             index={i}
             name={provider.name}
             image={provider.image}
+            type="slider"
           />
         ))}
       </div>

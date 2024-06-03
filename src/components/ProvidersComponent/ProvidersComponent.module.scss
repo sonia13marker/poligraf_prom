@@ -1,0 +1,9 @@
+@import "../../style.module";
+
+.wrapper {
+  width: 100%;
+  @include flex-row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: $indent-150;
+}

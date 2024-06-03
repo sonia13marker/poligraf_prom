@@ -1,0 +1,79 @@
+{
+  "providers": [
+    {
+      "name": "Inknovators",
+      "image": "images/pr-logo-1.png",
+      "tags": [
+        "Пластизольные краски",
+        "Водные и вытравные краски",
+        "Специальные эффекты"
+      ]
+    },
+    {
+      "name": "Amagic",
+      "image": "images/pr-logo-2.png",
+      "tags": [
+        "Фольга"
+      ]
+    },
+    {
+      "name": "Colors",
+      "image": "images/pr-logo-3.png",
+      "tags": [
+        "Сольвентная основа",
+        "УФ-отверждение"
+      ]
+    },
+    {
+      "name": "Creative",
+      "image": "images/pr-logo-4.png",
+      "tags": [
+        "Пластизольные краски"
+      ]
+    },
+    {
+      "name": "Dakota",
+      "image": "images/pr-logo-5.png",
+      "tags": [
+        "Порошки для трансферной печати"
+      ]
+    },
+    {
+      "name": "Menphis",
+      "image": "images/pr-logo-6.png",
+      "tags": [
+        "Фольга"
+      ]
+    },
+    {
+      "name": "Saati",
+      "image": "images/pr-logo-7.png",
+      "tags": [
+        "Эмульсии",
+        "Трафаретные сетки",
+        "Продукты для регенерации ТПФ",
+        "Продукты для изготовления ТПФ"
+      ]
+    },
+    {
+      "name": "Ulano",
+      "image": "images/pr-logo-8.png",
+      "tags": [
+        "Эмульсии",
+        "Ретуши",
+        "Подготовка сеток",
+        "Капиллярные пленки",
+        "Продукты для изготовления ТПФ",
+        "Продукты для регенерации ТПФ",
+        "Пленки для изготовления фотоформ"
+      ]
+    },
+    {
+      "name": "Villa Industrie Chimiche",
+      "image": "images/pr-logo-9.png",
+      "tags": [
+        "Клеи и аэрозоли"
+      ]
+    }
+  ]
+}

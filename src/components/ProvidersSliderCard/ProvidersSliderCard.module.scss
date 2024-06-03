@@ -1,6 +1,6 @@
 @import "../../style.module";
 
-.card {
+.slider__card {
   @include flex-column;
   align-items: flex-start;
   justify-content: space-between;
@@ -45,6 +45,91 @@
       &::after {
         content: "→";
         color: $main-white;
+      }
+    }
+  }
+}
+
+.page__card {
+  @include flex-column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 300px;
+  height: 285px;
+  color: $main-black;
+  background-color: $main-white;
+  border-radius: $border-radius;
+  border: 2px solid $main-gray;
+  overflow: hidden;
+  transition: 0.5s all;
+
+  &:hover {
+    background-color: $provider-page-color;
+    color: $main-white;
+  }
+
+  &__image {
+    width: 100%;
+    max-height: 130px;
+    min-height: 2px;
+    height: auto;
+    background-color: $main-white;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+
+  &__wrapper {
+    @include flex-column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    gap: $indent-20;
+
+    &__line {
+      width: 100%;
+      @include flex-row;
+      justify-content: space-between;
+      align-items: center;
+
+      &__name {
+        @include inter-regular-25;
+        max-width: 195px;
+        width: 100%;
+      }
+
+      &__arrow {
+        text-decoration: none;
+
+        &::after {
+          content: "→";
+          color: $main-white;
+        }
+      }
+    }
+  }
+
+  &__tagList {
+    @include flex-row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+
+    &__button {
+      @include inter-regular-10;
+      width: max-content;
+      padding: 5px 8px;
+      background-color: $main-white;
+      color: $main-black;
+      border-radius: $border-radius;
+      border: 1px solid $main-black;
+      user-select: none;
+      transition: 0.3s all;
+
+      &:hover {
+        border-color: $main-white;
+        cursor: pointer;
       }
     }
   }

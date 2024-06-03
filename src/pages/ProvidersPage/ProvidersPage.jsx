@@ -2,6 +2,7 @@ import HeaderForPages from "../../components/HeaderForPages/HeaderForPages";
 import style from "./ProvidersPage.module.scss";
 import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import tags from "../../data/providersTags.json";
+import ProvidersComponent from "../../components/ProvidersComponent/ProvidersComponent";
 
 export default function ProvidersPage() {
   console.log(tags.tags);
@@ -13,6 +14,7 @@ export default function ProvidersPage() {
           <TagsComponent key={i} title={tag.title} tagList={tag.tagList} />
         ))}
       </span>
+      <ProvidersComponent />
     </div>
   );
 }
