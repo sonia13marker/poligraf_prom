@@ -1,0 +1,35 @@
+@import "../../style.module";
+
+.wrapper {
+  @include inter-regular-14;
+  line-height: normal;
+  width: max-content;
+  height: 100%;
+  padding: 5px 8px;
+  background-color: $main-white;
+  color: $main-black;
+  border-radius: $border-radius;
+  border: 1px solid $main-black;
+  user-select: none;
+  transition: 0.3s all;
+
+  &.pink:hover {
+    border-color: $provider-page-color;
+    color: $provider-page-color;
+  }
+
+  &.pink:active {
+    background-color: $provider-page-color;
+    color: $main-white;
+  }
+
+  &.yellow:hover {
+    border-color: $catalog-page-color;
+    color: $catalog-page-color;
+  }
+
+  &.yellow:active {
+    background-color: $catalog-page-color;
+    color: $main-white;
+  }
+}

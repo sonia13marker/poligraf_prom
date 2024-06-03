@@ -1,0 +1,49 @@
+@import "../../style.module";
+
+.wrapper {
+  @include flex-column;
+  align-items: flex-start;
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  gap: $indent-5;
+
+  &__title {
+    @include inter-medium-14;
+    color: $main-gray;
+  }
+
+  &__tagsList {
+    width: 100%;
+    @include flex-row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    //display: grid;
+    //grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    //gap: 10px;
+    //grid-auto-columns: minmax(200px, 1fr);
+    //grid-auto-rows: max-content;
+    //grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    //gap: 10px;
+
+    &__button {
+      @include inter-regular-14;
+      line-height: normal;
+      width: max-content;
+      height: 100%;
+      padding: 5px 8px;
+      background-color: $provider-page-color;
+      color: $main-white;
+      border-radius: $border-radius;
+      border: 1px solid $provider-page-color;
+      transition: 0.3s all;
+
+      &:hover {
+        background-color: $main-white;
+        color: $provider-page-color;
+      }
+    }
+  }
+}
