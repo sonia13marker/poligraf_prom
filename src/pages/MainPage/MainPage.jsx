@@ -6,6 +6,7 @@ import ProvidersSlider from "../../components/ProvidersSlider/ProvidersSlider";
 import PartnersComponent from "../../components/PartnersComponent/PartnersComponent";
 import SmallNewsComponent from "../../components/SmallNewsComponent/SmallNewsComponent";
 import ADSecond from "../../components/ADSecond/ADSecond";
+import TechnologiesComponent from "../../components/TechnologiesComponent/TechnologiesComponent";
 
 export default function MainPage() {
   return (
@@ -16,6 +17,7 @@ export default function MainPage() {
       <ADFirst />
       <ProvidersSlider />
       <PartnersComponent />
+      <TechnologiesComponent />
       <SmallNewsComponent />
       <ADSecond />
     </>
