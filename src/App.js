@@ -6,6 +6,7 @@ import ProvidersPage from "./pages/ProvidersPage/ProvidersPage";
 import CatalogPage from "./pages/CatalogPage/CatalogPage";
 import NewsPage from "./pages/NewsPage/NewsPage";
 import ContactsPage from "./pages/ContactsPage/ContactsPage";
+import OneProviderPage from "./pages/OneProviderPage/OneProviderPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Wrapper />}>
           <Route index element={<MainPage />} />
           <Route path="providers" element={<ProvidersPage />} />
+          <Route path="providers/1" element={<OneProviderPage />} />
           <Route path="catalog" element={<CatalogPage />} />
           <Route path="news" element={<NewsPage />} />
           <Route path="contacts" element={<ContactsPage />} />

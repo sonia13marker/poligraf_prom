@@ -5,6 +5,53 @@
   gap: $indent-35;
   margin-bottom: $indent-35;
 
+  &__wrapper {
+    width: 100%;
+    @include flex-row;
+    justify-content: space-between;
+
+    &__btns {
+      @include flex-row;
+      gap: $indent-20;
+
+      &__siteLink {
+        @include main-button;
+        width: max-content;
+        color: $provider-page-color;
+        border-color: $provider-page-color;
+        padding: 10px 15px;
+
+        &:hover {
+          @include main-button-hover;
+          background-color: $provider-page-color;
+        }
+      }
+
+      &__docLink {
+        @include flex-row;
+        @include main-button;
+        width: max-content;
+        color: $provider-page-color;
+        border-color: $provider-page-color;
+        padding: 10px 15px;
+
+        &:hover {
+          @include main-button-hover;
+          background-color: $provider-page-color;
+        }
+
+        &__wrapper {
+          @include flex-row;
+          gap: $indent-10;
+
+          &__p {
+
+          }
+        }
+      }
+    }
+  }
+
   &__title {
     @include inter-medium-50;
     align-self: flex-start;
