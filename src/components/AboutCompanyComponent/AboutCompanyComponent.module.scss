@@ -2,6 +2,8 @@
 
 .about {
   margin: $indent-150 0;
+  max-width: 1300px;
+  width: 100%;
 
   &__title {
     @include inter-medium-50;
@@ -9,8 +11,11 @@
   }
 
   &__wrapper {
-    @include flex-row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    //@include flex-row;
+    //justify-content: center;
     gap: 20px;
 
     &__oneHalf {
@@ -19,7 +24,11 @@
       gap: 20px;
 
       &__one {
-        @include flex-row;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        //@include flex-row;
         gap: 20px;
       }
     }

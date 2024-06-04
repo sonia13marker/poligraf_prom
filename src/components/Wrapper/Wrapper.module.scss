@@ -1,5 +1,8 @@
+@import '../../style.module';
+
 .wrapper {
   width: 100%;
+  @include flex-column;
 }
 
 .content {

@@ -10,6 +10,8 @@
 
   &__wrapper {
     @include flex-column;
+    max-width: 1300px;
+    width: 100%;
 
     &__text {
       @include inter-regular-14;

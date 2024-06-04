@@ -3,7 +3,7 @@
 .wrapper {
   @include flex-column;
   align-items: flex-start;
-  gap: $indent-65;
+  gap: $indent-35;
   margin-bottom: $indent-150;
 
   &__title {

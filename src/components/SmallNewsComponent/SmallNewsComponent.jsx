@@ -25,17 +25,19 @@ export default function SmallNewsComponent() {
   ];
   return (
     <span className={style.wrapper}>
-      <h2 className={style.wrapper__title}>Новости </h2>
+      <span className={style.wrapperTwo}>
+        <h2 className={style.wrapperTwo__title}>Новости </h2>
 
-      <span className={style.wrapper__elements}>
-        {news.map((oneNew, i) => (
-          <NewsCard
-            index={i}
-            tag={oneNew.tag}
-            title={oneNew.title}
-            image={oneNew.image}
-          />
-        ))}
+        <span className={style.wrapperTwo__elements}>
+          {news.map((oneNew, i) => (
+            <NewsCard
+              index={i}
+              tag={oneNew.tag}
+              title={oneNew.title}
+              image={oneNew.image}
+            />
+          ))}
+        </span>
       </span>
 
       <Link to={"/news"} className={style.wrapper__button}>

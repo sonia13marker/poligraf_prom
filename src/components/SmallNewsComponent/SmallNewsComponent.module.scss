@@ -9,19 +9,6 @@
   gap: $indent-65;
   margin-bottom: $indent-150;
 
-
-  &__title {
-    @include inter-medium-50;
-    margin-bottom: $indent-35;
-  }
-
-  &__elements {
-    width: 100%;
-    @include flex-row;
-    //flex-wrap: wrap;
-    //gap: 5px;
-  }
-
   &__button {
     align-self: center;
     display: block;
@@ -31,4 +18,23 @@
       @include main-button-hover;
     }
   }
+}
+
+.wrapperTwo {
+  @include flex-column;
+  gap: $indent-35;
+  width: 100%;
+  align-items: stretch;
+
+  &__title {
+    @include inter-medium-50;
+  }
+
+  &__elements {
+    width: 100%;
+    @include flex-row;
+    //flex-wrap: wrap;
+    //gap: 5px;
+  }
+
 }
