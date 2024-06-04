@@ -2,6 +2,7 @@ import styles from "./ProvidersSliderCard.module.scss";
 import { Link } from "react-router-dom";
 import SmallTag from "../SmallTag/SmallTag";
 import { useState } from "react";
+import RightArrow from "../RightArrow";
 
 export default function ProvidersSliderCard({
   name,
@@ -23,13 +24,13 @@ export default function ProvidersSliderCard({
           className={styles.slider__card__image}
         />
 
-        <span className={styles.slider__card__wrapper}>
+        <Link
+          to={`/providers/${linkToPage}`}
+          className={styles.slider__card__wrapper}
+        >
           <h3 className={styles.slider__card__wrapper__name}>{name}</h3>
-          <Link
-            to={`/providers/${linkToPage}`}
-            className={styles.slider__card__wrapper__arrow}
-          />
-        </span>
+          <RightArrow />
+        </Link>
       </div>
     );
   } else if (type === "page") {
@@ -45,13 +46,13 @@ export default function ProvidersSliderCard({
         />
 
         <span className={styles.page__card__wrapper}>
-          <span className={styles.page__card__wrapper__line}>
+          <Link
+            to={`/providers/${linkToPage}`}
+            className={styles.page__card__wrapper__line}
+          >
             <h3 className={styles.page__card__wrapper__line__name}>{name}</h3>
-            <Link
-              to={`/providers/${linkToPage}`}
-              className={styles.page__card__wrapper__line__arrow}
-            />
-          </span>
+            <RightArrow />
+          </Link>
           <span
             className={styles.page__card__tagList}
             style={
