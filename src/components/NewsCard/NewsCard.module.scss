@@ -2,38 +2,28 @@
 
 .wrapper {
   @include flex-column;
-  justify-content: flex-start;
+  justify-content: space-between;
+  gap: 20px;
   position: relative;
   width: 400px;
-  height: 375px;
-  background-color: $main-white;
+  height: 345px;
   color: $main-black;
+  background-color: $main-white;
   border-radius: $border-radius;
   transition: 0.3s all;
 
   &:hover {
     background-color: $news-page-color;
-    color: $main-white;
   }
 
-  &__tag {
-    @include inter-regular-14;
-    line-height: normal;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: max-content;
-    padding: 5px 8px;
-    color: $main-black;
-    background-color: $catalog-page-color;
-    border-radius: $border-radius;
+  &:hover p, &:hover h4 {
+    color: $main-white;
   }
 
   &__image {
     background-color: $main-white;
     max-width: 420px;
-    max-height: 201px;
+    max-height: 210px;
     width: 100%;
     height: 100%;
     border-radius: $border-radius;
@@ -42,9 +32,13 @@
   &__textBlock {
     @include flex-column;
     align-items: flex-start;
-    padding: 20px;
+    justify-content: space-between;
+    color: $main-black;
+    padding: 0 20px 20px;
     width: 100%;
+    height: 100%;
     gap: 50px;
+    text-decoration: none;
 
     &__title {
       @include inter-regular-20;
@@ -52,19 +46,13 @@
     }
 
     &__button {
+      @include flex-row;
+      justify-content: flex-start;
+      gap: $indent-10;
       width: 100%;
-      text-decoration: none;
-      color: $main-black;
-      transition: 0.3s all;
 
-      &::after {
-        content: "→";
-        color: $main-black;
-        padding-left: 5px;
-      }
-
-      &:hover, &:hover::after {
-        color: $main-white;
+      &__p {
+        @include inter-medium-14;
       }
     }
   }

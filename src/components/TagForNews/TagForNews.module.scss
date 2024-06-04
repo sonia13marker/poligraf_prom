@@ -1,0 +1,26 @@
+@import "../../style.module";
+
+.tag {
+  @include inter-regular-14;
+  line-height: normal;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: max-content;
+  padding: 5px 8px;
+  color: $main-white;
+  border-radius: $border-radius;
+}
+
+.new {
+  background-color: $catalog-page-color;
+}
+
+.event {
+  background-color: $contacts-page-color;
+}
+
+.exh {
+  background-color: $provider-page-color;
+}
