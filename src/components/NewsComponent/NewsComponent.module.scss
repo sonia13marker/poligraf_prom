@@ -8,29 +8,21 @@
   gap: $indent-65;
   margin-bottom: $indent-150;
 
+  &__list {
+    @include flex-row;
+    flex-wrap: wrap;
+    gap: $indent-20;
+  }
+
   &__button {
-    align-self: center;
     @include main-button;
+    align-self: center;
+    border-color: $news-page-color;
+    color: $news-page-color;
 
     &:hover {
       @include main-button-hover;
+      background-color: $news-page-color;
     }
   }
-}
-
-.wrapperTwo {
-  @include flex-column;
-  gap: $indent-35;
-  width: 100%;
-  align-items: stretch;
-
-  &__title {
-    @include inter-medium-50;
-  }
-
-  &__elements {
-    width: 100%;
-    @include flex-row;
-  }
-
 }
