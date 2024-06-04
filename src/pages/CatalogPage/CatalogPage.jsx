@@ -3,6 +3,7 @@ import HeaderForPages from "../../components/HeaderForPages/HeaderForPages";
 import tags from "../../data/catalogTags.json";
 import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import ProductsComponent from "../../components/ProductsComponent/ProductsComponent";
+import ProviderProductCard from "../../components/ProviderProductCard/ProviderProductCard";
 
 export default function CatalogPage() {
   return (
@@ -19,7 +20,7 @@ export default function CatalogPage() {
         ))}
       </span>
       <ProductsComponent />
-      {/*<ProvidersComponent />*/}
+      <ProviderProductCard name="PL ANTI-MIGRATION BASE" />
     </div>
   );
 }
