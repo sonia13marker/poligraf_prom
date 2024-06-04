@@ -11,7 +11,12 @@ export default function ProvidersPage() {
       <HeaderForPages title="Поставщики" searchMock="Найти поставщика..." />
       <span className={style.tagList}>
         {tags.tags.map((tag, i) => (
-          <TagsComponent key={i} title={tag.title} tagList={tag.tagList} />
+          <TagsComponent
+            key={i}
+            title={tag.title}
+            tagList={tag.tagList}
+            page="providers"
+          />
         ))}
       </span>
       <ProvidersComponent />

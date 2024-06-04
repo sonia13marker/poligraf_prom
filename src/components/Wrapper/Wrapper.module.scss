@@ -1,10 +1,11 @@
 @import '../../style.module';
 
 .wrapper {
+  max-width: 1300px;
   width: 100%;
   @include flex-column;
 }
 
 .content {
-  padding: 0 70px;
+  width: 100%;
 }
