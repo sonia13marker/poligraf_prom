@@ -25,13 +25,16 @@ export default function ProvidersSliderCard({
 
         <span className={styles.slider__card__wrapper}>
           <h3 className={styles.slider__card__wrapper__name}>{name}</h3>
-          <Link to={"/"} className={styles.slider__card__wrapper__arrow} />
+          <Link
+            to={`/providers/${linkToPage}`}
+            className={styles.slider__card__wrapper__arrow}
+          />
         </span>
       </div>
     );
   } else if (type === "page") {
     return (
-      <Link to={`/providers/${linkToPage}`} className={styles.page__card}>
+      <div className={styles.page__card}>
         <img
           src={`${publicPath}/${image}`}
           alt={`${image} card`}
@@ -78,7 +81,7 @@ export default function ProvidersSliderCard({
             )}
           </span>
         </span>
-      </Link>
+      </div>
     );
   }
 }

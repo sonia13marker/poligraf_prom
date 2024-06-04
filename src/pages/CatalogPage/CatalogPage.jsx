@@ -2,6 +2,7 @@ import style from "../ProvidersPage/ProvidersPage.module.scss";
 import HeaderForPages from "../../components/HeaderForPages/HeaderForPages";
 import tags from "../../data/catalogTags.json";
 import TagsComponent from "../../components/TagsComponent/TagsComponent";
+import ProductsComponent from "../../components/ProductsComponent/ProductsComponent";
 
 export default function CatalogPage() {
   return (
@@ -17,6 +18,7 @@ export default function CatalogPage() {
           />
         ))}
       </span>
+      <ProductsComponent />
       {/*<ProvidersComponent />*/}
     </div>
   );

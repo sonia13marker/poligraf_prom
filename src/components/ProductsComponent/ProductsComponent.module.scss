@@ -1,0 +1,26 @@
+@import "../../style.module";
+
+.wrapper {
+  @include flex-column;
+  gap: $indent-35;
+  margin-bottom: $indent-150;
+
+  &__list {
+    @include flex-row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+  }
+
+  &__button {
+    @include main-button;
+    border-color: $catalog-page-color;
+    color: $catalog-page-color;
+
+    &:hover {
+      background-color: $catalog-page-color;
+      color: $main-white;
+    }
+  }
+}
+

@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MagnaPrint® Bling Silver/Gold/Bronze",
+      "image": null,
+      "tags": [
+        "MagnaPrint",
+        "Водные и вытравные краски",
+        "Краски и основа"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Magnaprint® HB - Neutral(прозрачная) и Opaque(кроющая)",
+      "image": null,
+      "tags": [
+        "MagnaPrint",
+        "Водные и вытравные краски",
+        "Краски и основа"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MagnaPrint® Discharge AB AW Range",
+      "image": null,
+      "tags": [
+        "MagnaPrint",
+        "Водные и вытравные краски",
+        "Краски и основа"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "MagnaPrint® Expanding LT",
+      "image": null,
+      "tags": [
+        "MagnaPrint",
+        "Водные и вытравные краски",
+        "Краски и основа"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Proclaim HR",
+      "image": null,
+      "tags": [
+        "Ulano",
+        "Эмульсии",
+        "Химия"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "QT-Discharge",
+      "image": null,
+      "tags": [
+        "Ulano",
+        "Эмульсии",
+        "Химия"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "QLT™",
+      "image": null,
+      "tags": [
+        "Ulano",
+        "Эмульсии",
+        "Химия"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "CTS-HS",
+      "image": null,
+      "tags": [
+        "Ulano",
+        "Эмульсии",
+        "Химия"
+      ]
+    }
+  ]
+}
