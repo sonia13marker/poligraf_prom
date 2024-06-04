@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Wrapper />}>
           <Route index element={<MainPage />} />
           <Route path="providers" element={<ProvidersPage />} />
-          <Route path="providers/1" element={<OneProviderPage />} />
+          <Route path="providers/:id" element={<OneProviderPage />} />
           <Route path="catalog" element={<CatalogPage />} />
           <Route path="news" element={<NewsPage />} />
           <Route path="contacts" element={<ContactsPage />} />

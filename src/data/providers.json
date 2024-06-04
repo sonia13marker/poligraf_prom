@@ -1,15 +1,50 @@
 {
   "providers": [
     {
+      "id": 1,
       "name": "Inknovators",
       "image": "images/pr-logo-1.png",
       "tags": [
         "Пластизольные краски",
         "Водные и вытравные краски",
         "Специальные эффекты"
+      ],
+      "link": "http://inknovators.com/",
+      "products": [
+        {
+          "name": "PL ANTI-MIGRATION BASE",
+          "image": null,
+          "file": "images/inknovators_1.pdf"
+        },
+        {
+          "name": "PL BLACK",
+          "image": null,
+          "file": "images/inknovators_1.pdf"
+        },
+        {
+          "name": "PL BLUE",
+          "image": null,
+          "file": "images/inknovators_1.pdf"
+        },
+        {
+          "name": "PL BROWN",
+          "image": null,
+          "file": "images/inknovators_1.pdf"
+        },
+        {
+          "name": "PL CARMEN",
+          "image": null,
+          "file": "images/inknovators_1.pdf"
+        },
+        {
+          "name": "PL CLEAR BASE",
+          "image": null,
+          "file": "images/inknovators_1.pdf"
+        }
       ]
     },
     {
+      "id": 2,
       "name": "Amagic",
       "image": "images/pr-logo-2.png",
       "tags": [
@@ -17,6 +52,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Colors",
       "image": "images/pr-logo-3.png",
       "tags": [
@@ -25,6 +61,7 @@
       ]
     },
     {
+      "id": 4,
       "name": "Creative",
       "image": "images/pr-logo-4.png",
       "tags": [
@@ -32,6 +69,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Dakota",
       "image": "images/pr-logo-5.png",
       "tags": [
@@ -39,6 +77,7 @@
       ]
     },
     {
+      "id": 6,
       "name": "Menphis",
       "image": "images/pr-logo-6.png",
       "tags": [
@@ -46,6 +85,7 @@
       ]
     },
     {
+      "id": 7,
       "name": "Saati",
       "image": "images/pr-logo-7.png",
       "tags": [
@@ -56,6 +96,7 @@
       ]
     },
     {
+      "id": 8,
       "name": "Ulano",
       "image": "images/pr-logo-8.png",
       "tags": [
@@ -69,6 +110,7 @@
       ]
     },
     {
+      "id": 9,
       "name": "Villa Industrie Chimiche",
       "image": "images/pr-logo-9.png",
       "tags": [

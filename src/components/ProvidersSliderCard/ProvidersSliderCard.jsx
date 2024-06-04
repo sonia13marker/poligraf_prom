@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import SmallTag from "../SmallTag/SmallTag";
 import { useState } from "react";
 
-export default function ProvidersSliderCard({ name, image, type, tagList }) {
+export default function ProvidersSliderCard({
+  name,
+  image,
+  type,
+  tagList,
+  linkToPage,
+  link,
+  products,
+}) {
   const [showAllTags, setShowAllTags] = useState(false);
   const publicPath = process.env.PUBLIC_URL;
   if (type === "slider") {
@@ -23,7 +31,7 @@ export default function ProvidersSliderCard({ name, image, type, tagList }) {
     );
   } else if (type === "page") {
     return (
-      <div className={styles.page__card}>
+      <Link to={`/providers/${linkToPage}`} className={styles.page__card}>
         <img
           src={`${publicPath}/${image}`}
           alt={`${image} card`}
@@ -37,7 +45,7 @@ export default function ProvidersSliderCard({ name, image, type, tagList }) {
           <span className={styles.page__card__wrapper__line}>
             <h3 className={styles.page__card__wrapper__line__name}>{name}</h3>
             <Link
-              to={"/"}
+              to={`/providers/${linkToPage}`}
               className={styles.page__card__wrapper__line__arrow}
             />
           </span>
@@ -70,7 +78,7 @@ export default function ProvidersSliderCard({ name, image, type, tagList }) {
             )}
           </span>
         </span>
-      </div>
+      </Link>
     );
   }
 }

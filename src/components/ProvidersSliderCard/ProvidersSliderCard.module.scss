@@ -61,6 +61,7 @@
   border-radius: $border-radius;
   border: 2px solid $main-gray;
   overflow: hidden;
+  text-decoration: none;
   transition: 0.5s all;
 
   &:hover {
