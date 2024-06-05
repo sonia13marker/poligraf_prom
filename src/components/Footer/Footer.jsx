@@ -35,11 +35,17 @@ export default function Footer() {
           <span className={styles.footer__twoBlock__two}>
             <span className={styles.footer__twoBlock__two__adressList}>
               <AdressComponent
+                type=""
                 title="Адрес"
                 text="г. Краснодар, ул. Зиповская, 9, литер К, офис 6"
               />
-              <AdressComponent title="Email" text="poligrafprom-krd@mail.ru" />
               <AdressComponent
+                type=""
+                title="Email"
+                text="poligrafprom-krd@mail.ru"
+              />
+              <AdressComponent
+                type=""
                 title="Номер телефона:"
                 text="+7-918-076-14-64"
               />

@@ -1,0 +1,37 @@
+@import "../../style.module";
+
+.wrapper {
+  @include flex-column;
+  align-items: flex-start;
+  width: 100%;
+  margin: $indent-65 auto $indent-150;
+  gap: $indent-35;
+
+  &__title {
+    @include inter-medium-50;
+    color: $main-black;
+  }
+
+  &__contacts {
+    @include flex-column;
+    align-items: flex-start;
+    gap: $indent-65;
+
+    &__text {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      row-gap: $indent-20;
+      column-gap: $indent-35;
+      align-items: start;
+      justify-items: start;
+
+    }
+
+    &__card {
+      border: 0;
+      border-radius: $border-radius;
+    }
+  }
+}
