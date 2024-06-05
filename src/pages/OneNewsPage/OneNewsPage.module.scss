@@ -1,0 +1,30 @@
+@import '../../style.module';
+
+.wrapper {
+  width: 100%;
+  @include flex-column;
+  align-items: flex-start;
+  gap: $indent-35;
+  margin: $indent-65 auto $indent-150;
+
+  &__title {
+    @include inter-medium-50;
+    color: $main-black;
+  }
+
+  &__textContainer {
+    @include flex-column;
+    align-items: center;
+    width: 100%;
+    gap: $indent-65;
+
+    &__text {
+      @include inter-regular-20;
+      color: $main-black;
+      max-width: 1080px;
+      width: 100%;
+    }
+  }
+
+}
+

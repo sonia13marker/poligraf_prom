@@ -7,13 +7,13 @@ export default function PartnersComponent() {
   const partners = [
     {
       image: `${logo1}`,
-      link: "http://www.premierprint.ru/",
+      link: "http://www.printexue.ru/",
       description:
         "«PRINTEX UE s.c» является динамически развивающейся компанией с богатым прошлым, стабильной производственной программой и собственным ноу-хау, создающим базу для успешного и долгосрочного развития. ",
     },
     {
       image: `${logo2}`,
-      link: "http://www.printexue.ru/",
+      link: "http://www.premierprint.ru/",
       description:
         "«PRINTEX UE s.c» является динамически развивающейся компанией с богатым прошлым, стабильной производственной программой и собственным ноу-хау, создающим базу для успешного и долгосрочного развития. ",
     },

@@ -1,0 +1,29 @@
+@import "../../style.module";
+
+.wrapper {
+  @include flex-row;
+  @include inter-regular-20;
+  width: max-content;
+  background-color: $main-white;
+  padding: 10px 15px;
+  border-radius: $border-radius;
+  transition: 0.3s all;
+  gap: 10px;
+}
+
+.lightblue {
+  border: 1px solid $news-page-color;
+  color: $news-page-color;
+
+  &:hover {
+    background-color: $news-page-color;
+    color: $main-white;
+    cursor: pointer;
+  }
+}
+
+.pink {
+  background-color: $provider-page-color;
+  border: 1px solid $provider-page-color;
+  color: $provider-page-color;
+}
