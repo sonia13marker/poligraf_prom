@@ -13,13 +13,20 @@
   }
 
   &__textBlock {
-    @include flex-row;
-    align-items: flex-end;
+    @include flex-column;
+    align-items: flex-start;
+    justify-content: space-between;
     width: 640px;
     height: 250px;
     border-radius: $border-radius;
     border: 2px solid $main-page-color;
     padding: 20px;
+
+    &__wrapperBtns {
+      @include flex-row;
+      gap: $indent-5;
+      align-self: flex-end;
+    }
 
     &__text {
       @include inter-regular-35;
