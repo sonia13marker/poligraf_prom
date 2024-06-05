@@ -5,6 +5,8 @@ import logo3 from "../../images/pr-logo-3.png";
 import logo4 from "../../images/pr-logo-4.png";
 import ProvidersSliderCard from "../ProvidersSliderCard/ProvidersSliderCard";
 import { Link } from "react-router-dom";
+import ButtonRightSliderBorder from "../../icons/ButtonRightSliderBorder";
+import ButtonLeftSliderBorder from "../../icons/ButtonLeftSliderBorder";
 
 export default function ProvidersSlider() {
   const providers = [
@@ -34,6 +36,9 @@ export default function ProvidersSlider() {
       <Link to={"/providers"} className={styles.wrapper__button}>
         Посмотреть еще
       </Link>
+
+      <ButtonLeftSliderBorder type="providers" />
+      <ButtonRightSliderBorder type="providers" />
     </span>
   );
 }
