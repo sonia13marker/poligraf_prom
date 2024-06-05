@@ -2,7 +2,7 @@ import styles from "./ProvidersSliderCard.module.scss";
 import { Link } from "react-router-dom";
 import SmallTag from "../SmallTag/SmallTag";
 import { useState } from "react";
-import RightArrow from "../RightArrow";
+import RightArrow from "../../icons/RightArrow";
 
 export default function ProvidersSliderCard({
   name,

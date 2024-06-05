@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./ScrollToTopBtn.module.scss";
-import ScrollArrow from "../ScrollArrow";
+import ScrollArrow from "../../icons/ScrollArrow";
 
 export default function ScrollToTopBtn() {
   const [isVisible, setIsVisible] = useState(false);

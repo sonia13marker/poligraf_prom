@@ -1,6 +1,6 @@
 import style from "./HeaderForPages.module.scss";
 import SearchComponent from "../SearchComponent/SearchComponent";
-import DownloadIcon from "../DownloadIcon";
+import DownloadIcon from "../../icons/DownloadIcon";
 import { useState } from "react";
 
 export default function HeaderForPages({

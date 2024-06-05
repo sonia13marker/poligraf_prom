@@ -1,5 +1,5 @@
 import style from "./TechnologieCard.module.scss";
-import TechnologieArrow from "../TechnologieArrow";
+import TechnologieArrow from "../../icons/TechnologieArrow";
 import { Link } from "react-router-dom";
 
 export default function TechnologieCard({ title, ...tech }) {

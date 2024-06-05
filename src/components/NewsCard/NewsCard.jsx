@@ -1,6 +1,6 @@
 import styles from "./NewsCard.module.scss";
 import { Link } from "react-router-dom";
-import SmallRightArrow from "../SmallRightArrow";
+import SmallRightArrow from "../../icons/SmallRightArrow";
 import { useState } from "react";
 import TagForNews from "../TagForNews/TagForNews";
 

@@ -18,6 +18,7 @@
     @include flex-column;
     align-items: flex-start;
     gap: $indent-65;
+    padding-bottom: 50px;
 
     &__title {
       @include inter-medium-50;

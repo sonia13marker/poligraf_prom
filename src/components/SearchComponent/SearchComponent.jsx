@@ -1,4 +1,4 @@
-import SearchIcon from "../SearchIcon";
+import SearchIcon from "../../icons/SearchIcon";
 import styles from "./SearchComponent.module.scss";
 
 export default function SearchComponent({ searchMock }) {

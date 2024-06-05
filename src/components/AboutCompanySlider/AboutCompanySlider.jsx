@@ -2,8 +2,8 @@ import styles from "./AboutCompanySlider.module.scss";
 import pic1 from "../../images/slider-pic-1.png";
 import pic2 from "../../images/slider-pic-2.png";
 import { useState } from "react";
-import ButtonLeftSliderNoBorders from "../ButtonLeftSliderNoBorders";
-import ButtonRightSliderNoBorder from "../ButtonRightSliderNoBorder";
+import ButtonLeftSliderNoBorders from "../../icons/ButtonLeftSliderNoBorders";
+import ButtonRightSliderNoBorder from "../../icons/ButtonRightSliderNoBorder";
 
 export default function AboutCompanySlider() {
   const images = [pic1, pic2];

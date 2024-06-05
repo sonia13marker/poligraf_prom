@@ -1,5 +1,5 @@
 import style from "./GoBackButton.module.scss";
-import LeftArrow from "../LeftArrow";
+import LeftArrow from "../../icons/LeftArrow";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
