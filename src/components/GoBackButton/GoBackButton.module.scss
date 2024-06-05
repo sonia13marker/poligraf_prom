@@ -23,7 +23,12 @@
 }
 
 .pink {
-  background-color: $provider-page-color;
   border: 1px solid $provider-page-color;
   color: $provider-page-color;
+
+  &:hover {
+    background-color: $provider-page-color;
+    color: $main-white;
+    cursor: pointer;
+  }
 }

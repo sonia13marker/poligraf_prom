@@ -36,7 +36,7 @@ export default function GoBackButton({ type }) {
         onMouseEnter={handleMouseOn}
         onMouseLeave={handleMouseDown}
       >
-        <LeftArrow type="news" hover={isHover} />
+        <LeftArrow type="providers" hover={isHover} />
         Назад
       </button>
     );

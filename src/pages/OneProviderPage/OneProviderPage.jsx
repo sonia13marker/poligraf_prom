@@ -1,6 +1,7 @@
 import style from "../ProvidersPage/ProvidersPage.module.scss";
 import HeaderForPages from "../../components/HeaderForPages/HeaderForPages";
 import color_map from "../../images/color_map_inknovators.jpg";
+import GoBackButton from "../../components/GoBackButton/GoBackButton";
 
 export default function OneProviderPage({
   pageName,
@@ -10,6 +11,7 @@ export default function OneProviderPage({
 }) {
   return (
     <div className={style.container}>
+      <GoBackButton type="providers" />
       <HeaderForPages
         title={pageName}
         // title="Inknovators"
