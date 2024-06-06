@@ -8,6 +8,7 @@ import NewsPage from "./pages/NewsPage/NewsPage";
 import ContactsPage from "./pages/ContactsPage/ContactsPage";
 import OneProviderPage from "./pages/OneProviderPage/OneProviderPage";
 import OneNewsPage from "./pages/OneNewsPage/OneNewsPage";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
 function App() {
   // const data = {
@@ -28,6 +29,7 @@ function App() {
           <Route path="news/:id" element={<OneNewsPage />} />
           <Route path="contacts" element={<ContactsPage />} />
         </Route>
+        <Route path="/*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );

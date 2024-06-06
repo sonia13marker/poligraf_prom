@@ -1,0 +1,40 @@
+@import "../../style.module";
+
+.wrapper {
+  @include flex-column;
+  max-width: 610px;
+  width: 100%;
+  gap: $indent-65;
+  height: 100vh;
+
+  &__text {
+    @include flex-column;
+    gap: $indent-35;
+
+    &__title {
+      @include inter-medium-50;
+      font-weight: 400;
+      color: $main-black;
+    }
+
+    &__img {
+
+    }
+
+    &__p {
+      @include inter-regular-25;
+      color: $main-black;
+      text-align: center;
+    }
+  }
+
+  &__button {
+    @include main-button;
+
+    &:hover {
+      @include main-button-hover;
+    }
+  }
+
+}
+
