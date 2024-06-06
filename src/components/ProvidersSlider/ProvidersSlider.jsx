@@ -10,15 +10,11 @@ export default function ProvidersSlider() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextSlide = () => {
-    if (currentImageIndex + 4 < providers.providers.length) {
-      setCurrentImageIndex(currentImageIndex + 2);
-    }
+    setCurrentImageIndex(currentImageIndex + 2);
   };
 
   const prevSlide = () => {
-    if (currentImageIndex > 0) {
-      setCurrentImageIndex(currentImageIndex - 2);
-    }
+    setCurrentImageIndex(currentImageIndex - 2);
   };
 
   return (

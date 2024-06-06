@@ -10,13 +10,11 @@ export default function AboutCompanySlider() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentImageIndex((currentImageIndex + 1) % images.length);
+    setCurrentImageIndex(currentImageIndex + 1);
   };
 
   const prevSlide = () => {
-    setCurrentImageIndex(
-      (currentImageIndex - 1 + images.length) % images.length,
-    );
+    setCurrentImageIndex(currentImageIndex - 1);
   };
   return (
     <span className={styles.slider__wrapper}>
@@ -29,11 +27,11 @@ export default function AboutCompanySlider() {
       <span className={styles.slider__wrapper__textBlock}>
         <span className={styles.slider__wrapper__textBlock__wrapperBtns}>
           <ButtonLeftSliderNoBorders
-            onClickAction={nextSlide}
+            onClickAction={prevSlide}
             color={currentImageIndex === 0 ? "#D5D6D7" : "#007CBC"}
           />
           <ButtonRightSliderNoBorder
-            onClickAction={prevSlide}
+            onClickAction={nextSlide}
             color={currentImageIndex === 1 ? "#D5D6D7" : "#007CBC"}
           />
         </span>
