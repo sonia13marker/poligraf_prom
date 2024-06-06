@@ -13,18 +13,42 @@
   }
 
   &__textContainer {
-    @include flex-column;
-    align-items: center;
     width: 100%;
+    @include flex-row;
+    align-items: start;
+    justify-content: center;
     gap: $indent-65;
+
+    &__images {
+      @include flex-column;
+      align-items: flex-start;
+      gap: $indent-65;
+
+      &__img {
+        max-width: 615px;
+        max-height: 285px;
+        border-radius: $border-radius;
+      }
+    }
+
 
     &__text {
       @include inter-regular-20;
       color: $main-black;
-      max-width: 1080px;
+      line-height: 30px;
+      text-align: justify;
       width: 100%;
     }
+
+
   }
 
 }
+
+.textCenter {
+  max-width: 850px;
+  width: 100%;
+}
+
+
 

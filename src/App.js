@@ -9,12 +9,15 @@ import ContactsPage from "./pages/ContactsPage/ContactsPage";
 import OneProviderPage from "./pages/OneProviderPage/OneProviderPage";
 import OneNewsPage from "./pages/OneNewsPage/OneNewsPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
+// import i1 from "./images/AD-2.png";
+// import i2 from "./images/slider-pic-1.png";
+// import i3 from "./images/contacts slider 2.png";
 
 function App() {
   // const data = {
   //   title: "Новинки от INKNOVATORS",
   //   tag: "new",
-  //   image: {},
+  //   images: [i1, i2, i3],
   //   desc: "Уважаемые клиенты! В нашем ассортименте появились пластизольные краски турецкого производства «INKNOVATORS». Характеристики этих красок, режимы работы с ними полностью схожи с требованиями к другим пластизолям, которыми торгует наша компания. В продаже имеются цветные кроющие краски, три вида белой краски для разных задач и материалов, прозрачные базы, триадный комплект, флуоресцентные краски шести цветов, металлики (золото и серебро) и концентрат, вспенивающий краску.",
   // };
   return (
