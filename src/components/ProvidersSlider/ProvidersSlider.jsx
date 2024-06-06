@@ -8,32 +8,37 @@ import ProvidersSliderCard from "../ProvidersSliderCard/ProvidersSliderCard";
 
 export default function ProvidersSlider() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
   const nextSlide = () => {
-    setCurrentImageIndex((currentImageIndex + 2) % providers.providers.length);
+    if (currentImageIndex + 4 < providers.providers.length) {
+      setCurrentImageIndex(currentImageIndex + 2);
+    }
   };
 
   const prevSlide = () => {
-    setCurrentImageIndex(
-      (currentImageIndex - 2 + providers.providers.length) %
-        providers.providers.length,
-    );
+    if (currentImageIndex > 0) {
+      setCurrentImageIndex(currentImageIndex - 2);
+    }
   };
 
   return (
     <span className={styles.wrapper}>
       <span className={styles.wrapper__header}>
         <h2 className={styles.wrapper__header__title}>Поставщики</h2>
-        {/*место для кнопок переключения слайдера*/}
         <span className={styles.wrapper__header__buttons}>
           <ButtonLeftSliderBorder
             type="providers"
-            onClickAction={nextSlide}
+            onClickAction={prevSlide}
             color={currentImageIndex === 0 ? "#D5D6D7" : "#007CBC"}
           />
           <ButtonRightSliderBorder
             type="providers"
-            onClickAction={prevSlide}
-            color={currentImageIndex === 7 ? "#D5D6D7" : "#007CBC"}
+            onClickAction={nextSlide}
+            color={
+              currentImageIndex + 4 >= providers.providers.length
+                ? "#D5D6D7"
+                : "#007CBC"
+            }
           />
         </span>
       </span>
@@ -42,7 +47,6 @@ export default function ProvidersSlider() {
         {providers.providers
           .slice(currentImageIndex, currentImageIndex + 4)
           .map((provider, i) => (
-            // console.log(provider),
             <ProvidersSliderCard
               key={i}
               name={provider.name}
