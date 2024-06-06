@@ -10,7 +10,7 @@ export default function OneNewsPage({ title, text, images }) {
 
       <span
         className={styles.wrapper__textContainer}
-        style={{ gap: images.length === 0 ? "0px" : "65px" }}
+        style={{ gap: images?.length === 0 ? "0px" : "65px" }}
       >
         <span className={styles.wrapper__textContainer__images}>
           {images &&
@@ -23,7 +23,7 @@ export default function OneNewsPage({ title, text, images }) {
               />
             ))}
         </span>
-        {images.length !== 0 ? (
+        {images?.length !== 0 ? (
           <p className={styles.wrapper__textContainer__text}>{text}</p>
         ) : (
           <p
