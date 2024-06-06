@@ -1,5 +1,6 @@
 import styles from "./ContactsPage.module.scss";
 import AdressComponent from "../../components/AdressComponent/AdressComponent";
+import ContactsSlider from "../../components/ContactsSlider/ContactsSlider";
 
 export default function ContactsPage() {
   return (
@@ -44,6 +45,7 @@ export default function ContactsPage() {
           height="445"
         ></iframe>
         {/*slider*/}
+        <ContactsSlider />
       </div>
     </div>
   );

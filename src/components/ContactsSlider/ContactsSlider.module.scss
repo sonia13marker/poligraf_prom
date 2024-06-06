@@ -1,0 +1,51 @@
+@import "../../style.module";
+
+.slider {
+  @include flex-column;
+  align-items: flex-start;
+  gap: $indent-35;
+  width: 100%;
+
+  &__header {
+    @include flex-row;
+    width: 100%;
+
+    &__title {
+      @include inter-medium-50;
+      color: $main-black;
+    }
+
+    &__buttons {
+      @include flex-row;
+      gap: $indent-20;
+    }
+  }
+
+  &__body {
+    @include flex-row;
+
+    &__img {
+      width: 650px;
+      height: 280px;
+      border-radius: $border-radius;
+    }
+
+    &__text {
+      @include flex-column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      width: 650px;
+      height: 280px;
+      border-radius: $border-radius;
+      background-color: $contacts-page-color;
+      padding: 20px;
+
+
+      &__p {
+        max-width: 395px;
+        @include inter-medium-20;
+        color: $main-white;
+      }
+    }
+  }
+}
