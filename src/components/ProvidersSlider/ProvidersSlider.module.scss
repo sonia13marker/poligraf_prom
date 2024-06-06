@@ -2,30 +2,40 @@
 
 .wrapper {
   @include flex-column;
+  align-items: flex-start;
   margin: $indent-150 0;
-  max-width: 1300px;
+  //max-width: 1300px;
   width: 100%;
+  overflow: hidden;
 
   &__header {
+    @include flex-row;
     width: 100%;
+    margin-bottom: $indent-35;
 
 
     &__title {
       @include inter-medium-50;
-      margin-bottom: $indent-35;
+    }
+
+    &__buttons {
+      @include flex-row;
+      gap: $indent-20;
     }
   }
 
   &__slider {
     @include flex-row;
-    width: 100%;
+    width: max-content;
     overflow: hidden;
+    gap: $indent-20;
     padding-bottom: $indent-65;
   }
 
   &__button {
     display: block;
     @include main-button;
+    align-self: center;
 
     &:hover {
       @include main-button-hover;
