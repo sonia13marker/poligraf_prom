@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function TechnologieFileCard({ file, fileName }) {
   // console.log(file);
-  const fileExtension = file.slice(-3);
+  const fileExtension = file?.slice(-3);
   // console.log(fileExtension);
   const [isHover, setIsHover] = useState(false);
   const [active, setActive] = useState(false);

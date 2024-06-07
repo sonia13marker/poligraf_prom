@@ -15,7 +15,11 @@ export default function ProductsComponent() {
           />
         ))}
       </span>
-      <button className={style.wrapper__button}>Показать еще</button>
+      {product.products.length > 6 ? (
+        <button className={style.wrapper__button}>Показать еще</button>
+      ) : (
+        <></>
+      )}
     </span>
   );
 }

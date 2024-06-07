@@ -18,8 +18,9 @@
     color: $catalog-page-color;
 
     &:hover {
+      @include main-button-hover;
       background-color: $catalog-page-color;
-      color: $main-white;
+      cursor: pointer;
     }
   }
 }

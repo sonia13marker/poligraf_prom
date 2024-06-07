@@ -21,6 +21,7 @@
     color: $news-page-color;
 
     &:hover {
+      cursor: pointer;
       @include main-button-hover;
       background-color: $news-page-color;
     }

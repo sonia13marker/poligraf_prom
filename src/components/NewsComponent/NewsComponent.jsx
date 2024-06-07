@@ -54,7 +54,11 @@ export default function NewsComponent() {
           />
         ))}
       </span>
-      <button className={style.wrapper__button}>Показать еще</button>
+      {news.length > 6 ? (
+        <button className={style.wrapper__button}>Показать еще</button>
+      ) : (
+        <></>
+      )}
     </span>
   );
 }

@@ -5,7 +5,7 @@ export default function HeaderButtonsComponent({ links }) {
   return (
     <>
       {links.map((link, i) => (
-        <span>
+        <span key={i}>
           <Link
             to={link.linkTo}
             className={
@@ -13,7 +13,6 @@ export default function HeaderButtonsComponent({ links }) {
                 ? `${style.headerButtons} ${style.firstSelected}`
                 : style.headerButtons
             }
-            key={i}
           >
             {link.title}
           </Link>
