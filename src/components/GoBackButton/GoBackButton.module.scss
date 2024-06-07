@@ -32,3 +32,14 @@
     cursor: pointer;
   }
 }
+
+.blue {
+  border: 1px solid $main-page-color;
+  color: $main-page-color;
+
+  &:hover {
+    background-color: $main-page-color;
+    color: $main-white;
+    cursor: pointer;
+  }
+}

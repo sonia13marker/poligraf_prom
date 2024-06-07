@@ -44,11 +44,11 @@ export default function GoBackButton({ type }) {
     return (
       <button
         onClick={() => navigate(-1)}
-        className={`${style.wrapper} ${style.pink}`}
+        className={`${style.wrapper} ${style.blue}`}
         onMouseEnter={handleMouseOn}
         onMouseLeave={handleMouseDown}
       >
-        <LeftArrow type="providers" hover={isHover} />
+        <LeftArrow type="main page" hover={isHover} />
         Назад
       </button>
     );
