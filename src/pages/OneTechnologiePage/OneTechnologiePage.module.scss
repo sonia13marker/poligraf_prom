@@ -1,0 +1,58 @@
+@import '../../style.module';
+
+.wrapper {
+  @include flex-column;
+  margin: $indent-65 auto $indent-150;
+  gap: $indent-35;
+
+  &__header {
+    width: 100%;
+    @include flex-column;
+    gap: $indent-35;
+
+    &__goBackBtn {
+      align-self: flex-start;
+    }
+
+    &__title {
+      @include inter-medium-50;
+      color: $main-black;
+      text-align: center;
+    }
+  }
+
+
+  &__textContainer {
+    @include flex-column;
+    align-items: flex-start;
+    gap: $indent-35;
+    width: 100%;
+    max-width: 1080px;
+    color: $main-black;
+
+    &__paragraf {
+      @include flex-column;
+
+      &__title {
+        @include inter-medium-35;
+        margin-bottom: $indent-35;
+        text-align: center;
+      }
+
+      &__text {
+        @include inter-regular-20;
+        line-height: 30px;
+        text-align: justify;
+      }
+    }
+
+
+    &__files {
+      @include flex-column;
+      align-items: flex-start;
+      gap: $indent-35;
+      height: 100%;
+
+    }
+  }
+}

@@ -25,7 +25,8 @@ export default function ButtonsForHeader({ siteLink, documentLink }) {
         </a>
         <a
           href={documentLink}
-          target="_blink"
+          rel="noreferrer"
+          target="_blank"
           className={style.header__wrapper__btns__docLink}
         >
           <span
@@ -57,7 +58,8 @@ export default function ButtonsForHeader({ siteLink, documentLink }) {
       <span className={style.header__wrapper__btns}>
         <a
           href={documentLink}
-          target="_blink"
+          rel="noreferrer"
+          target="_blank"
           className={style.header__wrapper__btns__docLink}
         >
           <span

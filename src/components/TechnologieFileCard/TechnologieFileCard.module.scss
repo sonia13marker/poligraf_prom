@@ -1,0 +1,33 @@
+@import "../../style.module";
+
+.card {
+  @include flex-row;
+  justify-content: flex-start;
+  gap: $indent-20;
+  max-width: 420px;
+  width: 100%;
+  height: 112px;
+  padding: 20px;
+  border-radius: $border-radius;
+  background-color: $main-white;
+  border: 1px solid $main-gray;
+  color: $main-black;
+  text-decoration: none;
+  transition: 0.3s all;
+
+  &__title {
+    @include inter-regular-20;
+    max-width: 315px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    border-color: $main-page-color;
+    color: $main-page-color;
+  }
+
+  &:active {
+    border-color: $contacts-page-color;
+    color: $contacts-page-color;
+  }
+}
