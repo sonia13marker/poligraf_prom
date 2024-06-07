@@ -1,8 +1,6 @@
 @import "../../style.module";
 
 .header {
-  //max-width: 1300px;
-  //width: 100%;
   margin-top: $indent-65;
   @include flex-column;
   gap: $indent-35;
@@ -27,6 +25,7 @@
         &:hover {
           @include main-button-hover;
           background-color: $provider-page-color;
+          cursor: pointer;
         }
       }
 

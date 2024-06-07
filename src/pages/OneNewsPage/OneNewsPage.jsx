@@ -17,16 +17,6 @@ export default function OneNewsPage({ title, text, images }) {
       >
         <span className={styles.wrapper__textContainer__images}>
           <CustomSliderForNewsPage images={images} />
-          {/*{images &&*/}
-          {/*  images.map((image, i) => (*/}
-          {/*      // ldsa*/}
-          {/*    <img*/}
-          {/*      src={image}*/}
-          {/*      key={i}*/}
-          {/*      alt={`news ${image}`}*/}
-          {/*      className={styles.wrapper__textContainer__images__img}*/}
-          {/*    />*/}
-          {/*  ))}*/}
         </span>
         {images?.length !== 0 ? (
           <p className={styles.wrapper__textContainer__text}>{text}</p>

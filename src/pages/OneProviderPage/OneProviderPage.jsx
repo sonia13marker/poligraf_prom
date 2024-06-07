@@ -16,7 +16,6 @@ export default function OneProviderPage({
         title={pageName}
         // title="Inknovators"
         searchMock="Найти товары..."
-        hasButtons="Yes"
         siteLink={siteLink}
         documentLink={color_map}
       />
