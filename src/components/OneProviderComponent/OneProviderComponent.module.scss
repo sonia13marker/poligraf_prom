@@ -1,0 +1,28 @@
+@import "../../style.module";
+
+.body {
+  @include flex-column;
+  gap: $indent-65;
+
+  &__cardsList {
+    width: 100%;
+    @include flex-row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: flex-start;
+    row-gap: $indent-35;
+
+    &__btnShowMore {
+      @include main-button;
+      color: $provider-page-color;
+      border-color: $provider-page-color;
+
+      &:hover {
+        @include main-button-hover;
+        background-color: $provider-page-color;
+        cursor: pointer;
+      }
+    }
+
+  }
+}

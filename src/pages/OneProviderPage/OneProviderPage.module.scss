@@ -1,0 +1,43 @@
+@import "../../style.module";
+
+.container {
+  width: 100%;
+  margin-bottom: $indent-150;
+  margin-top: $indent-65;
+
+  &__header {
+
+    &__tagList {
+      margin-bottom: $indent-65;
+    }
+  }
+
+
+  &__body {
+    @include flex-column;
+    gap: $indent-65;
+
+    &__cardsList {
+      width: 100%;
+      @include flex-row;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      justify-content: flex-start;
+      row-gap: $indent-35;
+
+      &__btnShowMore {
+        @include main-button;
+        color: $provider-page-color;
+        border-color: $provider-page-color;
+
+        &:hover {
+          @include main-button-hover;
+          background-color: $provider-page-color;
+          cursor: pointer;
+        }
+      }
+
+    }
+  }
+
+}

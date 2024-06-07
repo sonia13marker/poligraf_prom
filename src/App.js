@@ -50,6 +50,50 @@ function App() {
   //     },
   //   ],
   // };
+  // const data = {
+  //   id: 1,
+  //   name: "Inknovators",
+  //   image: "images/pr-logo-1.png",
+  //   tags: [
+  //     "Пластизольные краски",
+  //     "Водные и вытравные краски",
+  //     "Специальные эффекты",
+  //   ],
+  //   link: "http://inknovators.com/",
+  //   color_map: map,
+  //   products: [
+  //     {
+  //       name: "PL ANTI-MIGRATION BASE",
+  //       image: null,
+  //       file: "images/inknovators_1.pdf",
+  //     },
+  //     {
+  //       name: "PL BLACK",
+  //       image: null,
+  //       file: "images/inknovators_1.pdf",
+  //     },
+  //     {
+  //       name: "PL BLUE",
+  //       image: null,
+  //       file: "images/inknovators_1.pdf",
+  //     },
+  //     {
+  //       name: "PL BROWN",
+  //       image: null,
+  //       file: "images/inknovators_1.pdf",
+  //     },
+  //     {
+  //       name: "PL CARMEN",
+  //       image: null,
+  //       file: "images/inknovators_1.pdf",
+  //     },
+  //     {
+  //       name: "PL CLEAR BASE",
+  //       image: null,
+  //       file: "images/inknovators_1.pdf",
+  //     },
+  //   ],
+  // };
   return (
     <div className="App">
       <Routes>

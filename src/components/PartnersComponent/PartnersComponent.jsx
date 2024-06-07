@@ -25,7 +25,7 @@ export default function PartnersComponent() {
       <span className={styles.wrapper__twoBlocks}>
         {partners.map((partner, i) => (
           <PartnerCard
-            index={i}
+            key={i}
             image={partner.image}
             link={partner.link}
             description={partner.description}
