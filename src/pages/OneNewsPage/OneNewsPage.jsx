@@ -1,11 +1,14 @@
 import styles from "./OneNewsPage.module.scss";
 import GoBackButton from "../../components/GoBackButton/GoBackButton";
 import "../../style.module.scss";
+import CustomSliderForNewsPage from "../../components/CustomSliderForNewsPage/CustomSliderForNewsPage";
 
 export default function OneNewsPage({ title, text, images }) {
   return (
     <div className={styles.wrapper}>
-      <GoBackButton type="news" />
+      <span className={styles.wrapper__btnGoBack}>
+        <GoBackButton type="news" />
+      </span>
       <h2 className={styles.wrapper__title}>{title}</h2>
 
       <span
@@ -13,15 +16,17 @@ export default function OneNewsPage({ title, text, images }) {
         style={{ gap: images?.length === 0 ? "0px" : "65px" }}
       >
         <span className={styles.wrapper__textContainer__images}>
-          {images &&
-            images.map((image, i) => (
-              <img
-                src={image}
-                key={i}
-                alt={`news ${image}`}
-                className={styles.wrapper__textContainer__images__img}
-              />
-            ))}
+          <CustomSliderForNewsPage images={images} />
+          {/*{images &&*/}
+          {/*  images.map((image, i) => (*/}
+          {/*      // ldsa*/}
+          {/*    <img*/}
+          {/*      src={image}*/}
+          {/*      key={i}*/}
+          {/*      alt={`news ${image}`}*/}
+          {/*      className={styles.wrapper__textContainer__images__img}*/}
+          {/*    />*/}
+          {/*  ))}*/}
         </span>
         {images?.length !== 0 ? (
           <p className={styles.wrapper__textContainer__text}>{text}</p>

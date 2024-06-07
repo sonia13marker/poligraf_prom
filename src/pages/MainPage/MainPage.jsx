@@ -7,6 +7,7 @@ import PartnersComponent from "../../components/PartnersComponent/PartnersCompon
 import SmallNewsComponent from "../../components/SmallNewsComponent/SmallNewsComponent";
 import ADSecond from "../../components/ADSecond/ADSecond";
 import TechnologiesComponent from "../../components/TechnologiesComponent/TechnologiesComponent";
+import TechnologieFileCard from "../../components/TechnologieFileCard/TechnologieFileCard";
 
 export default function MainPage() {
   return (
@@ -18,6 +19,7 @@ export default function MainPage() {
       <ProvidersSlider />
       <PartnersComponent />
       <TechnologiesComponent />
+      <TechnologieFileCard />
       <SmallNewsComponent />
       <ADSecond />
     </>

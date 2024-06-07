@@ -3,19 +3,26 @@
 .wrapper {
   width: 100%;
   @include flex-column;
-  align-items: flex-start;
+  align-items: center;
   gap: $indent-35;
   margin: $indent-65 auto $indent-150;
+
+  &__btnGoBack {
+    width: 100%;
+  }
 
   &__title {
     @include inter-medium-50;
     color: $main-black;
+    text-align: center;
+    width: 100%;
   }
 
   &__textContainer {
+    max-width: 1080px;
     width: 100%;
-    @include flex-row;
-    align-items: start;
+    @include flex-column;
+    align-items: center;
     justify-content: center;
     gap: $indent-65;
 
