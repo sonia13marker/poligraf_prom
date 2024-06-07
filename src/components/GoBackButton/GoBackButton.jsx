@@ -40,5 +40,17 @@ export default function GoBackButton({ type }) {
         Назад
       </button>
     );
+  } else if (type === "main page") {
+    return (
+      <button
+        onClick={() => navigate(-1)}
+        className={`${style.wrapper} ${style.pink}`}
+        onMouseEnter={handleMouseOn}
+        onMouseLeave={handleMouseDown}
+      >
+        <LeftArrow type="providers" hover={isHover} />
+        Назад
+      </button>
+    );
   }
 }

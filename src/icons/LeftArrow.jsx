@@ -19,7 +19,11 @@ export default function LeftArrow({ hover, type }) {
                 ? hover
                   ? "#FDFEFF"
                   : "#DF0E86"
-                : "#DF0E86"
+                : type === "main page"
+                  ? hover
+                    ? "#FDFEFF"
+                    : "#007CBC"
+                  : "#DF0E86"
           }
           strokeWidth="2"
         />
