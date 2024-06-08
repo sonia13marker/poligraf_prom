@@ -12,9 +12,12 @@
   }
 
   &__texhList {
-    @include flex-row;
-    flex-wrap: wrap;
-    gap: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
   }
 
 }

@@ -25,10 +25,12 @@
   }
 
   &__slider {
-    @include flex-row;
-    width: max-content;
-    overflow: hidden;
-    gap: $indent-20;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: hidden;
     padding-bottom: $indent-65;
   }
 
@@ -40,5 +42,44 @@
     &:hover {
       @include main-button-hover;
     }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper__slider {
+    grid-template-columns: repeat(3, max-content);
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .wrapper__slider {
+    grid-template-columns: repeat(2, max-content);
+    overflow-x: hidden;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .wrapper__slider {
+    display: flex;
+    flex-direction: column;
+    gap: $indent-20;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper__header__buttons {
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper__slider {
+    padding-bottom: $indent-20;
+  }
+  .wrapper__header__title {
+    @include inter-medium-35;
+    font-size: 30px;
   }
 }

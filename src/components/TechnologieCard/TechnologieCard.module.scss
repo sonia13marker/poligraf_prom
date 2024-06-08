@@ -2,7 +2,7 @@
 
 .card {
   @include flex-column;
-  width: 420px;
+  max-width: 420px;
   height: 130px;
   background-color: $main-white;
   color: $main-page-color;

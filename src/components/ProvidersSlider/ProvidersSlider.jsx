@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ButtonRightSliderBorder from "../../icons/ButtonRightSliderBorder";
 import ButtonLeftSliderBorder from "../../icons/ButtonLeftSliderBorder";
 import providers from "../../data/providers.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ProvidersSliderCard from "../ProvidersSliderCard/ProvidersSliderCard";
 
 export default function ProvidersSlider() {
@@ -17,6 +17,27 @@ export default function ProvidersSlider() {
     setCurrentImageIndex(currentImageIndex - 2);
   };
 
+  const [isResized, setIsResized] = useState(window.innerWidth);
+
+  const handleResize = () => {
+    setIsResized(window.innerWidth);
+  };
+  console.log(isResized);
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+  const getVisibleCardsCount = () => {
+    if (isResized >= 1350) return 4;
+    if (isResized >= 1085) return 3;
+    return 2;
+  };
+  const visibleCardsCount = getVisibleCardsCount();
+
+  // if (isResized >= 1350) {
   return (
     <span className={styles.wrapper}>
       <span className={styles.wrapper__header}>
@@ -31,7 +52,8 @@ export default function ProvidersSlider() {
             type="providers"
             onClickAction={nextSlide}
             color={
-              currentImageIndex + 4 >= providers.providers.length
+              currentImageIndex + visibleCardsCount >=
+              providers.providers.length
                 ? "#D5D6D7"
                 : "#007CBC"
             }
@@ -41,7 +63,7 @@ export default function ProvidersSlider() {
 
       <div className={styles.wrapper__slider}>
         {providers.providers
-          .slice(currentImageIndex, currentImageIndex + 4)
+          .slice(currentImageIndex, currentImageIndex + visibleCardsCount)
           .map((provider, i) => (
             <ProvidersSliderCard
               key={i}
