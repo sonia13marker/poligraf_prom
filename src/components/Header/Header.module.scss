@@ -1,9 +1,9 @@
 @import "../../style.module.scss";
 
 .header {
-  max-width: 1300px;
+  //max-width: 1300px;
   width: 100%;
-  margin: 30px 70px;
+  margin: 30px auto;
   @include flex-row;
 
   &__logo {
@@ -17,3 +17,4 @@
     @include inter-medium-14;
   }
 }
+

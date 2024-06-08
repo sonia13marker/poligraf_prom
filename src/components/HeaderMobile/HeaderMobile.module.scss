@@ -1,0 +1,96 @@
+@import "../../style.module";
+
+.header {
+  @include flex-column;
+  width: 100%;
+  gap: $indent-65;
+  background-color: $main-white;
+  margin-bottom: 30px;
+  //padding: 30px 70px;
+
+  &__container {
+    @include flex-row;
+    justify-content: space-between;
+    width: 100%;
+
+    &__logo {
+      width: 225px;
+      height: 35px;
+    }
+
+    &__button {
+      width: 35px;
+      height: 35px;
+      position: relative;
+
+      &__line {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        display: block;
+        width: 23px;
+        height: 2.5px;
+        background-color: $main-page-color;
+        transition: 0.5s all;
+
+        &::before {
+          content: "";
+          display: block;
+          width: 23px;
+          height: 2.5px;
+          background-color: $main-page-color;
+          margin-top: 7.5px;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          width: 23px;
+          height: 2.5px;
+          background-color: $main-page-color;
+          margin-top: 5px;
+        }
+
+        &__active {
+          transform: rotate(45deg);
+
+          &::before {
+            content: "";
+            display: block;
+            width: 23px;
+            height: 2.5px;
+            background-color: $main-page-color;
+            margin-top: 0;
+            transform: rotate(90deg);
+          }
+
+          &::after {
+            display: none;
+
+          }
+        }
+      }
+    }
+
+    &__body {
+      @include flex-column;
+      gap: $indent-65;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+      transition: 0.5s all ease-in;
+      display: none;
+
+      &__adressBlock {
+        @include flex-row;
+        align-items: flex-start;
+        width: 100%;
+      }
+
+      &__active {
+        display: block;
+      }
+    }
+  }
+
+}

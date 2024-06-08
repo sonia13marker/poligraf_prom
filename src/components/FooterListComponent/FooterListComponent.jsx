@@ -1,9 +1,9 @@
 import style from "./FooterListComponent.module.scss";
 import { NavLink } from "react-router-dom";
 
-export default function FooterListComponent({ links }) {
+export default function FooterListComponent({ links, customStyle }) {
   return (
-    <nav className={style.list}>
+    <nav className={style.list} style={customStyle}>
       {links.map((link, index) => (
         <NavLink
           key={index}
