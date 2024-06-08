@@ -38,3 +38,54 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 1135px) {
+  .wrapper {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .wrapper {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .wrapper {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .wrapper__header__image {
+    height: 70px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .wrapper__description {
+    @include inter-regular-14;
+  }
+  .wrapper {
+    height: auto;
+    gap: $indent-35;
+  }
+  .wrapper__header__link {
+    @include inter-regular-14;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper__header__image {
+    height: 50px;
+    width: 110px;
+  }
+}
