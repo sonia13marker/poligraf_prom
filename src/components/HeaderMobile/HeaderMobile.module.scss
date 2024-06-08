@@ -52,6 +52,7 @@
         }
 
         &__active {
+          top: 20px;
           transform: rotate(45deg);
 
           &::before {
@@ -88,9 +89,20 @@
       }
 
       &__active {
-        display: block;
+        display: flex;
       }
     }
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .header__container__logo {
+    width: 195px;
+    height: 30px;
+  }
+  .header__container__body__adressBlock {
+    flex-direction: column;
+    gap: $indent-20;
   }
 
 }

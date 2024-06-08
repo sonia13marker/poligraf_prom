@@ -17,5 +17,14 @@ export default function AdressComponent({ title, text, type }) {
         </p>
       </span>
     );
+  } else if (type === "mobile") {
   }
+  return (
+    <span className={styles.wrapper}>
+      <h5 className={styles.wrapper__title}>{title}:</h5>
+      <p className={styles.wrapper__text} style={{ fontSize: "18px" }}>
+        {text}
+      </p>
+    </span>
+  );
 }

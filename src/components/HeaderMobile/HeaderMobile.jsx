@@ -4,7 +4,6 @@ import logo_desktop from "../../images/logo_desktop.png";
 import FooterListComponent from "../FooterListComponent/FooterListComponent";
 import AdressComponent from "../AdressComponent/AdressComponent";
 import { useState } from "react";
-// import HeaderListComponent from "../HeaderListComponent/HeaderListComponent";
 
 export default function HeaderMobile() {
   const links = [
@@ -58,12 +57,12 @@ export default function HeaderMobile() {
 
         <span className={styles.header__container__body__adressBlock}>
           <AdressComponent
-            type=""
+            type="mobile"
             title="Адрес"
             text="г. Краснодар, ул. Зиповская, 9, литер К, офис 6"
           />
           <AdressComponent
-            type=""
+            type="mobile"
             title="Номер телефона:"
             text="+7-918-076-14-64"
           />
