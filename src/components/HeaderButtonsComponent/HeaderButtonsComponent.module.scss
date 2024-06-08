@@ -40,3 +40,16 @@
   }
 
 }
+
+@media screen and (max-width: 1330px) {
+  .headerButtons {
+    min-width: auto;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .headerButtons {
+    display: none;
+  }
+}

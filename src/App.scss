@@ -6,3 +6,21 @@
   @include flex-column;
   padding: 30px 70px 0 70px;
 }
+
+@media screen and (max-width: 460px) {
+  .App {
+    padding: 30px 25px 0 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .App {
+    padding: 30px 10px 0 10px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .App {
+    padding: 30px 5px 0 5px;
+  }
+}
