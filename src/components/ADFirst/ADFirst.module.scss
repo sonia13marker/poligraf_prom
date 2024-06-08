@@ -39,3 +39,167 @@
     right: 0;
   }
 }
+
+@media screen and (max-width: 1275px) {
+  .background__image {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  .background__image {
+    height: 430px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .background__image {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .background__image {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .background__image {
+    height: 350px;
+    right: -10px;
+  }
+}
+
+@media screen and (max-width: 1155px) {
+  .background__image {
+    height: 330px;
+  }
+  .background__text__p {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .background__text__p {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .background__text__p {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .background__text__p {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .background__text__title {
+    @include inter-medium-35;
+  }
+  .background__text__p {
+    @include inter-medium-20;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .background__text__p {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .background {
+    min-height: 350px;
+  }
+  .background__text {
+    gap: $indent-20;
+  }
+  .background__text__title {
+    @include inter-medium-35;
+    font-size: 30px;
+  }
+  .background__text__p {
+    @include inter-regular-18;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .background__text__p {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .background__text__p {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .background__image {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .background__image {
+    height: 280px;
+  }
+  .background {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .background__image {
+    height: 180px;
+    right: 0;
+  }
+  //.background__text__p {
+  //  @include inter-regular-14;
+  //}
+}
+
+@media screen and (max-width: 510px) {
+  .background__text__p {
+    max-width: 170px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .background__text__p {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .background__text__p {
+    max-width: 290px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .background {
+    min-height: 520px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .background {
+    padding: 20px 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .background__text__p {
+    max-width: 250px;
+  }
+}
