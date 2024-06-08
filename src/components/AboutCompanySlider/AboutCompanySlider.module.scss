@@ -83,6 +83,7 @@
   .slider__wrapper {
     flex-direction: column;
     gap: $indent-10;
+    margin-bottom: $indent-65;
   }
   .slider__wrapper__imgBlock > img, .slider__wrapper__imgBlock, .slider__wrapper__textBlock {
     width: 100%;
@@ -93,6 +94,9 @@
   .slider__wrapper {
     flex-direction: column-reverse;
     gap: $indent-5;
+  }
+  .slider__wrapper__imgBlock {
+    height: 135px;
   }
   .slider__wrapper__imgBlock > img {
     width: 100%;

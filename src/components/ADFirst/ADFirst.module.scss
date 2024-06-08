@@ -99,6 +99,9 @@
 }
 
 @media screen and (max-width: 830px) {
+  .background {
+    margin-bottom: $indent-65;
+  }
   .background__text__title {
     @include inter-medium-35;
   }
