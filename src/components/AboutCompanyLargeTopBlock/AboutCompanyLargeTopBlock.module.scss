@@ -48,3 +48,33 @@
   background-color: #DC2C1D;
 }
 
+@media screen and (max-width: 1024px) {
+  .block__text {
+    @include inter-regular-18;
+    font-weight: 500;
+  }
+
+  .block {
+    height: 210px;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .block {
+    height: 310px;
+    //align-items: flex-start;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .block {
+    height: 155px;
+    justify-content: flex-start;
+  }
+  .block__text {
+    width: 100%;
+    display: contents;
+  }
+}
