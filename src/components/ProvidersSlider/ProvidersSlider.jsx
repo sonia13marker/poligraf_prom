@@ -22,7 +22,6 @@ export default function ProvidersSlider() {
   const handleResize = () => {
     setIsResized(window.innerWidth);
   };
-  console.log(isResized);
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
