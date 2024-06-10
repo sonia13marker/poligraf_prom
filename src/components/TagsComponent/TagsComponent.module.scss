@@ -54,3 +54,10 @@
     }
   }
 }
+
+@media screen and (max-width: 935px) {
+  .wrapper {
+    max-width: none;
+    width: 100%;
+  }
+}

@@ -60,3 +60,10 @@
     color: $main-black;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .header__title {
+    @include inter-medium-35;
+    font-size: 30px;
+  }
+}
