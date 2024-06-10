@@ -128,3 +128,11 @@
     }
   }
 }
+
+@media screen and (max-width: 485px) {
+  .slider__card__wrapper__name {
+    @include inter-regular-18;
+    font-weight: 500;
+  }
+
+}

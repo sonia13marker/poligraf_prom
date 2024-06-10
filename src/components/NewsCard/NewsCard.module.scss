@@ -5,7 +5,7 @@
   justify-content: space-between;
   gap: 20px;
   position: relative;
-  width: 400px;
+  width: 420px;
   height: 345px;
   color: $main-black;
   background-color: $main-white;
@@ -56,4 +56,28 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 1415px) {
+  .wrapper {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .wrapper {
+    width: 310px;
+    border: 2px solid $main-gray;
+    border-top-color: $main-white;
+  }
+  .wrapper__image {
+    width: 310px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .wrapper__textBlock__title {
+    @include inter-regular-18;
+  }
+
 }

@@ -78,6 +78,9 @@
 }
 
 @media screen and (max-width: 375px) {
+  .wrapper {
+    margin-bottom: $indent-65;
+  }
   .wrapper__slider {
     padding-bottom: $indent-20;
   }

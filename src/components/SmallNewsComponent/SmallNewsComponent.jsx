@@ -1,8 +1,26 @@
 import style from "./SmallNewsComponent.module.scss";
 import { Link } from "react-router-dom";
 import NewsCard from "../NewsCard/NewsCard";
+import { useEffect, useState } from "react";
 
 export default function SmallNewsComponent() {
+  const [isResized, setIsResized] = useState(window.innerWidth);
+
+  const handleResize = () => {
+    setIsResized(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+  const getVisibleCardsCount = () => {
+    if (isResized >= 1095) return 2;
+    if (isResized <= 1090) return 1;
+  };
+  const visibleCardsCount = getVisibleCardsCount();
+  // const sliceNumber =
   const news = [
     {
       title: "Новинки от INKNOVATORS",
@@ -29,7 +47,7 @@ export default function SmallNewsComponent() {
         <h2 className={style.wrapperTwo__title}>Новости </h2>
 
         <span className={style.wrapperTwo__elements}>
-          {news.map((oneNew, i) => (
+          {news.slice(visibleCardsCount).map((oneNew, i) => (
             <NewsCard
               key={i}
               tag={oneNew.tag}

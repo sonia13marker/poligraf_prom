@@ -30,6 +30,10 @@
 }
 
 @media screen and (max-width: 375px) {
+  .wrapper {
+    margin-bottom: $indent-65;
+  }
+;
   .wrapper__title {
     @include inter-medium-35;
     font-size: 30px;
