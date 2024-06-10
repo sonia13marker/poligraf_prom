@@ -13,20 +13,43 @@
   }
 
   &__contacts {
+    width: 100%;
     @include flex-column;
     align-items: flex-start;
     gap: $indent-65;
 
     &__text {
       width: 100%;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 1fr;
-      row-gap: $indent-20;
-      column-gap: $indent-35;
+      @include flex-row;
+      gap: $indent-35;
+
+      //display: grid;
+      //grid-template-columns: repeat(3, 1fr);
+      ////grid-template-columns: repeat(auto-fit, minmax(265px, 465px));
+      //grid-template-rows: 1fr;
+      //row-gap: $indent-20;
+      //column-gap: $indent-35;
       align-items: start;
       justify-items: start;
 
+      &__oneBlock {
+        width: 100%;
+        @include flex-column;
+        align-items: flex-start;
+        gap: $indent-20;
+      }
+
+      &__twoBlock {
+        width: 100%;
+        @include flex-row;
+        gap: $indent-35;
+
+        &__one, &__two {
+          @include flex-column;
+          align-items: flex-start;
+          gap: $indent-20;
+        }
+      }
     }
 
     &__card {
@@ -35,3 +58,81 @@
     }
   }
 }
+
+@media screen and (max-width: 1250px) {
+  .wrapper__contacts__text {
+    flex-wrap: wrap;
+  }
+  .wrapper__contacts__text__oneBlock, .wrapper__contacts__text__twoBlock, .wrapper__contacts__text__twoBlock__one, .wrapper__contacts__text__twoBlock__two {
+    flex-direction: row;
+  }
+  .wrapper__contacts__text__twoBlock {
+    align-items: flex-start;
+  }
+  .wrapper__contacts__text__oneBlock {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .wrapper__contacts__text__twoBlock {
+    justify-content: flex-start;
+  }
+  .wrapper__contacts__text__twoBlock__one, .wrapper__contacts__text__twoBlock__two {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: min-content;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .wrapper__contacts__text__oneBlock {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .wrapper__contacts__text {
+    gap: $indent-20;
+  }
+  .wrapper__contacts__text__twoBlock {
+    flex-direction: column;
+    gap: $indent-20;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .wrapper__contacts__text__twoBlock__one, .wrapper__contacts__text__twoBlock__two {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .wrapper {
+    gap: $indent-20;
+  }
+  .wrapper__title {
+    @include inter-medium-35;
+    font-size: 30px;
+  }
+}
+
+//@media screen and (max-width: 1215px) {
+//  .wrapper__contacts__text {
+//    grid-template-columns: repeat(2, 1fr);
+//
+//  }
+//}
+//
+//@media screen and (max-width: 925px) {
+//  .wrapper__contacts__text {
+//    column-gap: $indent-20;
+//  }
+//}
+//
+//@media screen and (max-width: 890px) {
+//  .wrapper__contacts__text {
+//    grid-template-columns: 1fr;
+//
+//  }
+//}

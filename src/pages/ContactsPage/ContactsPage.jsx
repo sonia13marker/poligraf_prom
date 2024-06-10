@@ -1,40 +1,75 @@
 import styles from "./ContactsPage.module.scss";
 import AdressComponent from "../../components/AdressComponent/AdressComponent";
 import ContactsSlider from "../../components/ContactsSlider/ContactsSlider";
+import { useEffect, useState } from "react";
 
 export default function ContactsPage() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.wrapper__title}>Контакты</h2>
 
       <div className={styles.wrapper__contacts}>
         <span className={styles.wrapper__contacts__text}>
-          <AdressComponent
-            type="contacts"
-            title="Адрес"
-            text="г. Краснодар, ул. Зиповская, 9, литер К, офис 6"
-          />
-          <AdressComponent
-            type=""
-            title="Email"
-            text="poligrafprom-krd@mail.ru"
-          />
-          <AdressComponent
-            type=""
-            title="Телефон директора"
-            text="+7-918-076-14-64 (Александр)"
-          />
-          <AdressComponent
-            type=""
-            title="Телефон менеджера-технолога"
-            text="+7-918-076-14-65 (Игорь)"
-          />
-          <AdressComponent type="" title="Skype" text="skatov67 (Александр)" />
-          <AdressComponent
-            type=""
-            title="Skype"
-            text="poligraphprom-igor (Игорь)"
-          />
+          <span className={styles.wrapper__contacts__text__oneBlock}>
+            {windowWidth <= 645 ? (
+              <AdressComponent
+                type="mobile"
+                title="Адрес"
+                text="г. Краснодар, ул. Зиповская, 9, литер К, офис 6"
+              />
+            ) : (
+              <AdressComponent
+                type="contacts"
+                title="Адрес"
+                text="г. Краснодар, ул. Зиповская, 9, литер К, офис 6"
+              />
+            )}
+            <AdressComponent
+              type=""
+              title="Email"
+              text="poligrafprom-krd@mail.ru"
+            />
+          </span>
+
+          <span className={styles.wrapper__contacts__text__twoBlock}>
+            <span className={styles.wrapper__contacts__text__twoBlock__one}>
+              <AdressComponent
+                type=""
+                title="Телефон директора"
+                text="+7-918-076-14-64 (Александр)"
+              />
+              <AdressComponent
+                type=""
+                title="Телефон менеджера-технолога"
+                text="+7-918-076-14-65 (Игорь)"
+              />
+            </span>
+            <span className={styles.wrapper__contacts__text__twoBlock__two}>
+              <AdressComponent
+                type=""
+                title="Skype"
+                text="skatov67 (Александр)"
+              />
+              <AdressComponent
+                type=""
+                title="Skype"
+                text="poligraphprom-igor (Игорь)"
+              />
+            </span>
+          </span>
         </span>
         {/*yandex-card*/}
         <iframe
