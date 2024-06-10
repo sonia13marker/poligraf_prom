@@ -23,3 +23,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 485px) {
+  .tagList {
+    margin-bottom: $indent-35;
+  }
+}

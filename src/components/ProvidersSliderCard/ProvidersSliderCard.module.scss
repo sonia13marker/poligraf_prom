@@ -130,9 +130,8 @@
 }
 
 @media screen and (max-width: 485px) {
-  .slider__card__wrapper__name {
-    @include inter-regular-18;
-    font-weight: 500;
+  .slider__card__wrapper__name, .page__card__wrapper__line__name {
+    @include inter-regular-20;
+    //font-weight: 500;
   }
-
 }

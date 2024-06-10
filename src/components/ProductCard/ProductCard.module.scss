@@ -49,3 +49,10 @@
     }
   }
 }
+
+@media screen and (max-width: 485px) {
+  .card__wrapper__name {
+    @include inter-regular-20;
+  }
+
+}
