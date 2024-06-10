@@ -16,11 +16,9 @@ export default function SmallNewsComponent() {
     };
   }, []);
   const getVisibleCardsCount = () => {
-    // if (isResized >= 105) return 1;
     if (isResized <= 1095) return 1;
   };
   const visibleCardsCount = getVisibleCardsCount();
-  console.log(visibleCardsCount);
 
   const news = [
     {

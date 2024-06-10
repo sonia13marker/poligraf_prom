@@ -1,50 +1,135 @@
 @import "../../style.module";
 
 .background {
-  @include flex-column;
-  align-items: stretch;
-  justify-content: space-between;
-  width: 1300px;
-  height: 470px;
-  background: url("../../images/AD-2.png") center center no-repeat;
-  padding: 40px 30px;
+  //@include flex-column;
+  //align-items: stretch;
+  //justify-content: space-between;
+  display: block;
+  width: 100%;
+  height: 490px;
+  background: url("../../images/AD-2-picture1.png") no-repeat;
+  background-size: contain;
+  //margin: 40px 30px;
   margin-bottom: $indent-150;
 
-  &__textList {
-    @include flex-column;
-    align-items: flex-end;
+  //&__textList {
+  //  @include flex-column;
+  //  align-items: flex-end;
+  //
+  //  &__text {
+  //    @include inter-medium-50;
+  //    font-weight: 400;
+  //    padding: 10px 15px;
+  //    color: $main-black;
+  //    background-color: $main-white;
+  //  }
+  //}
+  //
+  //&__text2 {
+  //  width: max-content;
+  //  @include inter-regular-20;
+  //  font-weight: 400;
+  //  padding: 8px 15px;
+  //  color: $main-black;
+  //  background-color: $main-white;
+  //  border-radius: $border-radius;
+  //}
+}
 
-    &__text {
-      @include inter-medium-50;
-      font-weight: 400;
-      padding: 10px 15px;
-      color: $main-black;
-      background-color: $main-white;
-    }
+//
+//.text1 {
+//  border-radius: $border-radius;
+//  border-bottom-right-radius: 0;
+//}
+//
+//.text2 {
+//  border-bottom-left-radius: $border-radius;
+//}
+//
+//.text3 {
+//  border-radius: $border-radius;
+//  border-top-left-radius: 0;
+//  border-top-right-radius: 0;
+//}
+@media screen and (max-width: 1415px) {
+  .background {
+    height: 450px;
   }
+}
 
-  &__text2 {
-    width: max-content;
-    @include inter-regular-20;
-    font-weight: 400;
-    padding: 8px 15px;
-    color: $main-black;
-    background-color: $main-white;
-    border-radius: $border-radius;
+@media screen and (max-width: 1180px) {
+  .background {
+    height: 400px;
   }
 }
 
-.text1 {
-  border-radius: $border-radius;
-  border-bottom-right-radius: 0;
+
+@media screen and (max-width: 1125px) {
+  .background {
+    height: 360px;
+  }
 }
 
-.text2 {
-  border-bottom-left-radius: $border-radius;
+@media screen and (max-width: 1095px) {
+  .background {
+    //width: 100%;
+    height: 400px;
+    background: url("../../images/AD-2-picture.png") no-repeat;
+    background-size: contain;
+  }
 }
 
-.text3 {
-  border-radius: $border-radius;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+@media screen and (max-width: 940px) {
+  .background {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .background {
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .background {
+    margin-bottom: $indent-65;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .background {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .background {
+    height: 230px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .background {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .background {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .background {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .background {
+    height: 150px;
+  }
 }
