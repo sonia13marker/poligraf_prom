@@ -16,11 +16,12 @@ export default function SmallNewsComponent() {
     };
   }, []);
   const getVisibleCardsCount = () => {
-    if (isResized >= 1095) return 2;
-    if (isResized <= 1090) return 1;
+    // if (isResized >= 105) return 1;
+    if (isResized <= 1095) return 1;
   };
   const visibleCardsCount = getVisibleCardsCount();
-  // const sliceNumber =
+  console.log(visibleCardsCount);
+
   const news = [
     {
       title: "Новинки от INKNOVATORS",
@@ -47,7 +48,7 @@ export default function SmallNewsComponent() {
         <h2 className={style.wrapperTwo__title}>Новости </h2>
 
         <span className={style.wrapperTwo__elements}>
-          {news.slice(visibleCardsCount).map((oneNew, i) => (
+          {news.slice(visibleCardsCount || undefined).map((oneNew, i) => (
             <NewsCard
               key={i}
               tag={oneNew.tag}
