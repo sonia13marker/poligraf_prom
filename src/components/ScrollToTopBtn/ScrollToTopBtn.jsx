@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./ScrollToTopBtn.module.scss";
 import ScrollArrow from "../../icons/ScrollArrow";
+import ResizeComponent from "../ResizeComponent/ResizeComponent";
+import SmallScrollArrow from "../../icons/SmallScrollArrow";
 
 export default function ScrollToTopBtn() {
-  const [isVisible, setIsVisible] = useState(false);
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -12,23 +12,13 @@ export default function ScrollToTopBtn() {
     });
   };
 
-  const handleScroll = () => {
-    if (window.pageYOffset > 100) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
-
-  window.addEventListener("scroll", handleScroll);
-
   return (
-    <button
-      className={style.button}
-      onClick={scrollToTop}
-      style={{ display: isVisible ? "block" : "none" }}
-    >
-      <ScrollArrow />
+    <button className={style.button} onClick={scrollToTop}>
+      <ResizeComponent
+        defaultComponent={<ScrollArrow />}
+        resizedComponent={<SmallScrollArrow />}
+        resizeValue={705}
+      />
     </button>
   );
 }

@@ -23,3 +23,11 @@
     background-color: $news-page-color;
   }
 }
+
+@media screen and (max-width: 705px) {
+  .button {
+    width: 65px;
+    height: 65px;
+  }
+
+}
