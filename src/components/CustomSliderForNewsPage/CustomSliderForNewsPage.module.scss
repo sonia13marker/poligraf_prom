@@ -21,9 +21,15 @@
     overflow: hidden;
     border-radius: $border-radius;
 
-    &__oneImage {
+    &__oneImage, &__oneImage > img {
       width: 100%;
-      height: 100%;
+      height: auto;
     }
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .slider__buttons {
+    gap: $indent-10;
   }
 }

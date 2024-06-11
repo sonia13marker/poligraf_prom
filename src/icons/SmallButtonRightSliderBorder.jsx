@@ -17,8 +17,22 @@ export default function SmallButtonRightSliderBorder({ color, onClickAction }) {
         cursor: color === "#007CBC" ? "default" : "pointer",
       }}
     >
-      <rect x="0.5" y="0.5" width="32" height="30" rx="8.5" fill="#2E379E" />
-      <rect x="0.5" y="0.5" width="32" height="30" rx="8.5" stroke="#2E379E" />
+      <rect
+        x="0.5"
+        y="0.5"
+        width="32"
+        height="30"
+        rx="8.5"
+        fill={color === "#D5D6D7" ? "#FDFEFF" : color || "#2E379E"}
+      />
+      <rect
+        x="0.5"
+        y="0.5"
+        width="32"
+        height="30"
+        rx="8.5"
+        stroke={color || "#2E379E"}
+      />
       <path
         d="M17.3401 21L16.3673 20.067L20.3722 16.1752H10V14.8248H20.3722L16.3673 10.9453L17.3401 10L23 15.5L17.3401 21Z"
         fill="#FDFEFF"

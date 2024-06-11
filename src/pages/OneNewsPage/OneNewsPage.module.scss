@@ -30,6 +30,7 @@
       @include flex-column;
       align-items: flex-start;
       gap: $indent-65;
+      width: 100%;
 
       &__img {
         max-width: 615px;
@@ -55,6 +56,31 @@
 .textCenter {
   max-width: 850px;
   width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .wrapper__title {
+    @include inter-medium-35;
+    font-size: 30px;
+    text-align: left;
+  }
+  .wrapper__textContainer__text {
+    @include inter-regular-18;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .wrapper {
+    gap: $indent-20;
+  }
+  .wrapper__title {
+    @include inter-medium-20;
+    font-size: 25px;
+  }
+  .wrapper__textContainer {
+    gap: $indent-20 !important;
+  }
 }
 
 
