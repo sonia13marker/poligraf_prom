@@ -132,7 +132,16 @@
 @media screen and (max-width: 485px) {
   .slider__card__wrapper__name, .page__card__wrapper__line__name {
     @include inter-regular-20;
-    //font-weight: 500;
+  }
+  .page__card:hover {
+    background-color: $main-white;
+    border-color: $main-gray;
+  }
+  .page__card:active {
+    border-color: $provider-page-color;
+  }
+  .page__card:hover a {
+    color: $provider-page-color;
   }
 }
 

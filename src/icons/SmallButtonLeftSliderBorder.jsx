@@ -14,7 +14,7 @@ export default function SmallButtonLeftSliderBorder({ color, onClickAction }) {
       onMouseLeave={() => setIsHovered(false)}
       style={{
         pointerEvents: color === "#D5D6D7" ? "none" : "auto",
-        cursor: color === "#007CBC" ? "default" : "pointer",
+        cursor: color === "#007CBC" || "#2E379E" ? "default" : "pointer",
       }}
     >
       <rect
@@ -35,7 +35,7 @@ export default function SmallButtonLeftSliderBorder({ color, onClickAction }) {
       />
       <path
         d="M15.6599 21L16.6327 20.067L12.6278 16.1752H23V14.8248H12.6278L16.6327 10.9453L15.6599 10L10 15.5L15.6599 21Z"
-        fill="#FDFEFF"
+        fill={color === "#D5D6D7" ? "#D5D6D7" : "#FDFEFF"}
       />
     </svg>
   ) : (

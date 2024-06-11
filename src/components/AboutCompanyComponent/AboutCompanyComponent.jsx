@@ -14,7 +14,7 @@ export default function AboutCompanyComponent() {
         <span className={styles.about__wrapper__oneHalf}>
           <span className={styles.about__wrapper__oneHalf__one}>
             <AboutCompanySmallBlock
-              text="Стабильность - наш ключ к успеху. Мы работаем уже более 13 лет"
+              text="Стабильность - наш ключ к успеху, мы работаем уже более 13 лет"
               color={`$catalog-page-color`}
             />
             <AboutCompanySmallBlock
@@ -24,7 +24,7 @@ export default function AboutCompanyComponent() {
           </span>
           <AboutCompanyBigBlock
             color={`$main-page-color`}
-            text="ООО «Полиграфпром» работает лишь с крупнейшими компаниями Европы, Америки и Азии, которые зарекомендовали себя на мировом рынке как стабильные, надежные партнеры, поставляющие неизменно качественную продукцию."
+            text="ООО «Полиграфпром» работает лишь с крупнейшими компаниями Европы, Америки и Азии, которые зарекомендовали себя на мировом рынке как стабильные, надежные партнеры, поставляющие неизменно качественную продукцию"
           />
         </span>
         <span className={styles.about__wrapper__twoHalf}>
@@ -35,7 +35,7 @@ export default function AboutCompanyComponent() {
                 text="Офис и постоянно возобновляемый склад, находящиеся на одной территории"
               />
               <AboutCompanySmallBlock
-                text="Мы предоставляем наши услуги клиентам из всего Южного федерального округа"
+                text="Мы предоставляем наши услуги клиентам всего Южного федерального округа"
                 color={`$catalog-page-color`}
               />
             </span>

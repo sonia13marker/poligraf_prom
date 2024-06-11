@@ -11,7 +11,7 @@ export default function ADFirst() {
         <p className={styles.background__text__p}>
           Поможем разобраться в деталях, объясним принцип работы, правильно
           настроим оборудование, проконсультируем перед покупкой и всегда будем
-          на связи после приобретения товара.
+          на связи после приобретения товара
         </p>
       </span>
       <img src={img} alt="" className={styles.background__image} />

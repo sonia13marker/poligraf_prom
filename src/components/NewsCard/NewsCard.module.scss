@@ -21,7 +21,7 @@
   }
 
   &__image {
-    background-color: $main-white;
+    //background-color: $main-white;
     max-width: 420px;
     max-height: 210px;
     width: 100%;
@@ -68,7 +68,6 @@
   .wrapper {
     width: 310px;
     border: 2px solid $main-gray;
-    border-top-color: $main-white;
   }
   .wrapper__image {
     width: 310px;

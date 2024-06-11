@@ -1,6 +1,10 @@
 import { useState } from "react";
 
-export default function ButtonLeftSliderNoBorders({ color, onClickAction }) {
+export default function ButtonLeftSliderNoBorders({
+  color,
+  onClickAction,
+  type,
+}) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -20,7 +24,7 @@ export default function ButtonLeftSliderNoBorders({ color, onClickAction }) {
     >
       <path
         d="M17.9545 25.9091L19.3217 24.5597L13.6932 18.9311H28.2706V16.978H13.6932L19.3217 11.3672L17.9545 10L10 17.9545L17.9545 25.9091Z"
-        fill={isHovered ? "#2E379E" : color}
+        fill={isHovered ? (type === "mobile" ? color : "#2E379E") : color}
       />
     </svg>
   );

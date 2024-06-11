@@ -4,6 +4,7 @@ import pic2 from "../../images/slider-pic-2.png";
 import { useState } from "react";
 import ButtonLeftSliderNoBorders from "../../icons/ButtonLeftSliderNoBorders";
 import ButtonRightSliderNoBorder from "../../icons/ButtonRightSliderNoBorder";
+import ResizeComponent from "../ResizeComponent/ResizeComponent";
 
 export default function AboutCompanySlider() {
   const images = [pic1, pic2];
@@ -26,13 +27,45 @@ export default function AboutCompanySlider() {
       </span>
       <span className={styles.slider__wrapper__textBlock}>
         <span className={styles.slider__wrapper__textBlock__wrapperBtns}>
-          <ButtonLeftSliderNoBorders
-            onClickAction={prevSlide}
-            color={currentImageIndex === 0 ? "#D5D6D7" : "#007CBC"}
+          {/*<ButtonLeftSliderNoBorders*/}
+          {/*  onClickAction={prevSlide}*/}
+          {/*  color={currentImageIndex === 0 ? "#D5D6D7" : "#007CBC"}*/}
+          {/*/>*/}
+          {/*<ButtonRightSliderNoBorder*/}
+          {/*  onClickAction={nextSlide}*/}
+          {/*  color={currentImageIndex === 1 ? "#D5D6D7" : "#007CBC"}*/}
+          {/*/>*/}
+          <ResizeComponent
+            defaultComponent={
+              <ButtonLeftSliderNoBorders
+                onClickAction={prevSlide}
+                color={currentImageIndex === 0 ? "#D5D6D7" : "#007CBC"}
+              />
+            }
+            resizedComponent={
+              <ButtonLeftSliderNoBorders
+                type="mobile"
+                onClickAction={prevSlide}
+                color={currentImageIndex === 0 ? "#D5D6D7" : "#007CBC"}
+              />
+            }
+            resizeValue="485"
           />
-          <ButtonRightSliderNoBorder
-            onClickAction={nextSlide}
-            color={currentImageIndex === 1 ? "#D5D6D7" : "#007CBC"}
+          <ResizeComponent
+            defaultComponent={
+              <ButtonRightSliderNoBorder
+                onClickAction={nextSlide}
+                color={currentImageIndex === 1 ? "#D5D6D7" : "#007CBC"}
+              />
+            }
+            resizedComponent={
+              <ButtonRightSliderNoBorder
+                type="mobile"
+                onClickAction={nextSlide}
+                color={currentImageIndex === 1 ? "#D5D6D7" : "#007CBC"}
+              />
+            }
+            resizeValue="485"
           />
         </span>
         {currentImageIndex === 0 ? (
