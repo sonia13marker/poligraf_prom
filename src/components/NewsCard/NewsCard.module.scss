@@ -2,7 +2,7 @@
 
 .wrapper {
   @include flex-column;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
   position: relative;
   width: 420px;
@@ -23,7 +23,7 @@
   &__image {
     //background-color: $main-white;
     max-width: 420px;
-    max-height: 210px;
+    max-height: 200px;
     width: 100%;
     height: 100%;
     border-radius: $border-radius;
@@ -36,13 +36,18 @@
     color: $main-black;
     padding: 0 20px 20px;
     width: 100%;
-    height: 100%;
-    gap: 50px;
+    height: 125px;
+    //gap: 50px;
     text-decoration: none;
 
     &__title {
       @include inter-regular-20;
       width: 100%;
+      display: -webkit-box; /* Использование flex-контейнера с определенной ориентацией */
+      -webkit-box-orient: vertical; /* Определение вертикальной ориентации контейнера */
+      -webkit-line-clamp: 2; /* Определение максимального количества отображаемых строк */
+      overflow: hidden; /* Обрезание текста, который не помещается в заданное количество строк */
+      text-overflow: ellipsis;
     }
 
     &__button {

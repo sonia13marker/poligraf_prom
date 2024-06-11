@@ -6,8 +6,15 @@
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
   justify-items: center;
   align-items: center;
-  gap: $indent-20;
+  row-gap: $indent-20;
   margin-bottom: $indent-150;
+}
+
+
+@media screen and (max-width: 1105px) {
+  .wrapper {
+    gap: $indent-20;
+  }
 }
 
 @media screen and (max-width: 350px) {

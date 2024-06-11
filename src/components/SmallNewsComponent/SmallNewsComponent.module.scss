@@ -22,6 +22,7 @@
   @include flex-column;
   gap: $indent-35;
   width: 100%;
+  height: max-content;
   align-items: stretch;
 
   &__title {
@@ -30,6 +31,7 @@
 
   &__elements {
     width: 100%;
+    height: 100%;
     //@include flex-row;
     display: grid;
     grid-template-rows: max-content;

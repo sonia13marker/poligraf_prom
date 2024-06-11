@@ -11,7 +11,7 @@
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     justify-items: center;
     align-items: center;
-    gap: $indent-20;
+    row-gap: $indent-20;
     width: 100%;
 
   }
@@ -26,6 +26,12 @@
       background-color: $catalog-page-color;
       cursor: pointer;
     }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .wrapper__list {
+    gap: $indent-20;
   }
 }
 
