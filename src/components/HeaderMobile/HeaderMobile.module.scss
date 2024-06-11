@@ -6,7 +6,6 @@
   gap: $indent-65;
   background-color: $main-white;
   margin-bottom: 30px;
-  //padding: 30px 70px;
 
   &__container {
     @include flex-row;
@@ -14,8 +13,8 @@
     width: 100%;
 
     &__logo {
-      width: 225px;
-      height: 35px;
+      width: 265px;
+      height: 37px;
     }
 
     &__button {
@@ -92,6 +91,13 @@
         display: flex;
       }
     }
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .header__container__logo {
+    width: 225px;
+    height: 35px;
   }
 }
 

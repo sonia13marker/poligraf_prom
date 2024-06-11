@@ -9,7 +9,7 @@ export default function Wrapper() {
   return (
     <div className={style.wrapper}>
       <ResizeComponent
-        resizeValue="880"
+        resizeValue="1015"
         defaultComponent={<Header />}
         resizedComponent={<HeaderMobile />}
       />

@@ -19,7 +19,9 @@ export default function Header() {
 
       <HeaderListComponent links={links} />
 
-      <p className={styles.header__number}>+7-918-076-14-64</p>
+      <a href="tel:79180761464" className={styles.header__number}>
+        +7-918-076-14-64
+      </a>
     </div>
   );
 }

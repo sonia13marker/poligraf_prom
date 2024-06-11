@@ -15,5 +15,12 @@
 
   &__number {
     @include inter-medium-14;
+    text-decoration: none;
+    color: $main-black;
+    transition: 0.3s color;
+
+    &:hover {
+      color: $contacts-page-color;
+    }
   }
 }
