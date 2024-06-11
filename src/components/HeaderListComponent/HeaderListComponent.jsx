@@ -9,10 +9,11 @@ export default function HeaderListComponent({ links }) {
         <NavLink
           key={index}
           to={link.to}
-          className={`${styles.listComponent__component} ${styles[link.colorClass]}`}
+          className={({ isActive }) =>
+            `${styles.listComponent__component} ${styles[link.colorClass]} ${isActive ? styles.active : ""}`
+          }
         >
-          {" "}
-          {link.name}{" "}
+          {link.name}
         </NavLink>
       ))}
     </nav>
