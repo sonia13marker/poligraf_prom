@@ -83,5 +83,11 @@
   }
 }
 
+@media screen and (max-width: 385px) {
+  .wrapper {
+    margin-top: $indent-35;
+  }
+}
+
 
 

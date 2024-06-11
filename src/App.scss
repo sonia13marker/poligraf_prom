@@ -7,6 +7,12 @@
   padding: 30px 70px 0 70px;
 }
 
+@media screen and (max-width: 575px) {
+  .App {
+    padding: 30px 45px 0 45px;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .App {
     padding: 30px 25px 0 25px;
@@ -15,12 +21,12 @@
 
 @media screen and (max-width: 360px) {
   .App {
-    padding: 30px 10px 0 10px;
+    padding: 30px 20px 0 20px;
   }
 }
 
 @media screen and (max-width: 335px) {
   .App {
-    padding: 30px 5px 0 5px;
+    padding: 30px 10px 0 10px;
   }
 }

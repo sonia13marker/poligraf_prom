@@ -90,9 +90,9 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 485px) {
   .about__title {
-    @include inter-regular-35;
+    @include inter-medium-35;
     font-size: 30px;
     padding-bottom: $indent-20;
   }

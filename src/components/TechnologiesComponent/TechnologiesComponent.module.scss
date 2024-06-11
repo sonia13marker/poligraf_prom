@@ -36,12 +36,18 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 485px) {
   .wrapper {
-    margin-bottom: $indent-65;
+    gap: $indent-20;
   }
   .wrapper__title {
     @include inter-medium-35;
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    margin-bottom: $indent-65;
   }
 }

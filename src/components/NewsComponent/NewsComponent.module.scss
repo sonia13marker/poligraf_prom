@@ -55,3 +55,15 @@
     gap: 20px;
   }
 }
+
+@media screen and (max-width: 485px) {
+  .wrapper__button {
+    @include inter-regular-18;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .wrapper__list {
+    justify-items: start;
+  }
+}

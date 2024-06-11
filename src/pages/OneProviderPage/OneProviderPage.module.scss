@@ -39,5 +39,11 @@
 
     }
   }
+}
+
+@media screen and (max-width: 385px) {
+  .container {
+    margin-top: $indent-35;
+  }
 
 }

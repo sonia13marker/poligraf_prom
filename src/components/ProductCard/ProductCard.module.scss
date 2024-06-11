@@ -54,5 +54,10 @@
   .card__wrapper__name {
     @include inter-regular-20;
   }
+}
 
+@media screen and (max-width: 330px) {
+  .card {
+    width: 300px;
+  }
 }

@@ -79,5 +79,10 @@
   .wrapper__textBlock__title {
     @include inter-regular-18;
   }
+}
 
+@media screen and (max-width: 330px) {
+  .wrapper, .wrapper__image {
+    width: 300px;
+  }
 }

@@ -33,5 +33,14 @@
   .wrapper {
     gap: $indent-20;
   }
+  .wrapper__button {
+    @include inter-regular-18;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .wrapper__list {
+    justify-items: start;
+  }
 }
 

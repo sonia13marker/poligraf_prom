@@ -10,9 +10,9 @@ import OneProviderPage from "./pages/OneProviderPage/OneProviderPage";
 import OneNewsPage from "./pages/OneNewsPage/OneNewsPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage"; // import i1 from "./images/AD-2.png";
-import i2 from "./images/slider-pic-1.png";
-import i3 from "./images/contacts slider 2.png";
-import i4 from "./images/logo_footer_desktop.png";
+// import i2 from "./images/slider-pic-1.png";
+// import i3 from "./images/contacts slider 2.png";
+// import i4 from "./images/logo_footer_desktop.png";
 // import file1 from "./images/1TECH_1.pdf";
 // import file2 from "./images/1TECH_2.pdf";
 // import file3 from "./images/1TECH_3.pdf";
@@ -20,12 +20,12 @@ import i4 from "./images/logo_footer_desktop.png";
 // import map from "./images/color_map_inknovators.jpg";
 
 function App() {
-  const data = {
-    title: "Новинки от INKNOVATORS",
-    tag: "new",
-    images: [i2, i3, i4],
-    desc: "Уважаемые клиенты! В нашем ассортименте появились пластизольные краски турецкого производства «INKNOVATORS». Характеристики этих красок, режимы работы с ними полностью схожи с требованиями к другим пластизолям, которыми торгует наша компания. В продаже имеются цветные кроющие краски, три вида белой краски для разных задач и материалов, прозрачные базы, триадный комплект, флуоресцентные краски шести цветов, металлики (золото и серебро) и концентрат, вспенивающий краску.",
-  };
+  // const data = {
+  //   title: "Новинки от INKNOVATORS",
+  //   tag: "new",
+  //   images: [i2, i3, i4],
+  //   desc: "Уважаемые клиенты! В нашем ассортименте появились пластизольные краски турецкого производства «INKNOVATORS». Характеристики этих красок, режимы работы с ними полностью схожи с требованиями к другим пластизолям, которыми торгует наша компания. В продаже имеются цветные кроющие краски, три вида белой краски для разных задач и материалов, прозрачные базы, триадный комплект, флуоресцентные краски шести цветов, металлики (золото и серебро) и концентрат, вспенивающий краску.",
+  // };
   // const data = {
   //   id: 1,
   //   title: "Трансферная печать",
@@ -133,9 +133,9 @@ function App() {
             path="news/:id"
             element={
               <OneNewsPage
-                title={data.title}
-                images={data.images}
-                text={data.desc}
+              // title={data.title}
+              // images={data.images}
+              // text={data.desc}
               />
             }
           />

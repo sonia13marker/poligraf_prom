@@ -65,12 +65,21 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  .wrapper {
+@media screen and (max-width: 485px) {
+  .wrapperTwo {
     gap: $indent-20;
   }
   .wrapperTwo__title {
     @include inter-medium-35;
     font-size: 30px;
+  }
+  .wrapper__button {
+    @include inter-regular-18;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    gap: $indent-20;
   }
 }
