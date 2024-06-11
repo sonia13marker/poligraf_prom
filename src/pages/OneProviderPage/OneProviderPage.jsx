@@ -11,7 +11,7 @@ export default function OneProviderPage({
   products,
   documentLink,
 }) {
-  console.log(products);
+  console.log(tagList);
   return (
     <div className={style.container}>
       <span className={style.container__header}>
@@ -23,11 +23,11 @@ export default function OneProviderPage({
           siteLink={siteLink}
           documentLink={documentLink}
         />
-        <span className={style.container__header__tagList}>
-          {/*{tagList.map((tag, i) => (*/}
-          {/*  <TagsComponent key={i} title={tag.title} tagList={tag.tagList} />*/}
-          {/*))}*/}
-        </span>
+        {/*<span className={style.container__header__tagList}>*/}
+        {/*  {tagList.map((tag, i) => (*/}
+        {/*    <TagsComponent key={i} title={tag.title} tagList={tag.tagList} />*/}
+        {/*  ))}*/}
+        {/*</span>*/}
       </span>
       <OneProviderComponent products={products} />
     </div>

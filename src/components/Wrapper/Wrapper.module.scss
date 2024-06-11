@@ -14,5 +14,10 @@
   .wrapper {
     margin: 0 70px;
   }
+}
 
+@media screen and (max-width: 485px) {
+  .wrapper {
+    margin: 0;
+  }
 }

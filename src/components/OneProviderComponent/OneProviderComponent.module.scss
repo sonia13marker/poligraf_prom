@@ -6,11 +6,13 @@
 
   &__cardsList {
     width: 100%;
-    @include flex-row;
-    flex-wrap: wrap;
-    column-gap: 20px;
-    justify-content: flex-start;
-    row-gap: $indent-35;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: $indent-20;
+    //justify-content: flex-start;
+    //row-gap: $indent-35;
 
     &__btnShowMore {
       @include main-button;

@@ -2,6 +2,8 @@ import style from "./GoBackButton.module.scss";
 import LeftArrow from "../../icons/LeftArrow";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import ResizeComponent from "../ResizeComponent/ResizeComponent";
+import SmallLeftArrow from "../../icons/SmallLeftArrow";
 
 export default function GoBackButton({ type }) {
   const [isHover, setIsHover] = useState(false);
@@ -24,7 +26,11 @@ export default function GoBackButton({ type }) {
         onMouseEnter={handleMouseOn}
         onMouseLeave={handleMouseDown}
       >
-        <LeftArrow type="news" hover={isHover} />
+        <ResizeComponent
+          defaultComponent={<LeftArrow type="news" hover={isHover} />}
+          resizedComponent={<SmallLeftArrow type="news" hover={isHover} />}
+          resizeValue="485"
+        />
         Назад
       </button>
     );
@@ -36,7 +42,11 @@ export default function GoBackButton({ type }) {
         onMouseEnter={handleMouseOn}
         onMouseLeave={handleMouseDown}
       >
-        <LeftArrow type="providers" hover={isHover} />
+        <ResizeComponent
+          defaultComponent={<LeftArrow type="providers" hover={isHover} />}
+          resizedComponent={<SmallLeftArrow type="providers" hover={isHover} />}
+          resizeValue="485"
+        />
         Назад
       </button>
     );
@@ -48,7 +58,11 @@ export default function GoBackButton({ type }) {
         onMouseEnter={handleMouseOn}
         onMouseLeave={handleMouseDown}
       >
-        <LeftArrow type="main page" hover={isHover} />
+        <ResizeComponent
+          defaultComponent={<LeftArrow type="main page" hover={isHover} />}
+          resizedComponent={<SmallLeftArrow type="main page" hover={isHover} />}
+          resizeValue="485"
+        />
         Назад
       </button>
     );

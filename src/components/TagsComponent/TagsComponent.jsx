@@ -4,7 +4,8 @@ import Tag from "../Tag/Tag";
 
 export default function TagsComponent({ title, tagList, page }) {
   const [showAllTags, setShowAllTags] = useState(false);
-  const displayedTags = showAllTags ? tagList : tagList.slice(0, 3);
+  const displayedTags = showAllTags ? tagList : tagList?.slice(0, 3);
+  console.log(tagList);
   return (
     <span className={style.wrapper}>
       <h5 className={style.wrapper__title}> {title}: </h5>
