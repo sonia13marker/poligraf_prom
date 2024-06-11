@@ -56,3 +56,24 @@
     }
   }
 }
+
+@media screen and (max-width: 505px) {
+  .wrapper__textContainer__files {
+    gap: $indent-20;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .wrapper {
+    gap: $indent-20;
+    margin: 35px auto 65px;
+  }
+  .wrapper__header__title {
+    @include inter-medium-35;
+    font-size: 30px;
+  }
+  .wrapper__textContainer__paragraf__text {
+    @include inter-regular-18;
+    text-align: left;
+  }
+}
