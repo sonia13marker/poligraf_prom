@@ -53,7 +53,11 @@ export default function HeaderMobile() {
             : `${styles.header__container__body}`
         }
       >
-        <FooterListComponent links={links} customStyle={customStyle} />
+        <FooterListComponent
+          links={links}
+          customStyle={customStyle}
+          onClick={() => setActive(!active)}
+        />
 
         <span className={styles.header__container__body__adressBlock}>
           <AdressComponent
@@ -63,7 +67,7 @@ export default function HeaderMobile() {
           />
           <AdressComponent
             type="mobile"
-            title="Номер телефона:"
+            title="Номер телефона"
             text="+7-918-076-14-64"
           />
         </span>
