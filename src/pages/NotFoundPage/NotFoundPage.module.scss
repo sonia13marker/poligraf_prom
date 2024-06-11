@@ -17,10 +17,6 @@
       color: $main-black;
     }
 
-    &__img {
-
-    }
-
     &__p {
       @include inter-regular-25;
       color: $main-black;
@@ -36,5 +32,24 @@
     }
   }
 
+}
+
+@media screen and (max-width: 485px) {
+  .wrapper__text__title {
+    @include inter-medium-35;
+    font-size: 30px;
+  }
+  .wrapper__text {
+    gap: $indent-20;
+  }
+  .wrapper__text__p {
+    @include inter-regular-18;
+  }
+  .wrapper__text__img {
+    height: 135px;
+  }
+  .wrapper {
+    gap: $indent-35;
+  }
 }
 
