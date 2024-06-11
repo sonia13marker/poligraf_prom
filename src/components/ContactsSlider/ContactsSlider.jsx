@@ -4,7 +4,9 @@ import ButtonRightSliderBorder from "../../icons/ButtonRightSliderBorder";
 import img1 from "../../images/contacts slider 1.png";
 import img2 from "../../images/contacts slider 2.png";
 import img3 from "../../images/AD-2.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import SmallButtonLeftSliderBorder from "../../icons/SmallButtonLeftSliderBorder";
+import SmallButtonRightSliderBorder from "../../icons/SmallButtonRightSliderBorder";
 
 export default function ContactsSlider() {
   const images = [img1, img2, img3];
@@ -16,21 +18,48 @@ export default function ContactsSlider() {
   const prevSlide = () => {
     setCurrentIndex(currentIndex - 1);
   };
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <span className={styles.slider}>
       <span className={styles.slider__header}>
         <h3 className={styles.slider__header__title}>Как к нам проехать?</h3>
         <span className={styles.slider__header__buttons}>
-          <ButtonLeftSliderBorder
-            type="contacts"
-            onClickAction={prevSlide}
-            color={currentIndex === 0 ? "#D5D6D7" : "#2E379E"}
-          />
-          <ButtonRightSliderBorder
-            type="contacts"
-            onClickAction={nextSlide}
-            color={currentIndex === 2 ? "#D5D6D7" : "#2E379E"}
-          />
+          {windowWidth <= 485 ? (
+            <>
+              <SmallButtonLeftSliderBorder
+                onClickAction={prevSlide}
+                color={currentIndex === 0 ? "#D5D6D7" : "#2E379E"}
+              />
+              <SmallButtonRightSliderBorder
+                onClickAction={nextSlide}
+                color={currentIndex === 2 ? "#D5D6D7" : "#2E379E"}
+              />
+            </>
+          ) : (
+            <>
+              <ButtonLeftSliderBorder
+                type="contacts"
+                onClickAction={prevSlide}
+                color={currentIndex === 0 ? "#D5D6D7" : "#2E379E"}
+              />
+              <ButtonRightSliderBorder
+                type="contacts"
+                onClickAction={nextSlide}
+                color={currentIndex === 2 ? "#D5D6D7" : "#2E379E"}
+              />
+            </>
+          )}
         </span>
       </span>
       <span className={styles.slider__body}>
