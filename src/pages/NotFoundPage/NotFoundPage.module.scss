@@ -11,6 +11,11 @@
     @include flex-column;
     gap: $indent-35;
 
+    &__img {
+      width: auto;
+      height: 190px;
+    }
+
     &__title {
       @include inter-medium-50;
       font-weight: 400;
@@ -50,6 +55,9 @@
   }
   .wrapper {
     gap: $indent-35;
+  }
+  .wrapper__button {
+    @include inter-regular-18;
   }
 }
 

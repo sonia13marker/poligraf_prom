@@ -1,6 +1,6 @@
 import style from "./NotFoundPage.module.scss";
 import { Link } from "react-router-dom";
-import image_404 from "../../images/image_404.svg";
+import image_404 from "../../images/image_404.png";
 
 export default function NotFoundPage() {
   return (

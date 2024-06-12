@@ -3,7 +3,7 @@ import ButtonLeftSliderBorder from "../../icons/ButtonLeftSliderBorder";
 import ButtonRightSliderBorder from "../../icons/ButtonRightSliderBorder";
 import img1 from "../../images/contacts slider 1.png";
 import img2 from "../../images/contacts slider 2.png";
-import img3 from "../../images/AD-2.png";
+import img3 from "../../images/contacts slider 2.png";
 import { useEffect, useState } from "react";
 import SmallButtonLeftSliderBorder from "../../icons/SmallButtonLeftSliderBorder";
 import SmallButtonRightSliderBorder from "../../icons/SmallButtonRightSliderBorder";
