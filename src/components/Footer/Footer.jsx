@@ -64,12 +64,12 @@ export default function Footer() {
                   )}
 
                   <AdressComponent
-                    type="mobile"
+                    type="email"
                     title="Email"
                     text="poligrafprom-krd@mail.ru"
                   />
                   <AdressComponent
-                    type="mobile"
+                    type="phone"
                     title="Номер телефона:"
                     text="+7-918-076-14-64"
                   />

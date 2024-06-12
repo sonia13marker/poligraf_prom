@@ -18,13 +18,39 @@ export default function AdressComponent({ title, text, type }) {
       </span>
     );
   } else if (type === "mobile") {
+    return (
+      <span className={styles.wrapper}>
+        <h5 className={styles.wrapper__title}>{title}:</h5>
+        <p className={styles.wrapper__text} style={{ fontSize: "18px" }}>
+          {text}
+        </p>
+      </span>
+    );
+  } else if (type === "phone") {
+    return (
+      <span className={styles.wrapper}>
+        <h5 className={styles.wrapper__title}>{title}:</h5>
+        <a
+          href={`tel:${text}`}
+          className={styles.wrapper__text}
+          style={{ fontSize: "18px" }}
+        >
+          {text}
+        </a>
+      </span>
+    );
+  } else if (type === "email") {
+    return (
+      <span className={styles.wrapper}>
+        <h5 className={styles.wrapper__title}>{title}:</h5>
+        <a
+          href={`mailto:${text}`}
+          className={styles.wrapper__text}
+          style={{ fontSize: "18px" }}
+        >
+          {text}
+        </a>
+      </span>
+    );
   }
-  return (
-    <span className={styles.wrapper}>
-      <h5 className={styles.wrapper__title}>{title}:</h5>
-      <p className={styles.wrapper__text} style={{ fontSize: "18px" }}>
-        {text}
-      </p>
-    </span>
-  );
 }

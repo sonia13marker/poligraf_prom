@@ -66,7 +66,7 @@ export default function HeaderMobile() {
             text="г. Краснодар, ул. Зиповская, 9, литер К, офис 6"
           />
           <AdressComponent
-            type="mobile"
+            type="phone"
             title="Номер телефона"
             text="+7-918-076-14-64"
           />
