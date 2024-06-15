@@ -47,6 +47,12 @@
     &__name {
       @include inter-regular-20;
       font-size: 25px;
+      height: 90px;
+      display: -webkit-box; /* Использование flex-контейнера с определенной ориентацией */
+      -webkit-box-orient: vertical; /* Определение вертикальной ориентации контейнера */
+      -webkit-line-clamp: 3; /* Определение максимального количества отображаемых строк */
+      overflow: hidden; /* Обрезание текста, который не помещается в заданное количество строк */
+      text-overflow: ellipsis;
     }
 
     &__tags {
