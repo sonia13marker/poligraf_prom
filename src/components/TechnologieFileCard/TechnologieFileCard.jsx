@@ -5,6 +5,7 @@ import { useState } from "react";
 
 export default function TechnologieFileCard({ file, fileName }) {
   // console.log(file);
+  const publicPath = process.env.PUBLIC_URL;
   const fileExtension = file?.slice(-3);
   // console.log(fileExtension);
   const [isHover, setIsHover] = useState(false);
@@ -29,7 +30,7 @@ export default function TechnologieFileCard({ file, fileName }) {
   if (fileExtension === "pdf") {
     return (
       <a
-        href={file}
+        href={`${publicPath}/${file}`}
         target="_blank"
         rel="noreferrer"
         className={style.card}
@@ -45,7 +46,7 @@ export default function TechnologieFileCard({ file, fileName }) {
   } else if (fileExtension === "png" || "jpg" || "jpeg") {
     return (
       <a
-        href={file}
+        href={`${publicPath}/${file}`}
         target="_blank"
         rel="noreferrer"
         className={style.card}
