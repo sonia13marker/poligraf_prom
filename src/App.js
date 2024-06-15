@@ -19,6 +19,7 @@ import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage"; 
 // import file3 from "./images/1TECH_3.pdf";
 // import map from "./images/color_map_inknovators.jpg";
 import providers from "./data/providers.json";
+import catalogs from "./data/productsForCatalog.json";
 
 function App() {
   // const data = {
@@ -146,7 +147,7 @@ function App() {
               />
             }
           />
-          <Route path="catalog" element={<CatalogPage />} />
+          <Route path="catalog" element={<CatalogPage catalogs={catalogs} />} />
           <Route path="news" element={<NewsPage />} />
           <Route
             path="news/:id"

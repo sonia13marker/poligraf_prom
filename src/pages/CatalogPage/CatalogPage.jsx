@@ -4,7 +4,7 @@ import tags from "../../data/catalogTags.json";
 import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import ProductsComponent from "../../components/ProductsComponent/ProductsComponent";
 
-export default function CatalogPage() {
+export default function CatalogPage({ catalogs }) {
   return (
     <div className={style.container}>
       <HeaderForPages title="Каталог" searchMock="Найти товары..." />
@@ -18,7 +18,7 @@ export default function CatalogPage() {
           />
         ))}
       </span>
-      <ProductsComponent />
+      <ProductsComponent catalogs={catalogs} />
     </div>
   );
 }

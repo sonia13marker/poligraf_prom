@@ -7,6 +7,7 @@ export default function ProviderProductCard({ image, name, file }) {
       href={`${publicPath}/${file}`}
       target="_blank"
       rel="noreferrer"
+      style={{ cursor: file !== null ? "pointer" : "not-allowed" }}
       className={styles.card}
     >
       <span className={styles.card__wrapper}>

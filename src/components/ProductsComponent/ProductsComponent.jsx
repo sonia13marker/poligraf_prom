@@ -2,16 +2,17 @@ import style from "./ProductsComponent.module.scss";
 import product from "../../data/productsForCatalog.json";
 import ProductCard from "../ProductCard/ProductCard";
 
-export default function ProductsComponent() {
+export default function ProductsComponent({ catalogs }) {
   return (
     <span className={style.wrapper}>
       <span className={style.wrapper__list}>
-        {product.products.map((product, i) => (
+        {catalogs.products.map((product, i) => (
           <ProductCard
             key={i}
             name={product.name}
             image={product.image}
             tags={product.tags}
+            file={product.file}
           />
         ))}
       </span>

@@ -1,12 +1,24 @@
 import styles from "./ProductCard.module.scss";
-import { Link } from "react-router-dom";
 import SmallTag from "../SmallTag/SmallTag";
 
 export default function ProductCard({ name, image, tags, file }) {
+  const publicPath = process.env.PUBLIC_URL;
   return (
-    <Link to={file} className={styles.card}>
+    <a
+      href={`${publicPath}/${file}`}
+      style={{ cursor: file !== null ? "pointer" : "not-allowed" }}
+      target="_blank"
+      rel="noreferrer"
+      className={styles.card}
+    >
       {image && (
-        <img src={image} alt={`${image}`} className={styles.card__image} />
+        <span className={styles.card__wrapperImg}>
+          <img
+            src={`${publicPath}/${image}`}
+            alt={`${image}`}
+            className={styles.card__wrapperImg__image}
+          />
+        </span>
       )}
 
       <span className={styles.card__wrapper}>
@@ -17,6 +29,6 @@ export default function ProductCard({ name, image, tags, file }) {
           ))}
         </span>
       </span>
-    </Link>
+    </a>
   );
 }

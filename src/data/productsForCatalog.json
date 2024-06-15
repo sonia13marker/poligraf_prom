@@ -1,9 +1,115 @@
 {
   "products": [
     {
+      "name": "Пленка трансферная для текстиля золото, шир.150см",
+      "image": "images/menphis/gold.jpg",
+      "file": null,
+      "tags": [
+        "Menphis",
+        "Фольга",
+        "Вспомагательные материалы"
+      ]
+    },
+    {
+      "name": "Фольга трансферная фуксия, шир.150см",
+      "image": "images/menphis/pink.jpg",
+      "file": null,
+      "tags": [
+        "Menphis",
+        "Фольга",
+        "Вспомагательные материалы"
+      ]
+    },
+    {
+      "name": "Пленка трансферная для текстиля серебро, шир.150см",
+      "image": "images/menphis/pink2.jpg",
+      "file": null,
+      "tags": [
+        "Menphis",
+        "Фольга",
+        "Вспомагательные материалы"
+      ]
+    },
+    {
+      "name": "Эмульсия GRAF-HU",
+      "image": "images/saati/9.jpg",
+      "file": "images/saati/1.pdf"
+    },
+    {
+      "name": "Textil HT",
+      "image": "images/saati/7.jpg",
+      "file": "images/saati/2.pdf"
+    },
+    {
+      "name": "Отвердитель для трафарета, 1кг",
+      "image": "images/saati/8.jpg",
+      "file": "images/saati/3.pdf"
+    },
+    {
+      "name": "Трафаретная ретушь, стойкая к растворителям",
+      "image": "images/saati/6.jpg",
+      "file": null,
+      "tags": [
+        "Saati",
+        "Продукты для изготовления ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "REMOVE HR Haze Removers",
+      "image": "images/saati/3.jpg",
+      "file": "images/saati/3.pdf",
+      "tags": [
+        "Saati",
+        "Продукты для регенерации ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Диазо-фотополимерная эмульсия, премиум",
+      "image": "images/saati/4.jpg",
+      "file": null,
+      "tags": [
+        "Saati",
+        "Эмульсии",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Отслаиватель эмульсии (концентрат 1:25), 10кг",
+      "image": "images/saati/2.jpg",
+      "file": null,
+      "tags": [
+        "Saati",
+        "Эмульсии",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Средство для удаления фантомов, щелочной крем",
+      "image": "images/saati/1.jpg",
+      "file": "images/saati/3.pdf",
+      "tags": [
+        "Saati",
+        "Продукты для регенерации ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Средство для удаления краски IR15, 1кг",
+      "image": "images/saati/5.jpg",
+      "file": null,
+      "tags": [
+        "Saati",
+        "Продукты для регенерации ТПФ",
+        "Химия"
+      ]
+    },
+    {
       "id": 1,
       "name": "MagnaPrint® Bling Silver/Gold/Bronze",
       "image": null,
+      "file": null,
       "tags": [
         "MagnaPrint",
         "Водные и вытравные краски",
@@ -14,6 +120,7 @@
       "id": 2,
       "name": "Magnaprint® HB - Neutral(прозрачная) и Opaque(кроющая)",
       "image": null,
+      "file": null,
       "tags": [
         "MagnaPrint",
         "Водные и вытравные краски",
@@ -24,6 +131,7 @@
       "id": 3,
       "name": "MagnaPrint® Discharge AB AW Range",
       "image": null,
+      "file": null,
       "tags": [
         "MagnaPrint",
         "Водные и вытравные краски",
@@ -34,6 +142,7 @@
       "id": 4,
       "name": "MagnaPrint® Expanding LT",
       "image": null,
+      "file": null,
       "tags": [
         "MagnaPrint",
         "Водные и вытравные краски",
@@ -41,9 +150,59 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Proclaim HR",
-      "image": null,
+      "name": "Клей-аэрозоль для столов SPRAY PLUS (желтый), 600",
+      "image": "images/villa/blue.jpg",
+      "file": null,
+      "tags": [
+        "Villa Industrie Chimiche",
+        "Клеи и аэрозоли",
+        "Вспомогательные материалы"
+      ]
+    },
+    {
+      "name": "Клей-аэрозоль для столов SPRAY SPECIAL(Синий), 600",
+      "image": "images/villa/yellow.jpg",
+      "file": null,
+      "tags": [
+        "Villa Industrie Chimiche",
+        "Клеи и аэрозоли",
+        "Вспомогательные материалы"
+      ]
+    },
+    {
+      "name": "Клей-аэрозоль для столов SPRAY SUPER (зеленый), 600",
+      "image": "images/villa/green.jpg",
+      "file": null,
+      "tags": [
+        "Villa Industrie Chimiche",
+        "Клеи и аэрозоли",
+        "Вспомогательные материалы"
+      ]
+    },
+    {
+      "name": "Клей-аэрозоль для столов THERMOSOL SPRAY",
+      "image": "images/villa/reed.jpg",
+      "file": null,
+      "tags": [
+        "Villa Industrie Chimiche",
+        "Клеи и аэрозоли",
+        "Вспомогательные материалы"
+      ]
+    },
+    {
+      "name": "Силиконовый спрей NEUTROSIL SPRAY, 500 мл",
+      "image": "images/villa/brown.jpg",
+      "file": null,
+      "tags": [
+        "Villa Industrie Chimiche",
+        "Клеи и аэрозоли",
+        "Вспомогательные материалы"
+      ]
+    },
+    {
+      "name": "Диазо-фотополимерная эмульсия Ulano QT-THIX, 3,785 л.",
+      "image": "images/ulano/1.jpg",
+      "file": null,
       "tags": [
         "Ulano",
         "Эмульсии",
@@ -51,9 +210,29 @@
       ]
     },
     {
-      "id": 6,
-      "name": "QT-Discharge",
-      "image": null,
+      "name": "Очиститель для трафаретов Ulano SV8, 5 л",
+      "image": "images/ulano/2.jpg",
+      "file": null,
+      "tags": [
+        "Ulano",
+        "Продукты для изготовления ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Отслаиватель эмульсии Ulano Strip-Matic CF концентрат 1:20, 5 л.",
+      "image": "images/ulano/3.jpg",
+      "file": null,
+      "tags": [
+        "Ulano",
+        "Продукты для регенерации ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Ulano Degreaser Conc. 1:50",
+      "image": "images/ulano/4.jpg",
+      "file": null,
       "tags": [
         "Ulano",
         "Эмульсии",
@@ -61,22 +240,52 @@
       ]
     },
     {
-      "id": 7,
-      "name": "QLT™",
-      "image": null,
+      "name": "Средство для удаления фантомных изображений Ulano Ghost Remover Paste,",
+      "image": "images/ulano/5.jpg",
+      "file": null,
       "tags": [
         "Ulano",
-        "Эмульсии",
+        "Продукты для регенерации ТПФ",
         "Химия"
       ]
     },
     {
-      "id": 8,
-      "name": "CTS-HS",
-      "image": null,
+      "name": "Hardener D",
+      "image": "images/ulano/6.jpg",
+      "file": null,
       "tags": [
         "Ulano",
-        "Эмульсии",
+        "Продукты для регенерации ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Гель для удаления фантомных изображений Ulano Actighost Rapid Gel,",
+      "image": "images/ulano/7.jpg",
+      "file": null,
+      "tags": [
+        "Ulano",
+        "Продукты для регенерации ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Ulano Ghost Remover Paste",
+      "image": "images/ulano/8.jpg",
+      "file": null,
+      "tags": [
+        "Ulano",
+        "Продукты для изготовления ТПФ",
+        "Химия"
+      ]
+    },
+    {
+      "name": "Средство для обезжиривания сетки Ulano Magic Mesh Prep, 0.981 кг",
+      "image": "images/ulano/9.jpg",
+      "file": null,
+      "tags": [
+        "Ulano",
+        "Подготовка сеток",
         "Химия"
       ]
     }
