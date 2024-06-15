@@ -15,13 +15,6 @@ import catalogs from "./data/productsForCatalog.json";
 import news from "./data/news.json";
 
 function App() {
-  // const data = {
-  //   title: "Новинки от INKNOVATORS",
-  //   tag: "new",
-  //   images: [i2, i3, i4],
-  //   desc: "Уважаемые клиенты! В нашем ассортименте появились пластизольные краски турецкого производства «INKNOVATORS». Характеристики этих красок, режимы работы с ними полностью схожи с требованиями к другим пластизолям, которыми торгует наша компания. В продаже имеются цветные кроющие краски, три вида белой краски для разных задач и материалов, прозрачные базы, триадный комплект, флуоресцентные краски шести цветов, металлики (золото и серебро) и концентрат, вспенивающий краску.",
-  // };
-
   return (
     <div className="App">
       <Routes>
@@ -35,16 +28,7 @@ function App() {
           <Route path="providers/:id" element={<OneProviderPage />} />
           <Route path="catalog" element={<CatalogPage catalogs={catalogs} />} />
           <Route path="news" element={<NewsPage news={news} />} />
-          <Route
-            path="news/:id"
-            element={
-              <OneNewsPage
-              // title={data.title}
-              // images={data.images}
-              // text={data.desc}
-              />
-            }
-          />
+          <Route path="news/:id" element={<OneNewsPage />} />
           <Route path="contacts" element={<ContactsPage />} />
         </Route>
         <Route path="/*" element={<NotFoundPage />} />

@@ -2,13 +2,14 @@ import style from "./NewsComponent.module.scss";
 import NewsCard from "../NewsCard/NewsCard";
 
 export default function NewsComponent({ news }) {
-  console.log(news);
+  console.log("news", news);
   return (
     <span className={style.wrapper}>
       <span className={style.wrapper__list}>
         {news.news.map((oneNew, i) => (
           <NewsCard
-            // id={oneNew.id}
+            id={oneNew.id}
+            desc={oneNew.desc}
             title={oneNew.title}
             tag={oneNew.tag}
             images={oneNew.images}
@@ -16,11 +17,11 @@ export default function NewsComponent({ news }) {
           />
         ))}
       </span>
-      {/*{news.length > 6 ? (*/}
-      {/*  <button className={style.wrapper__button}>Показать еще</button>*/}
-      {/*) : (*/}
-      {/*  <></>*/}
-      {/*)}*/}
+      {news.news.length > 6 ? (
+        <button className={style.wrapper__button}>Показать еще</button>
+      ) : (
+        <></>
+      )}
     </span>
   );
 }

@@ -19,7 +19,7 @@ export default function NewsCard({ title, tag, images, id, desc }) {
   const publicPath = process.env.PUBLIC_URL;
   return (
     <Link
-      to={`news/${id}`}
+      to={`/news/${id}`}
       className={styles.wrapper}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
