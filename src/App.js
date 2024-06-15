@@ -9,7 +9,7 @@ import ContactsPage from "./pages/ContactsPage/ContactsPage";
 import OneProviderPage from "./pages/OneProviderPage/OneProviderPage";
 import OneNewsPage from "./pages/OneNewsPage/OneNewsPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
-import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage";
+import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage"; // import i1 from './images/AD-2-picture1.png';
 // import i1 from './images/AD-2-picture1.png';
 // import i2 from "./images/slider-pic-1.png";
 // import i3 from "./images/contacts slider 2.png";
@@ -17,7 +17,6 @@ import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage";
 // import file1 from "./images/1TECH_1.pdf";
 // import file2 from "./images/1TECH_2.pdf";
 // import file3 from "./images/1TECH_3.pdf";
-
 // import map from "./images/color_map_inknovators.jpg";
 
 function App() {
