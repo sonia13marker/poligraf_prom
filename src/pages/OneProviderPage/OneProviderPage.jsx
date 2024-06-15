@@ -13,9 +13,9 @@ export default function OneProviderPage({
   products,
   documentLink,
 }) {
-  // console.log(pageName, tagList, siteLink, products, documentLink);
   const { id } = useParams();
   const provider = providers.providers.find((item) => item.id === parseInt(id));
+  console.log(provider);
   return (
     <>
       {provider ? (
@@ -24,7 +24,6 @@ export default function OneProviderPage({
             <GoBackButton type="providers" />
             <HeaderForPages
               title={provider.name}
-              // title="Inknovators"
               searchMock="Найти товары..."
               siteLink={provider.link}
               documentLink={provider.colorMap}
