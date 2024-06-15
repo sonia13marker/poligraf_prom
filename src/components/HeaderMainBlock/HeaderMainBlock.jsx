@@ -3,7 +3,7 @@ import HeaderButtonsComponent from "../HeaderButtonsComponent/HeaderButtonsCompo
 
 export default function HeaderMainBlock() {
   const links = [
-    { linkTo: "/", title: "Узнать о компании" },
+    { linkTo: "/", title: "Узнать о компании", type: "scroll" },
     { linkTo: "/catalog", title: "Изучить каталог" },
     { linkTo: "/providers", title: "Посмотреть поставщиков" },
   ];
