@@ -17,6 +17,7 @@ export default function CustomSliderForNewsPage({ images }) {
       setCurrentIndex(currentIndex - 1);
     }
   };
+  const publicPath = process.env.PUBLIC_URL;
 
   return (
     <span className={styles.slider}>
@@ -64,7 +65,7 @@ export default function CustomSliderForNewsPage({ images }) {
       <span className={styles.slider__images}>
         {images.length > 0 && (
           <img
-            src={images[currentIndex]}
+            src={`${publicPath}/${images[currentIndex]}`}
             alt={`news ${currentIndex}`}
             className={styles.slider__images__oneImage}
           />

@@ -16,7 +16,6 @@ export default function OneProviderPage({
   // console.log(pageName, tagList, siteLink, products, documentLink);
   const { id } = useParams();
   const provider = providers.providers.find((item) => item.id === parseInt(id));
-  console.log("HI PROV", provider);
   return (
     <>
       {provider ? (
