@@ -10,36 +10,36 @@
         "Специальные эффекты"
       ],
       "link": "http://inknovators.com/",
-      "color_map": null,
+      "colorMap": "images/color_map_inknovators.jpg",
       "products": [
         {
           "name": "PL ANTI-MIGRATION BASE",
-          "image": null,
+          "image": "images/inknovators/pl_antimig_base.jpg",
           "file": "images/inknovators_1.pdf"
         },
         {
           "name": "PL BLACK",
-          "image": null,
+          "image": "images/inknovators/pl_clear_base.jpg",
           "file": "images/inknovators_1.pdf"
         },
         {
           "name": "PL BLUE",
-          "image": null,
+          "image": "images/inknovators/pl_poly_white.jpg",
           "file": "images/inknovators_1.pdf"
         },
         {
           "name": "PL BROWN",
-          "image": null,
+          "image": "images/inknovators/pl_antimig_base.jpg",
           "file": "images/inknovators_1.pdf"
         },
         {
           "name": "PL CARMEN",
-          "image": null,
+          "image": "images/inknovators/pl_mixing_base.jpg",
           "file": "images/inknovators_1.pdf"
         },
         {
           "name": "PL CLEAR BASE",
-          "image": null,
+          "image": "images/inknovators/pl_clear_base.jpg",
           "file": "images/inknovators_1.pdf"
         }
       ]
@@ -51,7 +51,30 @@
       "tags": [
         "Фольга"
       ],
-      "link": null
+      "link": null,
+      "colorMap": null,
+      "products": [
+        {
+          "name": "Пленка трансферная для текстиля золото НG, шир.64см, 1 м.пог",
+          "image": "images/amagic/gold.jpg",
+          "file": null
+        },
+        {
+          "name": "Пленка трансферная для текстиля оранжевый ЕB, шир.64см, 1 м.пог",
+          "image": "images/amagic/orange.jpg",
+          "file": null
+        },
+        {
+          "name": "Пленка трансферная для текстиля никель SC, шир.64см, 1 м.пог",
+          "image": "images/amagic/nickel.jpg",
+          "file": null
+        },
+        {
+          "name": "Пленка трансферная для текстиля красная R4, шир.64см, 1 м.пог",
+          "image": "images/amagic/red.jpg",
+          "file": null
+        }
+      ]
     },
     {
       "id": 3,
@@ -61,7 +84,8 @@
         "Сольвентная основа",
         "УФ-отверждение"
       ],
-      "link": null
+      "link": null,
+      "colorMap": null
     },
     {
       "id": 4,
@@ -70,7 +94,8 @@
       "tags": [
         "Пластизольные краски"
       ],
-      "link": "https://creativeprintinks.com/"
+      "link": "https://creativeprintinks.com/",
+      "colorMap": null
     },
     {
       "id": 5,
@@ -79,7 +104,8 @@
       "tags": [
         "Порошки для трансферной печати"
       ],
-      "link": null
+      "link": null,
+      "colorMap": null
     },
     {
       "id": 6,
@@ -88,7 +114,45 @@
       "tags": [
         "Фольга"
       ],
-      "link": "https://www.menphis.eu/en/"
+      "link": "https://www.menphis.eu/en/",
+      "colorMap": null,
+      "products": [
+        {
+          "name": "Пленка трансферная для текстиля золото, шир.150см",
+          "image": "images/menphis/gold.jpg",
+          "file": null
+        },
+        {
+          "name": "Фольга трансферная фуксия, шир.150см",
+          "image": "images/menphis/pink.jpg",
+          "file": null
+        },
+        {
+          "name": "Пленка трансферная для текстиля серебро, шир.150см",
+          "image": "images/menphis/pink2.jpg",
+          "file": null
+        },
+        {
+          "name": "Фольга трансферная ярко-красная, шир.150см",
+          "image": "images/menphis/red.jpg",
+          "file": null
+        },
+        {
+          "name": "Фольга трансферная , шир.150см",
+          "image": "images/menphis/silver.jpg",
+          "file": null
+        },
+        {
+          "name": "Пленка трансферная для текстиля бирюза, шир.150см",
+          "image": "images/menphis/green.jpg",
+          "file": null
+        },
+        {
+          "name": "Фольга трансферная, шир.150см",
+          "image": "images/menphis/gold2.jpg",
+          "file": null
+        }
+      ]
     },
     {
       "id": 7,
@@ -100,7 +164,55 @@
         "Продукты для регенерации ТПФ",
         "Продукты для изготовления ТПФ"
       ],
-      "link": "https://www.saati.com/en"
+      "link": "https://www.saati.com/en",
+      "colorMap": null,
+      "products": [
+        {
+          "name": "Трафаретная ретушь, стойкая к растворителям",
+          "image": "images/saati/9.jpg",
+          "file": null
+        },
+        {
+          "name": "Средство для дополнительной обработки трафарета, регенерируемое, 10кг",
+          "image": "images/saati/7.jpg",
+          "file": null
+        },
+        {
+          "name": "Отвердитель для трафарета, 1кг",
+          "image": "images/saati/8.jpg",
+          "file": null
+        },
+        {
+          "name": "Трафаретная ретушь, стойкая к растворителям",
+          "image": "images/saati/6.jpg",
+          "file": null
+        },
+        {
+          "name": "Отвердитель для трафарета, 10кг",
+          "image": "images/saati/3.jpg",
+          "file": null
+        },
+        {
+          "name": "Диазо-фотополимерная эмульсия, премиум",
+          "image": "images/saati/4.jpg",
+          "file": null
+        },
+        {
+          "name": "Отслаиватель эмульсии (концентрат 1:25), 10кг",
+          "image": "images/saati/2.jpg",
+          "file": null
+        },
+        {
+          "name": "Средство для удаления фантомов, щелочной крем",
+          "image": "images/saati/1.jpg",
+          "file": null
+        },
+        {
+          "name": "Средство для удаления краски IR15, 1кг",
+          "image": "images/saati/5.jpg",
+          "file": null
+        }
+      ]
     },
     {
       "id": 8,
@@ -115,7 +227,55 @@
         "Продукты для регенерации ТПФ",
         "Пленки для изготовления фотоформ"
       ],
-      "link": "https://www.ulano.com/"
+      "link": "https://www.ulano.com/",
+      "colorMap": null,
+      "products": [
+        {
+          "name": "Диазо-фотополимерная эмульсия Ulano QT-THIX, 3,785 л.",
+          "image": "images/ulano/1.jpg",
+          "file": null
+        },
+        {
+          "name": "Очиститель для трафаретов Ulano SV8, 5 л",
+          "image": "images/ulano/2.jpg",
+          "file": null
+        },
+        {
+          "name": "Отслаиватель эмульсии Ulano Strip-Matic CF концентрат 1:20, 5 л.",
+          "image": "images/ulano/3.jpg",
+          "file": null
+        },
+        {
+          "name": "Отслаиватель эмульсии Ulano Strip-Matic CF концентрат 1:20, 1 л.",
+          "image": "images/ulano/4.jpg",
+          "file": null
+        },
+        {
+          "name": "Средство для удаления фантомных изображений Ulano Ghost Remover Paste,",
+          "image": "images/ulano/5.jpg",
+          "file": null
+        },
+        {
+          "name": "Универсальный очиститель для трафаретов Ulano Press Wash, 5 л",
+          "image": "images/ulano/6.jpg",
+          "file": null
+        },
+        {
+          "name": "Гель для удаления фантомных изображений Ulano Actighost Rapid Gel,",
+          "image": "images/ulano/7.jpg",
+          "file": null
+        },
+        {
+          "name": "Диазо-фотополимерная эмульсия Ulano LX-892, 3.785 л. в комплекте с",
+          "image": "images/ulano/8.jpg",
+          "file": null
+        },
+        {
+          "name": "Средство для обезжиривания сетки Ulano Magic Mesh Prep, 0.981 кг",
+          "image": "images/ulano/9.jpg",
+          "file": null
+        }
+      ]
     },
     {
       "id": 9,
@@ -124,7 +284,35 @@
       "tags": [
         "Клеи и аэрозоли"
       ],
-      "link": null
+      "link": null,
+      "colorMap": null,
+      "products": [
+        {
+          "name": "Клей-аэрозоль для столов SPRAY PLUS (желтый), 600",
+          "image": "images/villa/blue.jpg",
+          "file": null
+        },
+        {
+          "name": "Клей-аэрозоль для столов SPRAY SPECIAL(Синий), 600",
+          "image": "images/villa/yellow.jpg",
+          "file": null
+        },
+        {
+          "name": "Клей-аэрозоль для столов SPRAY SUPER (зеленый), 600",
+          "image": "images/villa/green.jpg",
+          "file": null
+        },
+        {
+          "name": "Клей-аэрозоль для столов THERMOSOL SPRAY",
+          "image": "images/villa/reed.jpg",
+          "file": null
+        },
+        {
+          "name": "Силиконовый спрей NEUTROSIL SPRAY, 500 мл",
+          "image": "images/villa/brown.jpg",
+          "file": null
+        }
+      ]
     }
   ]
 }

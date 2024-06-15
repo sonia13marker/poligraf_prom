@@ -12,11 +12,12 @@ export default function ButtonsForHeader({ siteLink, documentLink }) {
   const handleMouseDown = () => {
     setIsHover(false);
   };
+  const publicPath = process.env.PUBLIC_URL;
   if (siteLink && documentLink) {
     return (
       <span className={style.header__wrapper__btns}>
         <a
-          href={siteLink}
+          href={`${publicPath}${siteLink}`}
           rel="noreferrer"
           target="_blank"
           className={style.header__wrapper__btns__siteLink}
@@ -24,7 +25,7 @@ export default function ButtonsForHeader({ siteLink, documentLink }) {
           Перейти на сайт
         </a>
         <a
-          href={documentLink}
+          href={`${publicPath}/${documentLink}`}
           rel="noreferrer"
           target="_blank"
           className={style.header__wrapper__btns__docLink}
@@ -40,11 +41,11 @@ export default function ButtonsForHeader({ siteLink, documentLink }) {
         </a>
       </span>
     );
-  } else if (siteLink && documentLink === undefined) {
+  } else if (siteLink && documentLink === null) {
     return (
       <span className={style.header__wrapper__btns}>
         <a
-          href={siteLink}
+          href={`${publicPath}${siteLink}`}
           rel="noreferrer"
           target="_blank"
           className={style.header__wrapper__btns__siteLink}
@@ -53,11 +54,11 @@ export default function ButtonsForHeader({ siteLink, documentLink }) {
         </a>
       </span>
     );
-  } else if (documentLink && siteLink === undefined) {
+  } else if (documentLink && siteLink === null) {
     return (
       <span className={style.header__wrapper__btns}>
         <a
-          href={documentLink}
+          href={`${publicPath}/${documentLink}`}
           rel="noreferrer"
           target="_blank"
           className={style.header__wrapper__btns__docLink}
@@ -73,7 +74,7 @@ export default function ButtonsForHeader({ siteLink, documentLink }) {
         </a>
       </span>
     );
-  } else if (siteLink === undefined && documentLink === undefined) {
+  } else if (siteLink === null && documentLink === null) {
     return null;
   }
 }

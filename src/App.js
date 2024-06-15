@@ -18,6 +18,7 @@ import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage"; 
 // import file2 from "./images/1TECH_2.pdf";
 // import file3 from "./images/1TECH_3.pdf";
 // import map from "./images/color_map_inknovators.jpg";
+import providers from "./data/providers.json";
 
 function App() {
   // const data = {
@@ -104,6 +105,21 @@ function App() {
       <Routes>
         <Route path="/" element={<Wrapper />}>
           <Route index element={<MainPage />} />
+          {/*{providers.providers.map((provider, index) => (*/}
+          {/*  <Route*/}
+          {/*    key={index}*/}
+          {/*    path={`providers/${provider.id}`}*/}
+          {/*    element={*/}
+          {/*      <OneProviderPage*/}
+          {/*        pageName={provider.name}*/}
+          {/*        products={provider.products}*/}
+          {/*        siteLink={provider.link}*/}
+          {/*        documentLink={provider.colorMap}*/}
+          {/*        tagList={provider.tags}*/}
+          {/*      />*/}
+          {/*    }*/}
+          {/*  />*/}
+          {/*))}*/}
           <Route
             path="technologie/:id"
             element={
@@ -114,7 +130,10 @@ function App() {
               />
             }
           />
-          <Route path="providers" element={<ProvidersPage />} />
+          <Route
+            path="providers"
+            element={<ProvidersPage providers={providers} />}
+          />
           <Route
             path="providers/:id"
             element={

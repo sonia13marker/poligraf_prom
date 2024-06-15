@@ -5,16 +5,20 @@ export default function OneProviderComponent({ products }) {
   return (
     <span className={style.body}>
       <span className={style.body__cardsList}>
-        {products.map((product, i) => (
-          <ProviderProductCard
-            key={i}
-            name={product.name}
-            image={product.image}
-            file={product.file}
-          />
-        ))}
+        {products ? (
+          products?.map((product, i) => (
+            <ProviderProductCard
+              key={i}
+              name={product.name}
+              image={product.image}
+              file={product.file}
+            />
+          ))
+        ) : (
+          <p>К сожалению, тут нет товаров...</p>
+        )}
       </span>
-      {products.length > 6 ? (
+      {products?.length > 6 ? (
         <button className={style.body__cardsList__btnShowMore}>
           Показать еще
         </button>

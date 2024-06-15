@@ -9,9 +9,10 @@ export default function ProvidersSliderCard({
   image,
   type,
   tagList,
-  linkToPage,
+  // linkToPage,
   link,
   products,
+  id,
 }) {
   const [showAllTags, setShowAllTags] = useState(false);
   const publicPath = process.env.PUBLIC_URL;
@@ -24,10 +25,7 @@ export default function ProvidersSliderCard({
           className={styles.slider__card__image}
         />
 
-        <Link
-          to={`/providers/${linkToPage}`}
-          className={styles.slider__card__wrapper}
-        >
+        <Link to={`/providers/${id}`} className={styles.slider__card__wrapper}>
           <h3 className={styles.slider__card__wrapper__name}>{name}</h3>
           <RightArrow />
         </Link>
@@ -47,7 +45,7 @@ export default function ProvidersSliderCard({
 
         <span className={styles.page__card__wrapper}>
           <Link
-            to={`/providers/${linkToPage}`}
+            to={`/providers/${id}`}
             className={styles.page__card__wrapper__line}
           >
             <h3 className={styles.page__card__wrapper__line__name}>{name}</h3>

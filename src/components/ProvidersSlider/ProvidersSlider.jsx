@@ -68,6 +68,7 @@ export default function ProvidersSlider() {
               key={i}
               name={provider.name}
               image={provider.image}
+              id={provider.id}
               type="slider"
             />
           ))}

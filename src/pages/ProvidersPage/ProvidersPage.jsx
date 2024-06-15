@@ -4,7 +4,7 @@ import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import tags from "../../data/providersTags.json";
 import ProvidersComponent from "../../components/ProvidersComponent/ProvidersComponent";
 
-export default function ProvidersPage() {
+export default function ProvidersPage({ providers }) {
   console.log(tags.tags);
   return (
     <div className={style.container}>
@@ -19,7 +19,7 @@ export default function ProvidersPage() {
           />
         ))}
       </span>
-      <ProvidersComponent />
+      <ProvidersComponent providers={providers} />
     </div>
   );
 }

@@ -22,12 +22,20 @@
     color: $main-white;
   }
 
-  &__image {
+  &__wrapper {
+    @include flex-column;
     width: 100%;
     height: 140px;
     background-color: $main-white;
     border-bottom-left-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
+
+    &__image {
+      height: 100%;
+      border-bottom-left-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
+      align-self: center;
+    }
   }
 
   &__name {

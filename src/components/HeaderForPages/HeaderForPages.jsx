@@ -8,6 +8,7 @@ export default function HeaderForPages({
   siteLink,
   documentLink,
 }) {
+  console.log(siteLink, documentLink);
   return (
     <span className={style.header}>
       {/*{hasButtons === "Yes" ? (*/}
