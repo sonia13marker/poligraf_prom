@@ -20,7 +20,7 @@ export default function ProvidersSliderCard({
     return (
       <div className={styles.slider__card}>
         <img
-          src={image}
+          src={`${publicPath}/${image}`}
           alt={`${image} card`}
           className={styles.slider__card__image}
         />
