@@ -1,70 +1,192 @@
-# Getting Started with Create React App
+Дипломный проект. Для предприятия ООО "Полиграфпром".
+-------
+Дизайн: <a href="https://www.figma.com/design/MscPnpDSZ5ZcIjfmnVCJgl/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B3%D1%80%D0%B0%D1%84%D0%BF%D1%80%D0%BE%D0%BC?node-id=63-1264&t=fw4KWBlZl2pEVXgh-1"> посмотреть</a>
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Сайт несёт информационный характер, поэтому цен на нем нет. Главной задачей дизайна было использование основных цветов
+из логотипа, поэтому каждая страница имеет свой за главный цвет.
 
-## Available Scripts
+![img.png](img.png)
 
-In the project directory, you can run:
+<details> 
+<summary>Главная страница</summary>
 
-### `npm start`
+Сайт встречает нас большим блоком со слоганом и кнопками быстрой навигации к интересующим страницам.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![img_1.png](img_1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Далее идёт блок "О компании", в котором кратко рассказано о деятельности компании, а следующий блок представляет из
+себя слайдер и показывает, какие ещё услуги предоставляет предприятие.
 
-### `npm test`
+![img_2.png](img_2.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Одним из требований технического задания стало отражение истинной политики компании. Это важно в первую очередь
+потому, что через такие мелочи можно притянуть внимание клиента. Данный рекламный баннер как раз выполняет это действие.
 
-### `npm run build`
+![img_3.png](img_3.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+В следующем блоке показан слайдер со всеми поставщиками. Примечательно, что теперь карточки поставщиков ведут на
+отдельную страницу выбранного поставщика, чего не было в прошлой версии сайта.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![img_4.png](img_4.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+При наведении на карточку можно увидеть заливку цвета всей страницы поставщиков.
 
-### `npm run eject`
+![img_5.png](img_5.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Кнопки имеют эффект при наведении, а также если в слайдере больше нет карточек, кнопки окрашиваются в серый цвет, что
+означает конец пролистывания.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![img_6.png](img_6.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Партнёры были перенесены с отдельной страницы в блок на главную страницу.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![img_7.png](img_7.png)
 
-## Learn More
+Технологии также потерпели изменения не только в расположении, но и во внешнем виде. Теперь они представляют из себя
+кнопки, при нажатии на которые происходит переход на страницу с информацией о технологии.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![img_8.png](img_8.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Следующий блок представляет из себя короткую сводку последних новостей со ссылкой на полную страницу.
 
-### Code Splitting
+![img_9.png](img_9.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Карточки также имеют при наведении основной цвет страницы, а при адаптации их дизайн меняется.
 
-### Analyzing the Bundle Size
+![img_10.png](img_10.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![img_11.png](img_11.png)
 
-### Making a Progressive Web App
+Ещё один рекламный баннер расположен внизу страницы. Выглядит он следующим образом:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![img_12.png](img_12.png)
 
-### Advanced Configuration
+Футер не остался без изменений. В нем теперь, помимо логотипа, появилась и кнопка поднятия вверх, которая имеет эффект
+при наведении.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![img_13.png](img_13.png)
 
-### Deployment
+После футера расположен знак копирайта.
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<details>
+<summary>Страница Технологии</summary>
 
-### `npm run build` fails to minify
+На ней расположена информация о технологии, которая может быть как в текстовой формате, так и в формате фото и других
+файлов. Вверху расположена кнопка "Назад" которая ведёт туда, откуда и пришёл пользователь на страницу.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![img_14.png](img_14.png)
+
+Кнопки с файлами имеют 2 разных дизайна, в зависимости от формата - pdf файл или фото:
+
+![img_15.png](img_15.png)
+
+</details>
+<details> 
+<summary>
+Страница Поставщики
+</summary>
+
+На этой странице расположены все карточки поставщиков. Но их дизайн изменился - на них появились теги, по которым
+может происходить фильтрация.
+
+![img_17.png](img_17.png)
+
+В верхней части страницы помимо фильтров расположена также поисковая строка.
+
+![img_16.png](img_16.png)
+</details>
+
+<details>
+<summary>Страница одного поставщика</summary>
+
+На этой странице также располагается кнопка "Назад", и поисковая строка с фильтрами. Однако здесь также расположены
+кнопки, по которым можно перейти на сайт поставщика или посмотреть его цветовую карту (данная функция также была
+перемещена с другой страницы прошлого дизайна). Если у поставщика нет сайта или цветовой карты, либо же ни того, ни
+другого, кнопки будут отображения в зависимости от имеющихся данных.
+Появились карточки товаров одного поставщика.
+
+![img_18.png](img_18.png)
+
+![img_19.png](img_19.png)
+
+![img_20.png](img_20.png)
+</details>
+
+<details>
+<summary>
+Страница "Каталог"
+</summary>
+
+На этой странице основной цвет уже жёлтый. Шапка страницы схожа с шапкой на прошлых двух страницах, но фильтры
+потерпели изменения. Теперь возможна фильтрация не только по подразделам, но также и по всем товарам и по товарам
+поставщика.
+
+![img_22.png](img_22.png)
+</details>
+
+<details>
+<summary>
+Страница "Новости"
+</summary>
+
+В шапке присутствует название страницы и поисковая строка. Ниже расположены все новости.
+
+![img_23.png](img_23.png)
+
+Если у новости нет картинки, то показывает картинка заглушка
+
+![img_24.png](img_24.png)
+
+</details>
+
+<details>
+<summary>
+Страница одной новости
+</summary>
+
+На этой странице показано содержимое новости. Также в, зависимости от количества фотографий, может показаться:
+
+- только одна фотография
+
+![img_25.png](img_25.png)
+
+- если фото 2 и больше, то показывается слайдер
+
+![img_26.png](img_26.png)
+
+- если нет фото, оно не показывается.
+
+![img_27.png](img_27.png)
+
+</details>
+
+<details>
+<summary>
+Страница "Контакты"
+</summary>
+
+На данной странице показываются контактные данные компании, встроенная интерактивная карта и слайдер с фото, на
+которых показано, как можно проехать до офиса.
+
+![img_28.png](img_28.png)
+
+![img_29.png](img_29.png)
+
+</details>
+
+<details>
+<summary>
+Страница "404"
+</summary>
+
+Если контент не нашёлся, то вместо страницы с ошибкой показывается кастомная страница 404 с возможностью вернуться на
+главную страницу.
+
+![img_30.png](img_30.png)
+
+</details>
+
+
+
