@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/poligraf_prom/static/css/main.e92040b3.css",
+    "main.js": "/poligraf_prom/static/js/main.36d0304c.js",
+    "static/media/contacts slider 2.png": "/poligraf_prom/static/media/contacts slider 2.88df2d679ffb122d6cac.png",
+    "static/media/contacts_slider_3.jpg": "/poligraf_prom/static/media/contacts_slider_3.642bd425f134ae627689.jpg",
+    "static/media/AD-2-picture.png": "/poligraf_prom/static/media/AD-2-picture.3830e29df9146c01ec49.png",
+    "static/media/contacts slider 1.png": "/poligraf_prom/static/media/contacts slider 1.7eb1919d4e00d1fd0cc2.png",
+    "static/media/AD-2-picture1.png": "/poligraf_prom/static/media/AD-2-picture1.0a9fb070161e699975ca.png",
+    "static/media/main_image.png": "/poligraf_prom/static/media/main_image.abda5040940069a32c87.png",
+    "static/media/AD-2-picture3.png": "/poligraf_prom/static/media/AD-2-picture3.40ce2e0b7501cfa10caf.png",
+    "static/media/slider-pic-1.png": "/poligraf_prom/static/media/slider-pic-1.6c5d211f67ac72375e26.png",
+    "static/media/slider-pic-2.png": "/poligraf_prom/static/media/slider-pic-2.ada6f4d5bb679e741396.png",
+    "static/media/main_image_mobile.png": "/poligraf_prom/static/media/main_image_mobile.85d202b0a2b86af0e96f.png",
+    "static/media/AD-1.png": "/poligraf_prom/static/media/AD-1.af9a8539f14bf6a0162c.png",
+    "static/media/image_404.png": "/poligraf_prom/static/media/image_404.8dafb2dba2d20a22f128.png",
+    "static/media/partner-logo-1.png": "/poligraf_prom/static/media/partner-logo-1.83609d757bd987c5f649.png",
+    "static/media/logo_footer_desktop.png": "/poligraf_prom/static/media/logo_footer_desktop.18b5f6cd2d14a9595081.png",
+    "static/media/logo_desktop.png": "/poligraf_prom/static/media/logo_desktop.1d9c7b1083de3c58c349.png",
+    "index.html": "/poligraf_prom/index.html",
+    "main.e92040b3.css.map": "/poligraf_prom/static/css/main.e92040b3.css.map",
+    "main.36d0304c.js.map": "/poligraf_prom/static/js/main.36d0304c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e92040b3.css",
+    "static/js/main.36d0304c.js"
+  ]
+}
