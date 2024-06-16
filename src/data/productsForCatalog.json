@@ -7,7 +7,7 @@
       "tags": [
         "Menphis",
         "Фольга",
-        "Вспомагательные материалы"
+        "Вспомогательные материалы"
       ]
     },
     {
@@ -17,7 +17,7 @@
       "tags": [
         "Menphis",
         "Фольга",
-        "Вспомагательные материалы"
+        "Вспомогательные материалы"
       ]
     },
     {
@@ -27,23 +27,38 @@
       "tags": [
         "Menphis",
         "Фольга",
-        "Вспомагательные материалы"
+        "Вспомогательные материалы"
       ]
     },
     {
       "name": "Эмульсия GRAF-HU",
       "image": "images/saati/9.jpg",
-      "file": "images/saati/1.pdf"
+      "file": "images/saati/1.pdf",
+      "tags": [
+        "Saati",
+        "Эмульсия",
+        "Химия"
+      ]
     },
     {
       "name": "Textil HT",
       "image": "images/saati/7.jpg",
-      "file": "images/saati/2.pdf"
+      "file": "images/saati/2.pdf",
+      "tags": [
+        "Saati",
+        "Эмульсия",
+        "Химия"
+      ]
     },
     {
       "name": "Отвердитель для трафарета, 1кг",
       "image": "images/saati/8.jpg",
-      "file": "images/saati/3.pdf"
+      "file": "images/saati/3.pdf",
+      "tags": [
+        "Saati",
+        "Продукты для изготовления ТПФ",
+        "Химия"
+      ]
     },
     {
       "name": "Трафаретная ретушь, стойкая к растворителям",
