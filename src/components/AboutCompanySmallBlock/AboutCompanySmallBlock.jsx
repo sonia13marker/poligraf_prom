@@ -1,8 +1,14 @@
 import styles from "./AboutCompanySmallBlock.module.scss";
 
-export default function AboutCompanySmallBlock({ hover, color, text }) {
+export default function AboutCompanySmallBlock({ hover, color, text, type }) {
   return (
-    <span className={styles.block}>
+    <span
+      className={
+        type === "accent"
+          ? `${styles.block} ${styles.accent}`
+          : `${styles.block}`
+      }
+    >
       <span
         className={
           hover

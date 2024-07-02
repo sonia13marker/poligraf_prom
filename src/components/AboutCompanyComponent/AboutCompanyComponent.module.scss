@@ -12,12 +12,12 @@
 
   &__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, max-content);
     gap: 20px;
 
     &__oneHalf {
-      @include flex-column;
+      @include flex-row;
       align-items: flex-start;
       gap: 20px;
 
@@ -33,9 +33,11 @@
 
     &__twoHalf {
       @include flex-row;
+      align-self: center;
 
       &__wrapper {
         @include flex-row;
+        //justify-content: space-around;
         gap: 20px;
 
         &__one {

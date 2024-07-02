@@ -10,6 +10,7 @@
   background-color: $main-white;
   position: relative;
   overflow: hidden;
+  color: $main-black;
 
   &__circle {
     display: block;
@@ -25,7 +26,6 @@
 
   &__text {
     @include inter-medium-20;
-    color: $main-black;
     line-height: 150%;
     max-width: 290px;
     width: 100%;
@@ -45,6 +45,12 @@
   top: -50%;
   right: -20%;
   background-color: #DC2C1D;
+}
+
+.accent {
+  background-color: $main-page-color;
+  border-color: $main-page-color;
+  color: $main-white;
 }
 
 @media screen and (max-width: 1024px) {
