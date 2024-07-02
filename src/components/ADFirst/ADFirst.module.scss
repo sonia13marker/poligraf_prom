@@ -17,7 +17,7 @@
     width: 100%;
     @include flex-column;
     align-items: flex-start;
-    gap: $indent-65;
+    gap: 25px;
     padding-bottom: 50px;
 
     &__title {
@@ -30,6 +30,18 @@
       font-weight: 500;
       letter-spacing: -1px;
       color: $main-white;
+    }
+
+    &__number {
+      @include inter-medium-14;
+      font-size: 18px;
+      line-height: normal;
+      color: $main-black;
+      width: max-content;
+      height: 100%;
+      padding: 8px 10px;
+      background-color: $main-white;
+      border-radius: 25px;
     }
   }
 
@@ -95,6 +107,9 @@
 @media screen and (max-width: 925px) {
   .background__text__p {
     max-width: 400px;
+  }
+  .background__image {
+    right: 10px;
   }
 }
 
@@ -175,11 +190,17 @@
   .background__text__p {
     max-width: 170px;
   }
+  .background__text__number {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 460px) {
   .background__text__p {
     max-width: 340px;
+  }
+  .background {
+    min-height: 540px;
   }
 }
 
@@ -202,6 +223,9 @@
 }
 
 @media screen and (max-width: 340px) {
+  .background {
+    min-height: 580px;
+  }
   .background__text__p {
     max-width: 250px;
   }
