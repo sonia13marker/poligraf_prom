@@ -8,7 +8,7 @@ export default function CatalogPage({ catalogs }) {
   return (
     <div className={style.container}>
       <HeaderForPages title="Каталог" searchMock="Найти товары..." />
-      <span className={style.tagList}>
+      <span className={style.tagList} style={{ flexDirection: "column" }}>
         {tags.tags.map((tag, i) => (
           <TagsComponent
             key={i}

@@ -10,6 +10,7 @@
   @include flex-row;
   align-items: flex-start;
   margin-bottom: $indent-65;
+  gap: $indent-20;
 }
 
 @media screen and (max-width: 1200px) {
