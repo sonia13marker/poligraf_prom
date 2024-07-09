@@ -52,6 +52,12 @@
   background-color: #DC2C1D;
 }
 
+@media screen and (max-width: 1275px) {
+  .block {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .block {
     height: 280px;

@@ -53,6 +53,12 @@
   color: $main-white;
 }
 
+@media screen and (max-width: 1275px) {
+  .block__text {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .block__text {
     @include inter-regular-18;
@@ -62,15 +68,28 @@
 
 @media screen and (max-width: 780px) {
   .block {
-    height: 155px;
+    height: 210px;
     justify-content: flex-end;
   }
 }
 
-@media screen and (max-width: 655px) {
-  .block__text {
-    display: contents;
+@media screen and (max-width: 625px) {
+  .block {
+    height: 150px;
   }
-
 }
+
+@media screen and (max-width: 350px) {
+  .block {
+    height: 180px;
+  }
+}
+
+//
+//@media screen and (max-width: 655px) {
+//  .block__text {
+//    display: contents;
+//  }
+//
+//}
 
