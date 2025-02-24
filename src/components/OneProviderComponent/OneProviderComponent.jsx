@@ -29,7 +29,7 @@ export default function OneProviderComponent({ products }) {
       {products?.length > 6 ? (
         <button
           className={style.body__cardsList__btnShowMore}
-          onClick={() => showMore(3)}
+          onClick={() => showMore(6)}
           style={{
             display: isSliced >= products.length ? "none" : "block",
           }}

@@ -1,39 +1,28 @@
 import style from "./ProductsComponent.module.scss";
-import product from "../../data/productsForCatalog.json";
 import ProductCard from "../ProductCard/ProductCard";
 import { useState } from "react";
 
-export default function ProductsComponent({ catalogs }) {
-  const [isSliced, setIsSliced] = useState(8);
+export default function ProductsComponent({ product }) {
+  const [isSliced, setIsSliced] = useState(9);
 
   const showMore = (num) => {
     setIsSliced(isSliced + num);
   };
+  console.log("product", product.products.length)
   return (
     <span className={style.wrapper}>
       <span className={style.wrapper__list}>
-        {catalogs.products.slice(0, isSliced).map((product, i) => (
-          <ProductCard
-            key={i}
-            name={product.name}
-            image={product.image}
-            tags={product.tags}
-            file={product.file}
-          />
+      {product.products.slice(0, isSliced).map((product, index) => (
+          <ProductCard product={product} key={index} />
         ))}
       </span>
-      {product.products.length > 6 ? (
+      {product.products.length > isSliced && (
         <button
           className={style.wrapper__button}
-          onClick={() => showMore(8)}
-          style={{
-            display: isSliced >= catalogs.products.length ? "none" : "block",
-          }}
+          onClick={() => showMore(9)}
         >
           Показать еще
         </button>
-      ) : (
-        <></>
       )}
     </span>
   );

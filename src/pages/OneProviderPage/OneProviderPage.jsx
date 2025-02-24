@@ -5,17 +5,28 @@ import GoBackButton from "../../components/GoBackButton/GoBackButton";
 import OneProviderComponent from "../../components/OneProviderComponent/OneProviderComponent";
 import { useParams } from "react-router-dom";
 import providers from "../../data/providers.json";
+import products from '../../data/providerProducts.json';
 
 export default function OneProviderPage({
   pageName,
   tagList,
   siteLink,
-  products,
   documentLink,
 }) {
   const { id } = useParams();
   const provider = providers.providers.find((item) => item.id === parseInt(id));
-  console.log(provider);
+  console.log("hehe", provider);
+  console.log("products", products.products);
+  //объявляем новую переменную, которая впоследствии передает массив продуктов в карточки 
+  let productsForRecieved;
+  products.products.map((i) => {
+    //если id поставщика (в массиве поставщиков) равен id этого поставщика в другом массиве (с продуктами)
+    if (i.id === provider.id) {
+      //записываем все продукты в переменную
+      productsForRecieved = i.products;
+    }
+  })
+  console.log("productsForRecieved", productsForRecieved);
   return (
     <>
       {provider ? (
@@ -38,7 +49,8 @@ export default function OneProviderPage({
               {/*))}*/}
             </span>
           </span>
-          <OneProviderComponent products={provider.products} />
+          {/*передаем переменную*/}
+          <OneProviderComponent products={productsForRecieved} />
         </div>
       ) : (
         <p>Не найдено</p>

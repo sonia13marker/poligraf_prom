@@ -11,8 +11,8 @@ import OneNewsPage from "./pages/OneNewsPage/OneNewsPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage";
 import providers from "./data/providers.json";
-import catalogs from "./data/productsForCatalog.json";
 import news from "./data/news.json";
+import catalog from './data/providerProducts.json';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
             element={<ProvidersPage providers={providers} />}
           />
           <Route path="providers/:id" element={<OneProviderPage />} />
-          <Route path="catalog" element={<CatalogPage catalogs={catalogs} />} />
+          <Route path="catalog" element={<CatalogPage catalog={catalog}/>} />
           <Route path="news" element={<NewsPage news={news} />} />
           <Route path="news/:id" element={<OneNewsPage />} />
           <Route path="contacts" element={<ContactsPage />} />

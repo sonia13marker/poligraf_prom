@@ -1,0 +1,1566 @@
+{
+    "products": [
+        {
+            "name": "CP4080 SUPERGEL CLEAR BASE",
+            "image": "",
+            "file": "images/creative/CP 4080 SUPER GEL CLEAR_PDF_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "PL ANTI-MIGRATION BASE",
+            "image": "images/inknovators/pl_antimig_base.jpg",
+            "file": "images/inknovators/PL_ANTIMIGR_BASE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Ulano SV 61",
+            "image": "",
+            "file": "images/ulano/Ulano SV 61 ред21102013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Ulano Stripmatic CF",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL FLU PINK",
+            "image": "",
+            "file": "images/inknovators/PL FLU PINK.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Ulano Presswash",
+            "image": "",
+            "file": "images/ulano/Ulano SV 61 ред21102013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "MagnaPrint® ND Extra",
+            "image": "",
+            "file": "images/magna/ND_Extra_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "УФ-КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ SCREEN-UV PVC",
+            "image": "",
+            "file": "images/colors/SCREEN-UV_TDS_PDF_RUS.pdf",
+            "tags": [
+                "Colors",
+                "УФ-отверждение",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "СОЛЬВЕНТНАЯ КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ, СЕРИЯ CQS",
+            "image": "",
+            "file": "images/colors/CQS_TDS_PDF_RUS.pdf",
+            "tags": [
+                "Colors",
+                "Сольвентная основа",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "PL BROWN",
+            "image": "images/inknovators/pl_antimig_base.jpg",
+            "file": "images/inknovators/PL_BROWN.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Hardener D",
+            "image": "",
+            "file": "images/ulanno/Hardener D ред10092013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для изготовления ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL METALLIC GOLD",
+            "image": "",
+            "file": "images/inknovators/PL METALLIC GOLD.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL MATT AGENT",
+            "image": "",
+            "file": "images/inknovators/PL MATT AGENT.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL LOW BLEED WHITE",
+            "image": "",
+            "file": "images/inknovators/PL LOW BLEED WHITE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Frame Adhesive Extra Grip EG",
+            "image": "",
+            "file": "images/ulano/public/images/ulano/Frame Adhesive EG ред10092013.pdf.pdf",
+            "tags": [
+                "Ulano",
+                "Клеи для сеток",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL CLEAR BASE",
+            "image": "images/inknovators/pl_clear_base.jpg",
+            "file": "images/inknovators/PL_CLEAR_BASE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL LIGHT RED",
+            "image": "",
+            "file": "images/inknovators/PL LIGHT RED.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "MagnaPrint® Burn Out Base + Activator",
+            "image": "images/magna/images/G2861@3.5MP.jpg",
+            "file": "images/magna/Magnaprint Burn Out_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "PL SNOW WHITE",
+            "image": "",
+            "file": "images/inknovators/PL SNOW WHITE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "SAATIGRAF HS3",
+            "image": "",
+            "file": "images/saati/saatigraf-hs3.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "UNI-PU КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 161-00",
+            "image": "",
+            "file": "images/colors/UNI-PU_161-00_RUS.pdf",
+            "tags": [
+                "Colors",
+                "УФ-отверждение",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "Ultrafix sb2 PlUs",
+            "image": "",
+            "file": "images/saati/ultrafix_sb2_plus.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Ulano Degreaser Conc. 1:50",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Ulano",
+                "Продукты для изготовления ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "UVI-VINYL КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 70-00",
+            "image": "",
+            "file": "images/colors/UVI-VINYL_70-00_RUS.pdf",
+            "tags": [
+                "Colors",
+                "УФ-отверждение",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "PL SOCKS BASE",
+            "image": "",
+            "file": "images/inknovators/PL SOCKS BASE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL CARMEN",
+            "image": "images/inknovators/pl_mixing_base.jpg",
+            "file": "images/inknovators/PL_CARMEN.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Magnapearl Silver",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "Orange",
+            "image": "",
+            "file": "images/ulano/Orange.pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "direct prep 1 one step pretreatment",
+            "image": "",
+            "file": "images/saati/direct-prep-1.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Ulano Cleanmatic MF 12-2",
+            "image": "",
+            "file": "images/ulano/CLEANMATICTMF12-2 ред10092013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Remove hR5",
+            "image": "",
+            "file": "images/saati/remove_hr5.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "PL DARK NAVY BLUE",
+            "image": "",
+            "file": "images/inknovators/PL DARK NAVY BLUE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL METALLIC SILVER",
+            "image": "",
+            "file": "images/inknovators/PL METALLIC SILVER.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL FLU ORANGE",
+            "image": "",
+            "file": "images/inknovators/PL FLU ORANGE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL FLU RED",
+            "image": "",
+            "file": "images/inknovators/PL FLU RED.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "ceramic ht triple-cure ceramic emulsion",
+            "image": "",
+            "file": "images/saati/ceramic_ht.pdf",
+            "tags": [
+                "Saati",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "PL POLY WHITE",
+            "image": "",
+            "file": "images/inknovators/PL POLYWHITE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "MagnaPrint® AquaFlex White",
+            "image": "images/magna/images/G6654@5MP.jpg",
+            "file": "images/magna/AquaFlex 1.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "CP 4050 SPARKLE BASE",
+            "image": "",
+            "file": "images/creative/CP 4050 SPARKLE BASE_PDF_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "Remove eR2",
+            "image": "",
+            "file": "images/saati/remove_er2.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "EZ-Film",
+            "image": "",
+            "file": "images/ulano/EZ-FILM-50мкрн_rus.pdf",
+            "tags": [
+                "Ulano",
+                "Капиллярные пленки",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "MagnaPrint® Discharge ULF Ultra",
+            "image": "",
+            "file": "images/magna/Discharge_ULF_Ultra_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "SF FOIL TRANSFER BASE",
+            "image": "",
+            "file": "images/creative/SF FOIL TRANSFER BASE_TDS_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "CP 2040 INK EXTENDER",
+            "image": "",
+            "file": "images/creative/CP 2040 INK EXTENDER_PDF_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "PL BLACK",
+            "image": "images/inknovators/pl_clear_base.jpg",
+            "file": "images/inknovators/PL_BLACK.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "ULTRA SOFT CLEAR BASE",
+            "image": "",
+            "file": "images/creative/ULTRA SOFT CLEAR BASE_TDS_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "REMOVE IR",
+            "image": "",
+            "file": "images/saati/remove_ir.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "PL YELLOW",
+            "image": "",
+            "file": "images/inknovators/PL YELLOW.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL MIXING BASE",
+            "image": "",
+            "file": "images/inknovators/PL MIXING BASE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "UNISPEED КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 43-00",
+            "image": "",
+            "file": "images/colors/UNISPEED_43-00_RUS.pdf",
+            "tags": [
+                "Colors",
+                "УФ-отверждение",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "PL FLU YELLOW",
+            "image": "",
+            "file": "images/inknovators/PL FLU YELLOW.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Ulano SV 8",
+            "image": "",
+            "file": "images/ulano/ULANO SV 8 ред 21102013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL HIGH DENSITY",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PIJF241200",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Ulano",
+                "Капиллярные пленки",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Magnaprint® Suede Foam",
+            "image": "images/magna/images/G6778@5MP.jpg",
+            "file": "images/magna/Magnaprint_Suede_Foam_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "UNEX 4073",
+            "image": "",
+            "file": "images/dakota/TDS Unex 4073.pdf",
+            "tags": [
+                "Dakota",
+                "Порошки для трансферной печати",
+                "Вспомогательные материалы"
+            ],
+            "supplierName": "Dakota"
+        },
+        {
+            "name": "Magic Mesh Prep",
+            "image": "",
+            "file": "images/ulanno/Magic Mesh Prep ред.171013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для изготовления ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ, СЕРИЯ CPUG",
+            "image": "",
+            "file": "images/colors/CPUG_TDS_PDF_RUS.pdf",
+            "tags": [
+                "Colors",
+                "Сольвентная основа",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "Degreasing Gel #23",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Ulano",
+                "Продукты для изготовления ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "MagnaPrint® Reflective 3R",
+            "image": "images/magna/images/G6625@5MP.jpg",
+            "file": "images/magna/Magnaprint Reflective 3R oct_2015.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "MagnaPrint Underbase Gray SL",
+            "image": "",
+            "file": "images/magna/Underbase_Grey_SL_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "Remove hR1",
+            "image": "",
+            "file": "images/saati/remove_hr1.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Ulano Stencil Remover Conc. 1:50",
+            "image": "",
+            "file": "images/ulano/Stencil Remover Concentrate_1_50 ред. от 171013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "direct prep 2 combined degreaser/wetting agent",
+            "image": "",
+            "file": "images/saati/direct-prep-2.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "PL CMYK MAGENTA",
+            "image": "",
+            "file": "images/inknovators/PL CMYK MAGENTA.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL CMYK YELLOW",
+            "image": "",
+            "file": "images/inknovators/PL CMYK YELLOW.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL GOLD YELLOW",
+            "image": "",
+            "file": "images/inknovators/PL GOLD YELLOW.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "MagnaPrint® Discharge AB AW Range",
+            "image": "images/magna/images/G941@25MP.jpg",
+            "file": "images/magna/Discharge AB AW_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "MagnaPrint® Bling Silver/Gold/Bronze",
+            "image": "",
+            "file": "images/magna/MagnaPrint Bling_may_2015(1).pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "UNISPEED КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 43-00",
+            "image": "",
+            "file": "images/colors/UNISPEED_43-00_RUS.pdf",
+            "tags": [
+                "Colors",
+                "УФ-отверждение",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "Proclaim HR",
+            "image": "",
+            "file": "images/ulano/Proclaim HR (2).pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "direct prep 3 concentrated degreaser/wetting agent",
+            "image": "",
+            "file": "images/saati/direct-prep-3.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "REMOVE ER series",
+            "image": "",
+            "file": "images/saati/remove_er 25.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Remove hR3",
+            "image": "",
+            "file": "images/saati/remove_hr3.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Screen Filler #60",
+            "image": "",
+            "file": "images/ulano/Screen Filler No. 60 ред21102013.pdf",
+            "tags": [
+                "Ulano",
+                "Ретуши",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "MagnaPrint® Plascharge",
+            "image": "images/magna/images/G5210@5MP.jpg",
+            "file": "images/magna/Plascharge_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "PL ULTRA ELASTIC BASE",
+            "image": "",
+            "file": "images/inknovators/PL ULTRA ELASTIC.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "CP 3030 ANTIMIGRATION",
+            "image": "",
+            "file": "images/creative/CP 3030 ANTIMIGRATION_PDF_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "PL BLUE",
+            "image": "images/inknovators/pl_poly_white.jpg",
+            "file": "images/inknovators/PL_BLUE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "SUPREME WHITE & SUPREME CLEAR",
+            "image": "",
+            "file": "images/creative/SUPREME WHITE & SUPREME CLEAR_TDS_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "finish s2",
+            "image": "",
+            "file": "images/saati/finish-s2.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "PL SKY BLUE",
+            "image": "",
+            "file": "images/inknovators/PL SKY BLUE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL SAX BLUE",
+            "image": "",
+            "file": "images/inknovators/PL SAX BLUE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Ulano Ghost Remover Advance",
+            "image": "",
+            "file": "images/ulano/GHOST REMOVER ADVANCE ред21102013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "LX-892",
+            "image": "",
+            "file": "images/ulano/LX-892.pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Ulano Ghost Remover Paste",
+            "image": "",
+            "file": "images/ulano/Ghost Remover Paste ред21102013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Actighost Rapid Gel",
+            "image": "",
+            "file": "images/ulano/Actighost Rapid Gel ред10092013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL FUCHSIA",
+            "image": "",
+            "file": "images/inknovators/PL FUCHSIA.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "UNIVERSAL SLOW EXTENDER BASE",
+            "image": "",
+            "file": "images/creative/UNIVERSAL SLOW EXTENDER BASE_TDS_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "MagnaPrint® Expanding LT",
+            "image": "",
+            "file": "images/magna/Magnaprint_Expanding_LT.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "QT-Discharge",
+            "image": "",
+            "file": "images/ulano/QT-Discharge (2).pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Magnaprint® HB - Neutral(прозрачная) и Opaque(кроющая)",
+            "image": "",
+            "file": "images/magna/Magnaprint HB 10_2015.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "MagnaPrint UltraStrech",
+            "image": "",
+            "file": "images/magna/ultrastretchrange.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "RLX",
+            "image": "",
+            "file": "images/ulano/RLX.pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Textil PHW",
+            "image": "",
+            "file": "images/saati/textil_phw.pdf",
+            "tags": [
+                "Saati",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Grafic HU",
+            "image": "",
+            "file": "images/saati/Эмульсия GRAF-HU.pdf",
+            "tags": [
+                "Saati",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Пленка трансферная для текстиля каталог",
+            "image": "images/amagic/gold.jpg",
+            "file": "images/amagic/Textile Foil Selection Guide - AMAGIC Textile Foils.pdf",
+            "tags": [
+                "Amagic",
+                "Фольга",
+                "Вспомогательные материалы"
+            ],
+            "supplierName": "Amagic"
+        },
+        {
+            "name": "Magnaprint Self Crack",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "Hardener TR",
+            "image": "",
+            "file": "images/ulanno/Hardener TR ред10092013.pdf",
+            "tags": [
+                "Ulano",
+                "Продукты для изготовления ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "CP4060 SHINING BASE",
+            "image": "",
+            "file": "images/creative/CP 4060 SHINING BASE_PDF_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "PL VIOLET",
+            "image": "",
+            "file": "images/inknovators/PL VIOLET.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL PUFF BASE",
+            "image": "",
+            "file": "images/inknovators/PL PUFF BASE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Aquafast - Neutral(прозрачная) и White(кроющая)",
+            "image": "",
+            "file": "images/magna/AquaFast 110_rus_jan_2014.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "Magna Transfer Bond 40 (артикул G6036)",
+            "image": "images/magna/images/G6036@5MP.jpg",
+            "file": "images/magna/Тransfer_Bond40_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "PL NAVY BLUE",
+            "image": "",
+            "file": "images/inknovators/PL NAVY BLUE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PIJF361200",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Ulano",
+                "Капиллярные пленки",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL ORANGE",
+            "image": "",
+            "file": "images/inknovators/PL ORANGE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "PL SCARLET",
+            "image": "",
+            "file": "images/inknovators/PL SCARLET.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Добавки",
+            "image": "",
+            "file": "images/magna/Добавки и присадки Магна 07_2015.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "PL GREEN",
+            "image": "",
+            "file": "images/inknovators/PL GREEN.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "UNEX PES T4 & PES T5",
+            "image": "",
+            "file": "images/dakota/UNEX_PES_rus_2014.pdf",
+            "tags": [
+                "Dakota",
+                "Порошки для трансферной печати",
+                "Вспомогательные материалы"
+            ],
+            "supplierName": "Dakota"
+        },
+        {
+            "name": "FIXER 1-2-6-9-10",
+            "image": "",
+            "file": "images/saati/Fiхеr 1-2-6-9-10_UK 2017_RUS_2019.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "finish w1",
+            "image": "",
+            "file": "images/saati/finish-w1.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Extra Heavy Block-Out",
+            "image": "",
+            "file": "images/ulano/Extra Heavy Blockout № 10 ред21102013.pdf",
+            "tags": [
+                "Ulano",
+                "Ретуши",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "HD FOIL TRANSFER BASE",
+            "image": "",
+            "file": "images/creative/HD FOIL TRANSFER BASE_TDS_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        },
+        {
+            "name": "QT-Thix",
+            "image": "",
+            "file": "images/ulano/QT-Thix (2).pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL GLITTER BASE",
+            "image": "",
+            "file": "images/inknovators/PL GLITTER BASE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "UNEX TPU ",
+            "image": "",
+            "file": "images/dakota/UNEX TPU_rus_2014.pdf",
+            "tags": [
+                "Dakota",
+                "Порошки для трансферной печати",
+                "Вспомогательные материалы"
+            ],
+            "supplierName": "Dakota"
+        },
+        {
+            "name": "PL CMYK CYAN",
+            "image": "",
+            "file": "images/inknovators/PL CMYK CYAN.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "CDF/QT Thick-Films",
+            "image": "",
+            "file": "images/ulano/CDF-QT.pdf",
+            "tags": [
+                "Ulano",
+                "Капиллярные пленки",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Ultrafix remover",
+            "image": "",
+            "file": "images/saati/ultrafix_remover.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "SAATIGRAF hsx blue",
+            "image": "",
+            "file": "images/saati/saatigraf-hsx-blue.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "UNI-PG КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 12-00",
+            "image": "",
+            "file": "images/colors/UNI-PG_12-00_RUS.pdf",
+            "tags": [
+                "Colors",
+                "УФ-отверждение",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "PL CMYK BLACK",
+            "image": "",
+            "file": "images/inknovators/PL CMYK BLACK.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Textil HT",
+            "image": "",
+            "file": "images/saati/textil_ht.pdf",
+            "tags": [
+                "Saati",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "Frame Adhesive Reducer",
+            "image": "",
+            "file": null,
+            "tags": [
+                "Ulano",
+                "Клеи для сеток",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "Каталог фольги для текстиля",
+            "image": "images/amagic/orange.jpg",
+            "file": "images/amagic/Каталог_фольги_2020.pdf",
+            "tags": [
+                "Amagic",
+                "Фольга",
+                "Вспомогательные материалы"
+            ],
+            "supplierName": "Amagic"
+        },
+        {
+            "name": "Proclaim",
+            "image": "",
+            "file": "images/ulano/Proclaim (2).pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "vitrum hu",
+            "image": "",
+            "file": "images/saati/vitrum_hu.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ, СЕРИЯ CAR",
+            "image": "",
+            "file": "images/colors/CAR_TDS_PDF_RUS.pdf",
+            "tags": [
+                "Colors",
+                "Сольвентная основа",
+                "Краски и основы"
+            ],
+            "supplierName": "Colors"
+        },
+        {
+            "name": "CDF/Matrix 20",
+            "image": "",
+            "file": "images/ulano/CDF-Matrix.pdf",
+            "tags": [
+                "Ulano",
+                "Капиллярные пленки",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "CERAMIC HHW1",
+            "image": "",
+            "file": "images/saati/ceramic_hhw1.pdf",
+            "tags": [
+                "Saati",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "PL FLU BLUE",
+            "image": "",
+            "file": "images/inknovators/PL FLU BLUE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "REMOVE HR Haze Removers",
+            "image": "",
+            "file": "images/saati/remove_hr.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "PL FLU GREEN",
+            "image": "",
+            "file": "images/inknovators/PL FLU GREEN.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "CTS-HS",
+            "image": "",
+            "file": "images/ulano/CTS-HS (2).pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "MagnaPrint® ECO PIGMENTS (артикул P162…P962)",
+            "image": "",
+            "file": "images/magna/EcoPigments_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "QLT™",
+            "image": "",
+            "file": "images/ulano/QLT (2).pdf",
+            "tags": [
+                "Ulano",
+                "Эмульсии",
+                "Химия"
+            ],
+            "supplierName": "Ulano"
+        },
+        {
+            "name": "PL TURQUOISE",
+            "image": "",
+            "file": "images/inknovators/PL TURQUOISE.pdf",
+            "tags": [
+                "Inknovators",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Inknovators"
+        },
+        {
+            "name": "Magnaprint® Eco Glitter Binder QPUK",
+            "image": "images/magna/images/G4949N@5MP.jpg",
+            "file": "images/magna/Eco_Glitter_Binder_QPUK_rus.pdf",
+            "tags": [
+                "Magna",
+                "Водные и вытравные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Magna"
+        },
+        {
+            "name": "Remove hR5",
+            "image": "",
+            "file": "images/saati/remove_er1.pdf",
+            "tags": [
+                "Saati",
+                "Продукты для регенерации ТПФ",
+                "Химия"
+            ],
+            "supplierName": "Saati"
+        },
+        {
+            "name": "CP 4010 HIGH STRETCH CLEAR",
+            "image": "",
+            "file": "images/creative/CP 4010 HIGH STRETCH CLEAR_PDF_RUS.pdf",
+            "tags": [
+                "Creative",
+                "Пластизольные краски",
+                "Краски и основы"
+            ],
+            "supplierName": "Creative"
+        }
+    ]
+}
