@@ -25,16 +25,20 @@
   &__wrapper {
     @include flex-column;
     width: 100%;
-    height: 140px;
-    background-color: $main-white;
+    height: 260px;
+    background-color: #adb2b8;
+    overflow: hidden;
+    // background-color: $main-white;
+    background-size: cover;
+   background-position: 50%;
     border-bottom-left-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
 
     &__image {
       height: 100%;
+      width: auto;
       border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
-      align-self: center;
     }
   }
 
@@ -42,12 +46,12 @@
     display: block;
     @include inter-regular-25;
     width: 100%;
-    height: 140px;
+    height: 115px;
     padding: 20px;
     color: $main-black;
     display: -webkit-box; /* Использование flex-контейнера с определенной ориентацией */
     -webkit-box-orient: vertical; /* Определение вертикальной ориентации контейнера */
-    -webkit-line-clamp: 3; /* Определение максимального количества отображаемых строк */
+    -webkit-line-clamp: 2; /* Определение максимального количества отображаемых строк */
     overflow: hidden; /* Обрезание текста, который не помещается в заданное количество строк */
     text-overflow: ellipsis;
   }

@@ -16,7 +16,7 @@
                 },
                 {
                     "name": "PL BLACK",
-                    "image": "images/inknovators/pl_clear_base.jpg",
+                    "image": "images/inknovators/pl_black.jpg",
                     "file": "images/inknovators/PL_BLACK.pdf",
                     "tags": [
         "Inknovators",
@@ -26,7 +26,7 @@
                 },
                 {
                     "name": "PL BLUE",
-                    "image": "images/inknovators/pl_poly_white.jpg",
+                    "image": "images/inknovators/pl_blue.jpg",
                     "file": "images/inknovators/PL_BLUE.pdf",
                     "tags": [
         "Inknovators",
@@ -36,7 +36,7 @@
                 },
                 {
                     "name": "PL BROWN",
-                    "image": "images/inknovators/pl_antimig_base.jpg",
+                    "image": "images/inknovators/pl_brown.jpg",
                     "file": "images/inknovators/PL_BROWN.pdf",
                     "tags": [
         "Inknovators",
@@ -46,7 +46,7 @@
                 },
                 {
                     "name": "PL CARMEN",
-                    "image": "images/inknovators/pl_mixing_base.jpg",
+                    "image": "",
                     "file": "images/inknovators/PL_CARMEN.pdf",
                     "tags": [
         "Inknovators",
@@ -66,7 +66,7 @@
                 },
                 {
                     "name": "PL CMYK BLACK",
-                    "image": "",
+                    "image": "images/inknovators/pl_cmyk_black.jpg",
                     "file": "images/inknovators/PL CMYK BLACK.pdf",
                     "tags": [
         "Inknovators",
@@ -76,7 +76,7 @@
                 },
                 {
                     "name": "PL CMYK CYAN",
-                    "image": "",
+                    "image": "images/inknovators/pl_cmyk_cyan.jpg",
                     "file": "images/inknovators/PL CMYK CYAN.pdf",
                     "tags": [
         "Inknovators",
@@ -86,7 +86,7 @@
                 },
                 {
                     "name": "PL CMYK MAGENTA",
-                    "image": "",
+                    "image": "images/inknovators/pl_cmyk_magenta.jpg",
                     "file": "images/inknovators/PL CMYK MAGENTA.pdf",
                     "tags": [
         "Inknovators",
@@ -96,7 +96,7 @@
                 },
                 {
                     "name": "PL CMYK YELLOW",
-                    "image": "",
+                    "image": "images/inknovators/pl_cmyk_yellow.jpg",
                     "file": "images/inknovators/PL CMYK YELLOW.pdf",
                     "tags": [
         "Inknovators",
@@ -106,7 +106,7 @@
                 },
                 {
                     "name": "PL DARK NAVY BLUE",
-                    "image": "",
+                    "image": "images/inknovators/pl_dark_navy_blue.jpg",
                     "file": "images/inknovators/PL DARK NAVY BLUE.pdf",
                     "tags": [
         "Inknovators",
@@ -116,7 +116,7 @@
                 },
                 {
                     "name": "PL FLU BLUE",
-                    "image": "",
+                    "image": "images/inknovators/pl_flu_blue.jpg",
                     "file": "images/inknovators/PL FLU BLUE.pdf",
                     "tags": [
         "Inknovators",
@@ -126,7 +126,7 @@
                 },
                 {
                     "name": "PL FLU GREEN",
-                    "image": "",
+                    "image": "images/inknovators/pl_flu_green.jpg",
                     "file": "images/inknovators/PL FLU GREEN.pdf",
                     "tags": [
         "Inknovators",
@@ -136,7 +136,7 @@
                 },
                 {
                     "name": "PL FLU ORANGE",
-                    "image": "",
+                    "image": "images/inknovators/pl_flu_orange.jpg",
                     "file": "images/inknovators/PL FLU ORANGE.pdf",
                     "tags": [
         "Inknovators",
@@ -146,7 +146,7 @@
                 },
                 {
                     "name": "PL FLU PINK",
-                    "image": "",
+                    "image": "images/inknovators/pl_flu_pink.jpg",
                     "file": "images/inknovators/PL FLU PINK.pdf",
                     "tags": [
         "Inknovators",
@@ -156,7 +156,7 @@
                 },
                 {
                     "name": "PL FLU RED",
-                    "image": "",
+                    "image": "images/inknovators/pl_flu_red.jpg",
                     "file": "images/inknovators/PL FLU RED.pdf",
                     "tags": [
         "Inknovators",
@@ -166,7 +166,7 @@
                 },
                 {
                     "name": "PL FLU YELLOW",
-                    "image": "",
+                    "image": "images/inknovators/pl_flu_yellow.jpg",
                     "file": "images/inknovators/PL FLU YELLOW.pdf",
                     "tags": [
         "Inknovators",
@@ -176,7 +176,7 @@
                 },
                 {
                     "name": "PL FUCHSIA",
-                    "image": "",
+                    "image": "images/inknovators/pl_fucshia.jpg",
                     "file": "images/inknovators/PL FUCHSIA.pdf",
                     "tags": [
         "Inknovators",
@@ -186,7 +186,7 @@
                 },
                 {
                     "name": "PL GLITTER BASE",
-                    "image": "",
+                    "image": "images/inknovators/pl_glitter_base.jpg",
                     "file": "images/inknovators/PL GLITTER BASE.pdf",
                     "tags": [
         "Inknovators",
@@ -196,7 +196,7 @@
                 },
                 {
                     "name": "PL GOLD YELLOW",
-                    "image": "",
+                    "image": "images/inknovators/pl_gold_yellow.jpg",
                     "file": "images/inknovators/PL GOLD YELLOW.pdf",
                     "tags": [
         "Inknovators",
@@ -206,7 +206,7 @@
                 },
                 {
                     "name": "PL GREEN",
-                    "image": "",
+                    "image": "images/inknovators/pl_green.jpg",
                     "file": "images/inknovators/PL GREEN.pdf",
                     "tags": [
         "Inknovators",
@@ -216,7 +216,7 @@
                 },
                 {
                     "name": "PL HIGH DENSITY",
-                    "image": "",
+                    "image": "images/inknovators/pl_hight_density.jpg",
                     "file": null,
                     "tags": [
         "Inknovators",
@@ -226,7 +226,7 @@
                 },
                 {
                     "name": "PL LIGHT RED",
-                    "image": "",
+                    "image": "images/inknovators/pl_light_red.jpg",
                     "file": "images/inknovators/PL LIGHT RED.pdf",
                     "tags": [
         "Inknovators",
@@ -236,7 +236,7 @@
                 },
                 {
                     "name": "PL LOW BLEED WHITE",
-                    "image": "",
+                    "image": "images/inknovators/pl_low_bleed_white.jpg",
                     "file": "images/inknovators/PL LOW BLEED WHITE.pdf",
                     "tags": [
         "Inknovators",
@@ -256,7 +256,7 @@
                 },
                 {
                     "name": "PL METALLIC GOLD",
-                    "image": "",
+                    "image": "images/inknovators/pl_metallic_gold.jpg",
                     "file": "images/inknovators/PL METALLIC GOLD.pdf",
                     "tags": [
         "Inknovators",
@@ -266,7 +266,7 @@
                 },
                 {
                     "name": "PL METALLIC SILVER",
-                    "image": "",
+                    "image": "images/inknovators/pl_metallic_silver.jpg",
                     "file": "images/inknovators/PL METALLIC SILVER.pdf",
                     "tags": [
         "Inknovators",
@@ -276,7 +276,7 @@
                 },
                 {
                     "name": "PL MIXING BASE",
-                    "image": "",
+                    "image": "images/inknovators/pl_mixing_base.jpg",
                     "file": "images/inknovators/PL MIXING BASE.pdf",
                     "tags": [
         "Inknovators",
@@ -286,7 +286,7 @@
                 },
                 {
                     "name": "PL NAVY BLUE",
-                    "image": "",
+                    "image": "images/inknovators/pl_navy_blue.jpg",
                     "file": "images/inknovators/PL NAVY BLUE.pdf",
                     "tags": [
         "Inknovators",
@@ -296,7 +296,7 @@
                 },
                 {
                     "name": "PL ORANGE",
-                    "image": "",
+                    "image": "images/inknovators/pl_orange.jpg",
                     "file": "images/inknovators/PL ORANGE.pdf",
                     "tags": [
         "Inknovators",
@@ -306,7 +306,7 @@
                 },
                 {
                     "name": "PL POLY WHITE",
-                    "image": "",
+                    "image": "images/inknovators/pl_poly_white.jpg",
                     "file": "images/inknovators/PL POLYWHITE.pdf",
                     "tags": [
         "Inknovators",
@@ -316,7 +316,7 @@
                 },
                 {
                     "name": "PL PUFF BASE",
-                    "image": "",
+                    "image": "images/inknovators/pl_puff_base.jpg",
                     "file": "images/inknovators/PL PUFF BASE.pdf",
                     "tags": [
         "Inknovators",
@@ -326,7 +326,7 @@
                 },
                 {
                     "name": "PL SAX BLUE",
-                    "image": "",
+                    "image": "images/inknovators/pl_sax_blue.jpg",
                     "file": "images/inknovators/PL SAX BLUE.pdf",
                     "tags": [
         "Inknovators",
@@ -336,7 +336,7 @@
                 },
                 {
                     "name": "PL SCARLET",
-                    "image": "",
+                    "image": "images/inknovators/pl_scarlet.jpg",
                     "file": "images/inknovators/PL SCARLET.pdf",
                     "tags": [
         "Inknovators",
@@ -346,7 +346,7 @@
                 },
                 {
                     "name": "PL SKY BLUE",
-                    "image": "",
+                    "image": "images/inknovators/pl_sky_blue.jpg",
                     "file": "images/inknovators/PL SKY BLUE.pdf",
                     "tags": [
         "Inknovators",
@@ -356,7 +356,7 @@
                 },
                 {
                     "name": "PL SNOW WHITE",
-                    "image": "",
+                    "image": "images/inknovators/pl_snow_white.jpg",
                     "file": "images/inknovators/PL SNOW WHITE.pdf",
                     "tags": [
         "Inknovators",
@@ -366,7 +366,7 @@
                 },
                 {
                     "name": "PL SOCKS BASE",
-                    "image": "",
+                    "image": "images/inknovators/pl_socks_base.jpg",
                     "file": "images/inknovators/PL SOCKS BASE.pdf",
                     "tags": [
         "Inknovators",
@@ -386,7 +386,7 @@
                 },
                 {
                     "name": "PL ULTRA ELASTIC BASE",
-                    "image": "",
+                    "image": "images/inknovators/pl_ultra_elastic_base.jpg",
                     "file": "images/inknovators/PL ULTRA ELASTIC.pdf",
                     "tags": [
         "Inknovators",
@@ -396,7 +396,7 @@
                 },
                 {
                     "name": "PL VIOLET",
-                    "image": "",
+                    "image": "images/inknovators/pl_violet.jpg",
                     "file": "images/inknovators/PL VIOLET.pdf",
                     "tags": [
         "Inknovators",
@@ -406,7 +406,7 @@
                 },
                 {
                     "name": "PL YELLOW",
-                    "image": "",
+                    "image": "images/inknovators/pl_yellow.jpg",
                     "file": "images/inknovators/PL YELLOW.pdf",
                     "tags": [
         "Inknovators",
@@ -709,7 +709,7 @@
         "products": [
             {
                 "name": "Grafic HU",
-                "image": "",
+                "image": "images/saati/grafic_hu_violet_pair2.jpg",
                 "file": "images/saati/Эмульсия GRAF-HU.pdf",
                 "tags": [
         "Saati",
@@ -729,7 +729,7 @@
             },
             {
                 "name": "Textil PHW",
-                "image": "",
+                "image": "images/saati/textil_phw.jpg",
                 "file": "images/saati/textil_phw.pdf",
                 "tags": [
         "Saati",
@@ -779,7 +779,7 @@
             },
             {
                 "name": "direct prep 1 one step pretreatment",
-                "image": "",
+                "image": "images/saati/direct_prep_1.jpg",
                 "file": "images/saati/direct-prep-1.pdf",
                 "tags": [
         "Saati",
@@ -789,7 +789,7 @@
             },
             {
                 "name": "direct prep 2 combined degreaser/wetting agent",
-                "image": "",
+                "image": "images/saati/direct_prep_2.jpg",
                 "file": "images/saati/direct-prep-2.pdf",
                 "tags": [
         "Saati",
@@ -809,7 +809,7 @@
             },
             {
                 "name": "finish s2",
-                "image": "",
+                "image": "images/saati/finish_s2.jpg",
                 "file": "images/saati/finish-s2.pdf",
                 "tags": [
         "Saati",
@@ -829,7 +829,7 @@
             },
             {
                 "name": "FIXER 1-2-6-9-10",
-                "image": "",
+                "image": "images/saati/fixer_1.jpg",
                 "file": "images/saati/Fiхеr 1-2-6-9-10_UK 2017_RUS_2019.pdf",
                 "tags": [
         "Saati",
@@ -859,7 +859,7 @@
             },
             {
                 "name": "Remove eR2",
-                "image": "",
+                "image": "images/saati/remove_er2.jpg",
                 "file": "images/saati/remove_er2.pdf",
                 "tags": [
         "Saati",
@@ -879,7 +879,7 @@
             },
             {
                 "name": "Remove hR3",
-                "image": "",
+                "image": "images/saati/remove_hr3_pair.jpg",
                 "file": "images/saati/remove_hr3.pdf",
                 "tags": [
         "Saati",
@@ -929,7 +929,7 @@
             },
             {
                 "name": "Ultrafix sb2 PlUs",
-                "image": "",
+                "image": "images/saati/ultrafix_sb2_pair.jpg",
                 "file": "images/saati/ultrafix_sb2_plus.pdf",
                 "tags": [
         "Saati",

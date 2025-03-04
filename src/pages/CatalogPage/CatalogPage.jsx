@@ -5,33 +5,26 @@ import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import ProductsComponent from "../../components/ProductsComponent/ProductsComponent";
 import productsData from "../../data/dd.json";
 
-{/*// Функция для перемешивания массива
-const shuffleArray = (array) => {
-  const newArray = [...array]; // Создаем копию массива
-  for (let i = newArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [newArray[i], newArray[j]] = [newArray[j], newArray[i]]; // Меняем элементы местами
-  }
-  return newArray;
-};
+// // Функция для перемешивания массива
+// const shuffleArray = (array) => {
+//   const newArray = [...array]; // Создаем копию массива
+//   for (let i = newArray.length - 1; i > 0; i--) {
+//       const j = Math.floor(Math.random() * (i + 1));
+//       [newArray[i], newArray[j]] = [newArray[j], newArray[i]]; // Меняем элементы местами
+//   }
+//   return newArray;
+// };
 
-// Собираем все продукты в один массив
-const allProducts = productsData.products.flatMap(supplier => 
-  (supplier.products || []).map(product => ({
-      ...product,
-      supplierName: supplier.name, // Добавляем имя поставщика к продукту
-  }))
-);
+// // Собираем все продукты в один массив
+// const allProducts = productsData.products.flatMap(supplier => 
+//   (supplier.products || []).map(product => ({
+//       ...product,
+//       supplierName: supplier.name, // Добавляем имя поставщика к продукту
+//   }))
+// );
 
-// Глобальная переменная для хранения перемешанных продуктов
-let shuffledProducts;
-
-// Если глобальная переменная еще не инициализирована, перемешиваем массив один раз
-if (!shuffledProducts) {
-  shuffledProducts = shuffleArray(allProducts);
-}
-console.log(shuffledProducts)
- */}
+// // Перемешиваем продукты один раз
+// const shuffledProducts = shuffleArray(allProducts);
 export default function CatalogPage({ }) { 
   return (
     <div className={style.container}>
@@ -47,13 +40,20 @@ export default function CatalogPage({ }) {
         ))}
       </span>
        <div className="product-list">
-      
-                {/* {shuffledProducts.map((product, index) => ( */}
-                {/* {
-                  productsData.products.map((products, index) => ( */}
+        {/* Показывает перемешанный массив на странице */}
+       {/* {shuffledProducts.map((product, index) => (
+                    <div key={index} className="product-card">
+                        <h2>{product.name}</h2>
+                        <p>Поставщик: {product.supplierName}</p>
+                        <img src={product.image} alt={product.name} />
+                        <a href={product.file} target="_blank" rel="noopener noreferrer">
+                            Скачать PDF
+                        </a>
+                    </div>
+                ))} */}
+                
 <ProductsComponent product={productsData}/>
-                  {/* ))
-                } */}
+                  
             </div>
     </div>
   );

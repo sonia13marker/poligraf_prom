@@ -15,21 +15,15 @@ export default function ProductCard({ product }) {
       title={product.name.length >= 40 ?`${product.name}`: ``}
       className={styles.card}
     >
-      {product.image !== "" ? (
-        <span className={styles.card__wrapperImg}>
-          <img
-            src={`${publicPath}/${product.image}`}
-            alt={`${product.name}`}
-            className={styles.card__wrapperImg__image}
-          />
+      <span className={styles.card__wrapperImg} style={{backgroundImage: product.image !== "" ? `url(${publicPath}/${product.image})` : `url(${plug})` }}>
+        </span>
+      {/* {product.image !== "" ? (
+        <span className={styles.card__wrapperImg} style={{backgroundImage: product.image !== "" ? `url(${publicPath}/${product.image})` : `url(${plug})` }}>
+          
         </span>
       ) : (<span className={styles.card__wrapperImg}>
-        <img
-          src={`${plug}`}
-          alt={`${product.name}`}
-          className={styles.card__wrapperImg__image}
-        />
-      </span>)}
+        
+      </span>)} */}
 
       <span className={styles.card__wrapper}>
         <h3 className={styles.card__wrapper__name}>{product.name}</h3>

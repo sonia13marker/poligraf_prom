@@ -12,12 +12,12 @@ export default function ProviderProductCard({ image, name, file }) {
       title={name.length >= 40 ?`${name}`: ``}
       className={styles.card}
     >
-      <span className={styles.card__wrapper}>
-        <img
+      <span className={styles.card__wrapper} style={{backgroundImage: image !== "" ? `url(${publicPath}/${image})` : `url(${plug})` }}>
+        {/* <img
           src={image !== "" ? `${publicPath}/${image}` : `${plug}`}
           alt="card"
           className={styles.card__wrapper__image}
-        />
+        /> */}
       </span>
 
       <h3 className={styles.card__name}>{name}</h3>
