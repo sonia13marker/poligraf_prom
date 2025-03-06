@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/poligraf_prom/static/css/main.8415a9df.css",
-    "main.js": "/poligraf_prom/static/js/main.84c86710.js",
+    "main.css": "/poligraf_prom/static/css/main.16def003.css",
+    "main.js": "/poligraf_prom/static/js/main.aebba032.js",
     "static/media/contacts slider 2.png": "/poligraf_prom/static/media/contacts slider 2.88df2d679ffb122d6cac.png",
     "static/media/contacts_slider_3.jpg": "/poligraf_prom/static/media/contacts_slider_3.642bd425f134ae627689.jpg",
     "static/media/AD-2-picture.png": "/poligraf_prom/static/media/AD-2-picture.3830e29df9146c01ec49.png",
@@ -19,11 +19,11 @@
     "static/media/logo_footer_desktop.png": "/poligraf_prom/static/media/logo_footer_desktop.18b5f6cd2d14a9595081.png",
     "static/media/logo_desktop.png": "/poligraf_prom/static/media/logo_desktop.1d9c7b1083de3c58c349.png",
     "index.html": "/poligraf_prom/index.html",
-    "main.8415a9df.css.map": "/poligraf_prom/static/css/main.8415a9df.css.map",
-    "main.84c86710.js.map": "/poligraf_prom/static/js/main.84c86710.js.map"
+    "main.16def003.css.map": "/poligraf_prom/static/css/main.16def003.css.map",
+    "main.aebba032.js.map": "/poligraf_prom/static/js/main.aebba032.js.map"
   },
   "entrypoints": [
-    "static/css/main.8415a9df.css",
-    "static/js/main.84c86710.js"
+    "static/css/main.16def003.css",
+    "static/js/main.aebba032.js"
   ]
 }
