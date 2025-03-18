@@ -11,6 +11,55 @@
   align-items: flex-start;
   margin-bottom: $indent-65;
   gap: $indent-20;
+
+  &__closer {
+      &__yellow {
+        @include inter-regular-14;
+      width: max-content;
+      height: 100%;
+      padding: 5px 8px;
+      color: $main-black;
+      border-radius: $border-radius;
+      transition: 0.3s all;
+      border: 1px solid $main-black;
+      background-color: $main-white;
+        &:hover {
+          background-color: $main-white;
+          border-color: $catalog-page-color;
+          color: $catalog-page-color;
+        }
+  
+        &:active {
+          background-color: $catalog-page-color;
+          border-color: $catalog-page-color;
+          color: $main-white;
+        }
+      }
+
+      &__pink {
+        @include inter-regular-14;
+      width: max-content;
+      height: 100%;
+      padding: 5px 8px;
+      color: $main-black;
+      border-radius: $border-radius;
+      transition: 0.3s all;
+      border: 1px solid $main-black;
+      background-color: $main-white;
+        &:hover {
+          background-color: $main-white;
+          border-color: $provider-page-color;
+          color: $provider-page-color;
+        }
+  
+        &:active {
+          background-color: $provider-page-color;
+          border-color: $provider-page-color;
+          color: $main-white;
+        }
+      }
+
+  }
 }
 
 @media screen and (max-width: 1200px) {

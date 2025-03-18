@@ -7,6 +7,8 @@ export default function HeaderForPages({
   searchMock,
   siteLink,
   documentLink,
+  setValue,
+  value
 }) {
   console.log(siteLink, documentLink);
   return (
@@ -16,7 +18,7 @@ export default function HeaderForPages({
         <h2 className={style.header__title}>{title}</h2>
         <ButtonsForHeader siteLink={siteLink} documentLink={documentLink} />
       </span>
-      <SearchComponent searchMock={searchMock} />
+      <SearchComponent searchMock={searchMock} value={value} setValue={setValue}/>
     </span>
   );
 }

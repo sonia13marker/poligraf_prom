@@ -6,6 +6,7 @@ import ProvidersComponent from "../../components/ProvidersComponent/ProvidersCom
 import { useState } from "react";
 
 export default function ProvidersPage({ providers }) {
+  const [value, setValue] = useState(""); // Текст из поля поиска
   console.log(tags.tags);
   const [selectedTag, setSelectedTag] = useState(null); // Выбранный тег
     const [activeTag, setActiveTag] = useState(null); // Состояние для активного тега
@@ -14,11 +15,21 @@ export default function ProvidersPage({ providers }) {
       setSelectedTag(tag); // Фильтруем товары
       setActiveTag(tag); // Устанавливаем активный тег (передаем его название, чтобы потом сравнить с выбранным)
     };
+
+     //удаление значений для кнопки сброса тегов
+  const setNullTags = () => {
+    setSelectedTag("");
+    setActiveTag(""); 
+  }
   
   return (
     <div className={style.container}>
-      <HeaderForPages title="Поставщики" searchMock="Найти поставщика..." />
+      <HeaderForPages title="Поставщики" searchMock="Найти поставщика..." value={value} setValue={setValue}/>
       <span className={style.tagList}>
+      {
+          activeTag ? <button className={style.tagList__closer__pink} onClick={setNullTags}>✕ Сбросить фильтр
+          </button> : <></>
+        }
         {tags.tags.map((tag, i) => (
           <TagsComponent
             key={i}
@@ -30,7 +41,7 @@ export default function ProvidersPage({ providers }) {
           />
         ))}
       </span>
-      <ProvidersComponent providers={providers} selectedTag={selectedTag}/>
+      <ProvidersComponent providers={providers} selectedTag={selectedTag} searchValue={value}/>
     </div>
   );
 }

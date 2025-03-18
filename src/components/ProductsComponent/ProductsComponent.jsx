@@ -2,17 +2,33 @@ import style from "./ProductsComponent.module.scss";
 import ProductCard from "../ProductCard/ProductCard";
 import { useState } from "react";
 
-export default function ProductsComponent({ product, selectedTag }) {
+export default function ProductsComponent({ product, selectedTag, searchValue }) {
   const [isSliced, setIsSliced] = useState(9);
+
 
   const showMore = (num) => {
     setIsSliced(isSliced + num);
   };
-  console.log("product", product.products.length)
-  // Фильтрация товаров по выбранному тегу
-  const filteredProducts = selectedTag
-    ? product.products.filter((product) => product.tags.includes(selectedTag))
-    : product.products;
+
+  // Функция для фильтрации товаров
+  const filteredProducts = product.products.filter((product) => {
+    // Если выбран тег, фильтруем по тегу
+    if (selectedTag) {
+      return product.tags.includes(selectedTag);
+    }
+
+    // Если введён поисковый запрос, фильтруем по запросу
+    if (searchValue) {
+      return product.tags.some((tag) =>
+        tag.toLowerCase().includes(searchValue.toLowerCase())
+      );
+    }
+
+    // Если ничего не выбрано, отображаем все товары
+    return true;
+  });
+
+
 
    return (
     <span className={style.wrapper}>

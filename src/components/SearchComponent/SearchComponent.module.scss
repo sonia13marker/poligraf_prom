@@ -25,5 +25,8 @@
   &:hover {
     border-color: #ACACAC;
   }
+  &:focus {
+    color: $main-black;
+  }
 
 }

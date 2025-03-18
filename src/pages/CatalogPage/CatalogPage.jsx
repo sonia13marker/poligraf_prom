@@ -27,6 +27,9 @@ import { useState } from "react";
 // // Перемешиваем продукты один раз
 // const shuffledProducts = shuffleArray(allProducts);
 export default function CatalogPage({ }) { 
+  const [value, setValue] = useState(""); // Текст из поля поиска
+console.log(value)
+
   const [selectedTag, setSelectedTag] = useState(null); // Выбранный тег
   const [activeTag, setActiveTag] = useState(null); // Состояние для активного тега
 
@@ -34,10 +37,20 @@ export default function CatalogPage({ }) {
     setSelectedTag(tag); // Фильтруем товары
     setActiveTag(tag); // Устанавливаем активный тег (передаем его название, чтобы потом сравнить с выбранным)
   };
+
+  //удаление значений для кнопки сброса тегов
+  const setNullTags = () => {
+    setSelectedTag("");
+    setActiveTag(""); 
+  }
   return (
     <div className={style.container}>
-      <HeaderForPages title="Каталог" searchMock="Найти товары..." />
+      <HeaderForPages title="Каталог" searchMock="Найти товары..." value={value} setValue={setValue} />
       <span className={style.tagList} style={{ flexDirection: "column" }}>
+      {
+          activeTag ? <button className={style.tagList__closer__yellow} onClick={setNullTags}>✕ Сбросить фильтр
+          </button> : <></>
+        }
         {tags.tags.map((tag, i) => (
           <TagsComponent
             key={i}
@@ -62,7 +75,7 @@ export default function CatalogPage({ }) {
                     </div>
                 ))} */}
                 
-<ProductsComponent product={productsData} selectedTag={selectedTag} />
+<ProductsComponent product={productsData} selectedTag={selectedTag} searchValue={value}/>
                   
             </div>
     </div>
