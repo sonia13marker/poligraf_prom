@@ -4,6 +4,7 @@ import tags from "../../data/catalogTags.json";
 import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import ProductsComponent from "../../components/ProductsComponent/ProductsComponent";
 import productsData from "../../data/dd.json";
+import { useState } from "react";
 
 // // Функция для перемешивания массива
 // const shuffleArray = (array) => {
@@ -26,6 +27,13 @@ import productsData from "../../data/dd.json";
 // // Перемешиваем продукты один раз
 // const shuffledProducts = shuffleArray(allProducts);
 export default function CatalogPage({ }) { 
+  const [selectedTag, setSelectedTag] = useState(null); // Выбранный тег
+  const [activeTag, setActiveTag] = useState(null); // Состояние для активного тега
+
+  const handleTagClick = (tag) => {
+    setSelectedTag(tag); // Фильтруем товары
+    setActiveTag(tag); // Устанавливаем активный тег (передаем его название, чтобы потом сравнить с выбранным)
+  };
   return (
     <div className={style.container}>
       <HeaderForPages title="Каталог" searchMock="Найти товары..." />
@@ -36,6 +44,8 @@ export default function CatalogPage({ }) {
             title={tag.title}
             tagList={tag.tagList}
             page="catalog"
+            onTagClick={handleTagClick} // Передаем функцию для выбора тега
+            activeTag={activeTag} // Передаем активный тег
           />
         ))}
       </span>
@@ -52,7 +62,7 @@ export default function CatalogPage({ }) {
                     </div>
                 ))} */}
                 
-<ProductsComponent product={productsData}/>
+<ProductsComponent product={productsData} selectedTag={selectedTag} />
                   
             </div>
     </div>

@@ -13,6 +13,16 @@
       "colorMap": "images/color_map_inknovators.jpg"
     },
     {
+     "id": 11,
+      "name": "Winson",
+      "image": "images/pr-logo-11.png",
+      "tags": [
+        "Пластизольные краски"
+      ],
+      "link": null,
+      "colorMap": "images/winson-color-map.png" 
+    },
+    {
       "id": 2,
       "name": "Amagic",
       "image": "images/pr-logo-2.png",

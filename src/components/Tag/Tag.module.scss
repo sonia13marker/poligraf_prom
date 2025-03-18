@@ -18,9 +18,11 @@
     color: $provider-page-color;
   }
 
-  &.pink:active {
+  &.pink:active,
+  &.pink.active {
     background-color: $provider-page-color;
     color: $main-white;
+    border-color: $provider-page-color;
   }
 
   &.yellow:hover {
@@ -28,8 +30,10 @@
     color: $catalog-page-color;
   }
 
-  &.yellow:active {
+  &.yellow:active,
+  &.yellow.active {
     background-color: $catalog-page-color;
     color: $main-white;
+    border-color: $catalog-page-color;
   }
 }
