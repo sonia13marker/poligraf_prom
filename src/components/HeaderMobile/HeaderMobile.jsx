@@ -7,9 +7,9 @@ import { useState } from "react";
 
 export default function HeaderMobile() {
   const links = [
-    { to: "/", name: "Главная", colorClass: "main-page-color" },
+    { to: "/catalog", name: "Основные направления", colorClass: "catalog-page-color" },
+    { to: "/cards", name: "Цветовые карты", colorClass: "main-page-color" },
     { to: "/providers", name: "Поставщики", colorClass: "provider-page-color" },
-    { to: "/catalog", name: "Каталог", colorClass: "catalog-page-color" },
     { to: "/news", name: "Новости", colorClass: "news-page-color" },
     { to: "/contacts", name: "Контакты", colorClass: "contacts-page-color" },
   ];

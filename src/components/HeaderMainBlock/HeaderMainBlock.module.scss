@@ -12,6 +12,7 @@
 
   &__title {
     @include inter-medium-50;
+    font-weight: 400;
     font-size: 75px;
     color: $main-white;
     line-height: normal;

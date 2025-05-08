@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   const links = [
-    { to: "/", name: "Главная", colorClass: "main-page-color" },
+    { to: "/catalog", name: "Основные направления", colorClass: "catalog-page-color" },
+    { to: "/cards", name: "Цветовые карты", colorClass: "main-page-color" },
     { to: "/providers", name: "Поставщики", colorClass: "provider-page-color" },
-    { to: "/catalog", name: "Каталог", colorClass: "catalog-page-color" },
     { to: "/news", name: "Новости", colorClass: "news-page-color" },
     { to: "/contacts", name: "Контакты", colorClass: "contacts-page-color" },
   ];
@@ -18,10 +18,6 @@ export default function Header() {
       </Link>
 
       <HeaderListComponent links={links} />
-
-      <a href="tel:79180761464" className={styles.header__number}>
-        +7-918-076-14-64
-      </a>
     </div>
   );
 }

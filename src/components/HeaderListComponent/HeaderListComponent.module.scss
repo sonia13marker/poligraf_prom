@@ -8,7 +8,7 @@
 
   &__component {
     @include inter-medium-14;
-    width: 100%;
+    width: max-content;
     height: 100%;
     padding: 10px 15px;
     border-radius: 10px;

@@ -13,7 +13,7 @@ export default function Wrapper() {
       <ScrollToTop />
       {/*--*/}
       <ResizeComponent
-        resizeValue="1015"
+        resizeValue="1230"
         defaultComponent={<Header />}
         resizedComponent={<HeaderMobile />}
       />
