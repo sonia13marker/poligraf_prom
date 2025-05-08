@@ -3,20 +3,20 @@ import HeaderButtonsComponent from "../HeaderButtonsComponent/HeaderButtonsCompo
 
 export default function HeaderMainBlock() {
   const links = [
-    { linkTo: "/", title: "Узнать о компании", type: "scroll" },
-    { linkTo: "/catalog", title: "Изучить каталог" },
-    { linkTo: "/providers", title: "Посмотреть поставщиков" },
+    { linkTo: "/catalog", title: "Всё для графической печати", type: "scroll" },
+    { linkTo: "/catalog", title: "Всё для текстильной печати" },
+    { linkTo: "/catalog", title: "Всё для ТПФ" },
   ];
 
   return (
     <div className={styles.headerWrapper}>
       <h1 className={styles.headerWrapper__title}>
-      Решения для вашего шёлкотрафаретного бизнеса
+      Решения для вашего шёлкотра&shy;фаретного бизнеса
       </h1>
-      <div className={styles.headerWrapper__imageBlock}>
-        <span className={styles.headerWrapper__imageBlock__buttons}>
+      <span className={styles.headerWrapper__buttons}>
           <HeaderButtonsComponent links={links} />
         </span>
+      <div className={styles.headerWrapper__imageBlock}>
       </div>
     </div>
   );

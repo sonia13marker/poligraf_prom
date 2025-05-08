@@ -17,7 +17,7 @@ export default function HeaderButtonsComponent({ links }) {
               to={link.linkTo}
               className={
                 i === 0
-                  ? `${style.headerButtons} ${style.firstSelected}`
+                  ? `${style.headerButtons}`
                   : style.headerButtons
               }
             >
