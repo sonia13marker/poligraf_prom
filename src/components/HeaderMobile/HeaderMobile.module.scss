@@ -3,9 +3,12 @@
 .header {
   @include flex-column;
   width: 100%;
+  padding: 20px 65px 10px;
   gap: $indent-65;
   background-color: $main-white;
   margin-bottom: 30px;
+  position: fixed;
+  top: 0;
 
   &__container {
     @include flex-row;
@@ -94,6 +97,7 @@
   }
 }
 
+
 @media screen and (max-width: 880px) {
   .header__container__logo {
     width: 225px;
@@ -101,7 +105,25 @@
   }
 }
 
+@media screen and (max-width: 620px) {
+  .header {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
 @media screen and (max-width: 495px) {
+  .header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .header__container__logo {
     width: 195px;
     height: 30px;
@@ -111,4 +133,18 @@
     gap: $indent-20;
   }
 
+}
+
+@media screen and (max-width: 370px) {
+ .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+.header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
