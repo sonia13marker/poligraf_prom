@@ -8,8 +8,15 @@
   padding: 30px 70px 0 70px;
 }
 
+@media screen and (max-width: 1220px) {
+.App {
+  margin-top: 20px;
+}
+}
+
 @media screen and (max-width: 575px) {
   .App {
+    margin-top: 10px;
     padding: 30px 45px 0 45px;
   }
 }

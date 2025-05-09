@@ -68,7 +68,7 @@ export default function HeaderMobile() {
           <AdressComponent
             type="phone"
             title="Номер телефона"
-            text="+7-918-076-14-64"
+            text="+7 918 076-14-65"
           />
         </span>
       </span>
