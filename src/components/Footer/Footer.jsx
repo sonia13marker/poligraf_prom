@@ -8,9 +8,9 @@ import { useEffect, useState } from "react";
 
 export default function Footer() {
   const links = [
-    { to: "/", name: "Главная", colorClass: "main-page-color" },
+    { to: "/catalog", name: "Основные направления", colorClass: "catalog-page-color" },
+    { to: "/cards", name: "Цветовые карты", colorClass: "main-page-color" },
     { to: "/providers", name: "Поставщики", colorClass: "provider-page-color" },
-    { to: "/catalog", name: "Каталог", colorClass: "catalog-page-color" },
     { to: "/news", name: "Новости", colorClass: "news-page-color" },
     { to: "/contacts", name: "Контакты", colorClass: "contacts-page-color" },
   ];
@@ -71,7 +71,7 @@ export default function Footer() {
                   <AdressComponent
                     type="phone"
                     title="Номер телефона:"
-                    text="+7-918-076-14-64"
+                    text="+7 918 076-14-65"
                   />
                 </>
               ) : (
@@ -89,7 +89,7 @@ export default function Footer() {
                   <AdressComponent
                     type=""
                     title="Номер телефона:"
-                    text="+7-918-076-14-64"
+                    text="+7 918 076-14-65"
                   />
                 </>
               )}
@@ -103,7 +103,7 @@ export default function Footer() {
         </span>
       </span>
       <p className={styles.footer__wrapper__text}>
-        2024 &copy; ООО «Полиграфпром»
+        2025 &copy; ООО «Полиграфпром»
       </p>
     </div>
   );

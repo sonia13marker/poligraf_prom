@@ -42,6 +42,13 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
 
 @media screen and (max-width: 760px) {
   .list {
