@@ -13,7 +13,7 @@
   margin-bottom: $indent-150;
 
   &__text {
-    max-width: 770px;
+    max-width: 800px;
     width: 100%;
     @include flex-column;
     align-items: flex-start;
@@ -49,6 +49,18 @@
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+}
+
+@media screen and (max-width: 1355px) {
+  .background__text { 
+    width: 710px;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .background__text { 
+    width: 650px;
   }
 }
 

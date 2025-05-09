@@ -16,7 +16,7 @@ export default function MainPage() {
       <AboutCompanySlider />
       <ADFirst />
       <ProvidersSlider />
-      <PartnersComponent />
+      {/* <PartnersComponent /> */}
       <TechnologiesComponent />
       <SmallNewsComponent />
       <ADSecond />
