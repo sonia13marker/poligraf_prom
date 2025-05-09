@@ -78,6 +78,7 @@
   }
   .headerWrapper__title {
     @include inter-medium-35;
+    font-weight: 400;
     font-size: 45px;
   }
 }
@@ -94,6 +95,7 @@
 
   .headerWrapper__title {
     @include inter-medium-35;
+    font-weight: 400;
     //font-size: 30px;
   }
   .headerWrapper__imageBlock {
@@ -106,6 +108,7 @@
 
   .headerWrapper__title {
     @include inter-medium-35;
+     font-weight: 400;
     font-size: 30px;
   }
 

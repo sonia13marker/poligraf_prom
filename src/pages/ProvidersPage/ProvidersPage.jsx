@@ -25,6 +25,7 @@ export default function ProvidersPage({ providers }) {
   return (
     <div className={style.container}>
       <HeaderForPages title="Поставщики" searchMock="Найти поставщика..." value={value} setValue={setValue}/>
+      {/* убираем фильтры со страницы поставщиков
       <span className={style.tagList}>
       {
           activeTag ? <button className={style.tagList__closer__pink} onClick={setNullTags}>✕ Сбросить фильтр
@@ -40,7 +41,7 @@ export default function ProvidersPage({ providers }) {
             activeTag={activeTag}
           />
         ))}
-      </span>
+      </span> */}
       <ProvidersComponent providers={providers} selectedTag={selectedTag} searchValue={value}/>
     </div>
   );
