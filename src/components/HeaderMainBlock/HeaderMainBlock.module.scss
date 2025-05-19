@@ -10,7 +10,6 @@
   padding: 20px;
   margin-top: 40px;
 
-
   &__title {
     @include inter-medium-50;
     font-weight: 400;
@@ -21,8 +20,8 @@
     display: flex;
     text-align: left;
     margin-bottom: 20px;
-    word-wrap: break-word; /* Переносит длинные слова, если не хватает места */
-  hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
   }
 
   &__buttons {
@@ -39,8 +38,41 @@
     width: 100%;
     height: 425px;
     border-radius: 15px;
-    padding: 20px;
-    background: url("../../images/main_image.png") center center no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease; // Плавная смена картинок
+  }
+}
+
+.headerButtons {
+  min-width: 395px;
+  width: 100%;
+  height: 100%;
+  background-color: $main-white;
+  border-radius: 15px;
+  border: 2px solid $main-page-color;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  @include inter-medium-20;
+  color: $main-black;
+  text-decoration: none;
+  padding: 20px;
+
+  &::after {
+    content: "→";
+    color: currentColor;
+    padding-left: 10px;
+  }
+
+  &:hover {
+    color: $main-page-color;
+  }
+
+  &:active {
+    border-color: $contacts-page-color;
+    color: $contacts-page-color;
   }
 }
 
@@ -110,6 +142,7 @@
      font-weight: 400;
     font-size: 30px;
   }
+
 }
 
 @media screen and (max-width: 400px) {
