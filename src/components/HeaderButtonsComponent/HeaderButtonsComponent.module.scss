@@ -31,20 +31,12 @@
     color: $contacts-page-color;
   }
 
-  &.firstSelected {
-    color: $main-page-color;
-
-    &:active {
-      color: $contacts-page-color;
-    }
-  }
-
 }
 
 @media screen and (max-width: 1330px) {
   .headerButtons {
     min-width: auto;
-    width: 350px;
+    width: 360px;
   }
 }
 
@@ -52,5 +44,6 @@
   .headerButtons {
     min-width: auto;
     width: 100%;
+    max-width: 340px;
   }
 }

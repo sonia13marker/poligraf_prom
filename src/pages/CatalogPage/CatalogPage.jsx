@@ -45,7 +45,7 @@ console.log(value)
   }
   return (
     <div className={style.container}>
-      <HeaderForPages title="Каталог" searchMock="Найти товары..." value={value} setValue={setValue} />
+      <HeaderForPages title="Основные направления" searchMock="Найти товары..." value={value} setValue={setValue} />
       <span className={style.tagList} style={{ flexDirection: "column" }}>
       {
           activeTag ? <button className={style.tagList__closer__yellow} onClick={setNullTags}>✕ Сбросить фильтр

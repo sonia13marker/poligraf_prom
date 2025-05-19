@@ -21,6 +21,8 @@
     display: flex;
     text-align: left;
     margin-bottom: 20px;
+    word-wrap: break-word; /* Переносит длинные слова, если не хватает места */
+  hyphens: auto;
   }
 
   &__buttons {
@@ -83,7 +85,12 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+  .headerWrapper__title {
+    @include inter-medium-35;
+    font-weight: 400;
+    //font-size: 30px;
+  }
   .headerWrapper__imageBlock {
     height: 230px;
     background-size: cover;
@@ -91,13 +98,6 @@
 }
 
 @media screen and (max-width: 570px) {
-
-
-  .headerWrapper__title {
-    @include inter-medium-35;
-    font-weight: 400;
-    //font-size: 30px;
-  }
   .headerWrapper__imageBlock {
     height: 200px;
     background-size: cover;
@@ -105,11 +105,17 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .headerWrapper__title {
     @include inter-medium-35;
      font-weight: 400;
     font-size: 30px;
   }
+}
 
+@media screen and (max-width: 400px) {
+.headerWrapper__title {
+    @include inter-medium-35;
+     font-weight: 400;
+    font-size: 26px;
+  }
 }

@@ -11,7 +11,7 @@ export default function HeaderMainBlock() {
   return (
     <div className={styles.headerWrapper}>
       <h1 className={styles.headerWrapper__title}>
-      Решения для вашего шёлкотра&shy;фаретного бизнеса
+      Решения для вашего шёлкотрафаретного бизнеса
       </h1>
       <span className={styles.headerWrapper__buttons}>
           <HeaderButtonsComponent links={links} />

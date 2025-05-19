@@ -26,6 +26,7 @@ function App() {
             element={<ProvidersPage providers={providers} />}
           />
           <Route path="providers/:id" element={<OneProviderPage />} />
+          {/* Каталог теперь "Основные направления" */}
           <Route path="catalog" element={<CatalogPage catalog={catalog}/>} />
           <Route path="news" element={<NewsPage news={news} />} />
           <Route path="news/:id" element={<OneNewsPage />} />
