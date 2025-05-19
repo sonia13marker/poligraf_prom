@@ -20,6 +20,7 @@ export default function ProvidersComponent({ providers, selectedTag, searchValue
     // Если ничего не выбрано, отображаем всех поставщиков
     return true;
   });
+  {/* с карточек поставщиков фильтры тоже убираем*/}
   return (
     <span className={style.wrapper}>
       {filteredProviders.map((provider, i) => (
@@ -28,7 +29,7 @@ export default function ProvidersComponent({ providers, selectedTag, searchValue
           key={i}
           name={provider.name}
           image={provider.image}
-          tagList={provider.tags}
+          // tagList={provider.tags}
           linkToPage={provider.id}
           link={provider.link}
           products={provider.products}

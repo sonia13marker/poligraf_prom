@@ -8,7 +8,7 @@ export default function ProvidersSliderCard({
   name,
   image,
   type,
-  tagList,
+  // tagList,
   // linkToPage,
   link,
   products,
@@ -39,7 +39,7 @@ export default function ProvidersSliderCard({
           alt={`${image} card`}
           className={styles.page__card__image}
           style={
-            showAllTags && tagList.length >= 7 ? { opacity: 0 } : { opacity: 1 }
+           { opacity: 1 }
           }
         />
 
@@ -51,7 +51,7 @@ export default function ProvidersSliderCard({
             <h3 className={styles.page__card__wrapper__line__name}>{name}</h3>
             <RightArrow />
           </Link>
-          <span
+          {/* <span
             className={styles.page__card__tagList}
             style={
               tagList.length <= 2
@@ -78,7 +78,7 @@ export default function ProvidersSliderCard({
                 Еще {tagList.length - 2}
               </button>
             )}
-          </span>
+          </span> */}
         </span>
       </div>
     );
