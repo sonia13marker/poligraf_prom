@@ -49,24 +49,17 @@ export default function ContactsPage() {
               <AdressComponent
                 type=""
                 title="Телефон директора"
-                text="+7-918-076-14-64 (Александр)"
+                text={
+    <span style={{ whiteSpace: 'pre-line', lineHeight: "140%" }}>
+      {`+7-918-076-14-64
++7-905-470-59-80 (Александр, WhatsApp и Telegram)`}
+    </span>
+  }
               />
               <AdressComponent
                 type=""
                 title="Телефон менеджера-технолога"
                 text="+7-918-076-14-65 (Игорь)"
-              />
-            </span>
-            <span className={styles.wrapper__contacts__text__twoBlock__two}>
-              <AdressComponent
-                type=""
-                title="Skype"
-                text="skatov67 (Александр)"
-              />
-              <AdressComponent
-                type=""
-                title="Skype"
-                text="poligraphprom-igor (Игорь)"
               />
             </span>
           </span>

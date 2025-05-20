@@ -5,6 +5,7 @@
   align-items: flex-start;
   width: max-content;
   gap: $indent-5;
+  width: 100%;
 
   &__title {
     @include inter-medium-14;
@@ -15,7 +16,7 @@
   &__text {
     @include inter-medium-20;
     color: $main-page-color;
-    max-width: 295px;
+    max-width: 700px;
     width: 100%;
     text-decoration: none;
   }

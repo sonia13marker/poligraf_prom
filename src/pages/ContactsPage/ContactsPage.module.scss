@@ -81,7 +81,7 @@
   .wrapper__contacts__text__twoBlock__one, .wrapper__contacts__text__twoBlock__two {
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: min-content;
+    width: 100%;
   }
 }
 
@@ -96,7 +96,8 @@
     gap: $indent-20;
   }
   .wrapper__contacts__text__twoBlock {
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
     gap: $indent-20;
   }
 }
