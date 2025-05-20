@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const links = [
     { to: "/catalog", name: "Основные направления", colorClass: "catalog-page-color" },
-    { to: "/cards", name: "Цветовые карты", colorClass: "main-page-color" },
+    { to: "/colorcards", name: "Цветовые карты", colorClass: "main-page-color" },
     { to: "/providers", name: "Поставщики", colorClass: "provider-page-color" },
     { to: "/news", name: "Новости", colorClass: "news-page-color" },
     { to: "/contacts", name: "Контакты", colorClass: "contacts-page-color" },

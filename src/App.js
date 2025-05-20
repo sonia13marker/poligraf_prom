@@ -13,6 +13,7 @@ import OneTechnologiePage from "./pages/OneTechnologiePage/OneTechnologiePage";
 import providers from "./data/providers.json";
 import news from "./data/news.json";
 import catalog from './data/providerProducts.json';
+import ColorCardsPage from "./pages/ColorCards/ColorCardsPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="providers/:id" element={<OneProviderPage />} />
           {/* Каталог теперь "Основные направления" */}
           <Route path="catalog" element={<CatalogPage catalog={catalog}/>} />
+          <Route path="colorcards" element={<ColorCardsPage/>}/>
           <Route path="news" element={<NewsPage news={news} />} />
           <Route path="news/:id" element={<OneNewsPage />} />
           <Route path="contacts" element={<ContactsPage />} />
