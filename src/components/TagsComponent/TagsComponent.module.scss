@@ -1,55 +1,44 @@
 @import "../../style.module";
 
 .wrapper {
-  @include flex-column;
-  align-items: flex-start;
-  width: 100%;
-  height: 100%;
-  gap: $indent-5;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
 
   &__title {
-    @include inter-medium-14;
-    color: $main-gray;
+    @include inter-regular-14;
+    margin-bottom: 10px;
   }
 
   &__tagsList {
-    width: 100%;
-    @include flex-row;
-    justify-content: flex-start;
+    display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-
-    &__button {
-      @include inter-regular-14;
-      line-height: normal;
-      width: max-content;
-      height: 100%;
-      padding: 5px 8px;
-      color: $main-white;
-      border-radius: $border-radius;
-      transition: 0.3s all;
-
-      &.pink {
-        background-color: $provider-page-color;
-        border: 1px solid $provider-page-color;
-
-        &:hover {
-          background-color: $main-white;
-          color: $provider-page-color;
-        }
-      }
-
-      &.yellow {
-        background-color: $catalog-page-color;
-        border: 1px solid $catalog-page-color;
-
-        &:hover {
-          background-color: $main-white;
-          color: $catalog-page-color;
-        }
-      }
+    gap: 8px;
+  }
+}
 
 
-    }
+/* Стили для кнопки "Выбрать все / Сбросить все" */
+.selectAllButton {
+  @include inter-regular-14;
+  padding: 5px 8px;
+  background-color: $main-white;
+  color: $catalog-page-color;
+  border: 1px solid $catalog-page-color;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: 0.3s all;
+  margin-right: 8px;
+  margin-bottom: 8px;
+
+  &:hover {
+    border-color: $catalog-page-color;
+    color: $catalog-page-color;
+  }
+
+  &:active, &.active {
+    background-color: $catalog-page-color;
+    color: $main-white;
+    border-color: $catalog-page-color;
   }
 }

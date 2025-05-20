@@ -6,6 +6,16 @@
   margin-bottom: $indent-65;
 }
 
+.tagSection {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
 .tagList {
   @include flex-row;
   align-items: flex-start;

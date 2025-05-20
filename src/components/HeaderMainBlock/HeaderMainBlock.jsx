@@ -9,18 +9,18 @@ export default function HeaderMainBlock() {
   const [activeImage, setActiveImage] = useState(`${pic1}`); // Картинка по умолчанию
   const links = [
     { 
-      linkTo: "/catalog", 
+      linkTo: "/catalog?category=graphic", 
       title: "Всё для графической печати", 
       type: "scroll",
       image: `${pic1}` // Картинка для первой кнопки
     },
     { 
-      linkTo: "/catalog", 
+      linkTo: "/catalog?category=textile", 
       title: "Всё для текстильной печати",
       image: `${pic2}` // Картинка для второй кнопки
     },
     { 
-      linkTo: "/catalog", 
+      linkTo: "/catalog?category=tpf", 
       title: "Всё для ТПФ",
       image: `${pic3}` // Картинка для третьей кнопки
     },

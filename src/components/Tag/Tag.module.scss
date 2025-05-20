@@ -12,28 +12,20 @@
   border: 1px solid $main-black;
   user-select: none;
   transition: 0.3s all;
+  cursor: pointer;
+  // margin-right: 8px;
+  margin-bottom: 8px;
 
-  &.pink:hover {
-    border-color: $provider-page-color;
-    color: $provider-page-color;
-  }
+  &.yellow {
+    &:hover {
+      border-color: $catalog-page-color;
+      color: $catalog-page-color;
+    }
 
-  &.pink:active,
-  &.pink.active {
-    background-color: $provider-page-color;
-    color: $main-white;
-    border-color: $provider-page-color;
-  }
-
-  &.yellow:hover {
-    border-color: $catalog-page-color;
-    color: $catalog-page-color;
-  }
-
-  &.yellow:active,
-  &.yellow.active {
-    background-color: $catalog-page-color;
-    color: $main-white;
-    border-color: $catalog-page-color;
+    &.active {
+      background-color: $catalog-page-color;
+      color: $main-white;
+      border-color: $catalog-page-color;
+    }
   }
 }

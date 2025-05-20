@@ -5,6 +5,8 @@ import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import ProductsComponent from "../../components/ProductsComponent/ProductsComponent";
 import productsData from "../../data/dd.json";
 import { useState } from "react";
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 // // Функция для перемешивания массива
 // const shuffleArray = (array) => {
@@ -26,44 +28,66 @@ import { useState } from "react";
 
 // // Перемешиваем продукты один раз
 // const shuffledProducts = shuffleArray(allProducts);
-export default function CatalogPage({ }) { 
-  const [value, setValue] = useState(""); // Текст из поля поиска
-console.log(value)
-
-  const [selectedTag, setSelectedTag] = useState(null); // Выбранный тег
-  const [activeTag, setActiveTag] = useState(null); // Состояние для активного тега
-
-  const handleTagClick = (tag) => {
-    setSelectedTag(tag); // Фильтруем товары
-    setActiveTag(tag); // Устанавливаем активный тег (передаем его название, чтобы потом сравнить с выбранным)
+export default function CatalogPage() {
+  const [value, setValue] = useState("");
+  const [selectedTags, setSelectedTags] = useState([]);
+  const [activeTags, setActiveTags] = useState([]);
+  
+  const location = useLocation();
+  
+  const categoryMap = {
+    graphic: ["Сольвентные краски", "Краски УФ-отверждения", "Пасты и порошки", "Термографические порошки", "Загуститель"],
+    textile: ["Пластизольные краски", "Водные краски", "Клеи и аэрозоли"],
+    tpf: ["Эмульсии", "Химия для изготовления и регенерации ТФП", "Сетки"]
   };
 
-  //удаление значений для кнопки сброса тегов
-  const setNullTags = () => {
-    setSelectedTag("");
-    setActiveTag(""); 
-  }
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const category = searchParams.get('category');
+    
+    if (category && categoryMap[category]) {
+      setSelectedTags(categoryMap[category]);
+      setActiveTags(categoryMap[category]);
+    }
+  }, [location.search]);
+
+  const handleTagClick = (tag) => {
+    setSelectedTags(prev => prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]);
+    setActiveTags(prev => prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]);
+  };
+
+  const handleSelectAll = (tagList) => {
+    const allSelected = tagList.every(tag => selectedTags.includes(tag));
+    
+    if (allSelected) {
+      setSelectedTags(prev => prev.filter(tag => !tagList.includes(tag)));
+      setActiveTags(prev => prev.filter(tag => !tagList.includes(tag)));
+    } else {
+      const tagsToAdd = tagList.filter(tag => !selectedTags.includes(tag));
+      setSelectedTags(prev => [...prev, ...tagsToAdd]);
+      setActiveTags(prev => [...prev, ...tagsToAdd]);
+    }
+  };
+
   return (
     <div className={style.container}>
       <HeaderForPages title="Основные направления" searchMock="Найти товары..." value={value} setValue={setValue} />
-      <span className={style.tagList} style={{ flexDirection: "column" }}>
-      {
-          activeTag ? <button className={style.tagList__closer__yellow} onClick={setNullTags}>✕ Сбросить фильтр
-          </button> : <></>
-        }
+       <div className={style.tagList} style={{ flexDirection: "column" }}>
         {tags.tags.map((tag, i) => (
           <TagsComponent
             key={i}
             title={tag.title}
             tagList={tag.tagList}
             page="catalog"
-            onTagClick={handleTagClick} // Передаем функцию для выбора тега
-            activeTag={activeTag} // Передаем активный тег
+            onTagClick={handleTagClick}
+            activeTags={activeTags}
+            onSelectAll={() => handleSelectAll(tag.tagList)}
+            allSelected={tag.tagList.every(t => selectedTags.includes(t))}
           />
         ))}
-      </span>
-       <div className="product-list">
-        {/* Показывает перемешанный массив на странице */}
+      </div>
+      <div className="product-list">
+         {/* Показывает перемешанный массив на странице */}
        {/* {shuffledProducts.map((product, index) => (
                     <div key={index} className="product-card">
                         <h2>{product.name}</h2>
@@ -74,10 +98,12 @@ console.log(value)
                         </a>
                     </div>
                 ))} */}
-                
-<ProductsComponent product={productsData} selectedTag={selectedTag} searchValue={value}/>
-                  
-            </div>
+        <ProductsComponent 
+          product={productsData} 
+          selectedTags={selectedTags} 
+          searchValue={value}
+        />
+      </div>
     </div>
   );
 }
