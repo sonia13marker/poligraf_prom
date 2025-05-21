@@ -6,3 +6,11 @@
     @include inter-medium-20;
     font-size: 25px;
     }
+
+@media screen and (max-width: 430px) {
+    .list__item {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+}
