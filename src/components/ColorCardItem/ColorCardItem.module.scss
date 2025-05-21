@@ -1,0 +1,8 @@
+@import '../../style.module.scss';
+
+.list__item {
+        width: 100%;
+        @include flex-row;
+    @include inter-medium-20;
+    font-size: 25px;
+    }

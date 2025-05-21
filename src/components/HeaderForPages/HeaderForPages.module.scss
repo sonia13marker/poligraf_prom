@@ -42,13 +42,19 @@
           background-color: $provider-page-color;
         }
 
+         &.blue {
+ color: $main-page-color;
+        border-color: $main-page-color;
+
+         &:hover {
+          @include main-button-hover;
+          background-color: $main-page-color;
+        }
+          }
+
         &__wrapper {
           @include flex-row;
           gap: $indent-10;
-
-          &__p {
-
-          }
         }
       }
     }

@@ -1,0 +1,10 @@
+@import '../../style.module.scss';
+
+.list {
+    height: 80vh;
+    margin-bottom: 20px;
+
+    @include flex-column;
+    justify-content: flex-start;
+    gap: 20px;
+}
