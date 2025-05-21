@@ -30,9 +30,13 @@ export default function ProductsComponent({ product, selectedTags, searchValue }
   return (
     <span className={style.wrapper}>
       <span className={style.wrapper__list}>
-        {filteredProducts.slice(0, isSliced).map((product, index) => (
-          <ProductCard product={product} key={index} />
-        ))}
+        {filteredProducts.length > 0 ? (
+          filteredProducts.slice(0, isSliced).map((product, index) => (
+            <ProductCard product={product} key={index} />
+          ))
+        ) : (
+          <p>Ничего не найдено...</p>
+        )}
       </span>
       {filteredProducts.length > isSliced && (
         <button className={style.wrapper__button} onClick={() => showMore(9)}>

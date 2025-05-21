@@ -18,13 +18,13 @@ export default function ColorCardsPage() {
              <HeaderForPages title="Цветовые карты" searchMock="Найти карту у поставщика..." value={value} setValue={setValue}/>
              <ul className={style.list}>
              {
-                filteredProviders.map((prov,i) => 
+                filteredProviders.length > 0 ? (filteredProviders.map((prov,i) => 
                 <ColorCardItem 
                 key={i}
                 provider={prov.name}
                 colorMap={prov.colorMap}
                 />
-                )
+                )) : ( <p>Ничего не найдено...</p>)
              }
              </ul>
         </div>

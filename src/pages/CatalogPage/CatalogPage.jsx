@@ -3,6 +3,8 @@ import HeaderForPages from "../../components/HeaderForPages/HeaderForPages";
 import tags from "../../data/catalogTags.json";
 import TagsComponent from "../../components/TagsComponent/TagsComponent";
 import ProductsComponent from "../../components/ProductsComponent/ProductsComponent";
+/*перед тем, как запускать функцию перемешки массива, 
+нужно сменить импорт с dd.json на providerProducts.json!*/
 import productsData from "../../data/dd.json";
 import { useState } from "react";
 import { useLocation } from 'react-router-dom';
@@ -27,7 +29,10 @@ import { useEffect } from 'react';
 // );
 
 // // Перемешиваем продукты один раз
-// const shuffledProducts = shuffleArray(allProducts);
+//  const shuffledProducts = shuffleArray(allProducts);
+
+//  console.log(shuffledProducts);
+
 export default function CatalogPage() {
   const [value, setValue] = useState("");
   const [selectedTags, setSelectedTags] = useState([]);
@@ -87,7 +92,7 @@ export default function CatalogPage() {
         ))}
       </div>
       <div className="product-list">
-         {/* Показывает перемешанный массив на странице */}
+         {/* Показывает перемешанный массив на странице - параллельно нужно выводить в консоль */}
        {/* {shuffledProducts.map((product, index) => (
                     <div key={index} className="product-card">
                         <h2>{product.name}</h2>
