@@ -62,7 +62,7 @@ export default function ButtonsForHeader({ siteLink, documentLink, colorScheme }
           href={`${publicPath}/${documentLink}`}
           rel="noreferrer"
           target="_blank"
-          className={`${style.header__wrapper__btns__docLink} ${colorScheme!==null && colorScheme=="blue" ? style.blue : ""}`}
+          className={`${style.header__wrapper__btns__docLink} ${colorScheme!==null && colorScheme==="blue" ? style.blue : ""}`}
            onMouseEnter={handleMouseOn}
             onMouseLeave={handleMouseDown}
         >
