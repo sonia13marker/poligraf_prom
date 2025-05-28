@@ -1,4 +1,5 @@
 import styles from "./AboutCompanySlider.module.scss";
+// import pic1 from "../../images/grids1.jpg";
 import pic1 from "../../images/slider-pic-1.png";
 import pic2 from "../../images/slider-pic-2.png";
 import { useState } from "react";

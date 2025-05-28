@@ -10,6 +10,12 @@
     width: 640px;
     height: 250px;
     border-radius: $border-radius;
+
+     & > img {
+     height: 100%;
+     width: 100%;
+    //  background-image: url("../../images/grids1.jpg") center center no-repeat;
+     }
   }
 
   &__textBlock {
@@ -33,10 +39,6 @@
       max-width: 400px;
       width: 100%;
       color: $main-page-color;
-    }
-
-    &__buttons {
-
     }
   }
 }

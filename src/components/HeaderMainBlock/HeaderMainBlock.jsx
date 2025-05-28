@@ -3,7 +3,7 @@ import HeaderButtonsComponent from "../HeaderButtonsComponent/HeaderButtonsCompo
 import { useState } from "react";
 import pic1 from "../../images/main_block_1.png";
 import pic2 from "../../images/main_block_2.png";
-import pic3 from "../../images/main_block_3.png";
+import pic3 from "../../images/graph.jpg";
 
 export default function HeaderMainBlock() {
   const [activeImage, setActiveImage] = useState(`${pic1}`); // Картинка по умолчанию
