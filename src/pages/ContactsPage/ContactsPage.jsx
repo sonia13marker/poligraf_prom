@@ -50,16 +50,16 @@ export default function ContactsPage() {
                 type=""
                 title="Телефон директора"
                 text={
-    <span style={{ whiteSpace: 'pre-line', lineHeight: "140%" }}>
-      {`+7-918-076-14-64
+                  <span style={{ whiteSpace: 'pre-line', lineHeight: "140%" }}>
+                    {`+7-918-076-14-64
 +7-905-470-59-80 (Александр, WhatsApp и Telegram)`}
-    </span>
-  }
+                  </span>
+                }
               />
               <AdressComponent
                 type=""
                 title="Телефон менеджера-технолога"
-                text="+7-918-076-14-65 (Игорь)"
+                text="+7-918-076-14-65 (Игорь, WhatsApp)"
               />
             </span>
           </span>

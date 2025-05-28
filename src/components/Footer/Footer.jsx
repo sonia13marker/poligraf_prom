@@ -71,7 +71,11 @@ export default function Footer() {
                   <AdressComponent
                     type="phone"
                     title="Номер телефона:"
-                    text="+7 918 076-14-65"
+                    text={[
+                      "+7-918-076-14-64",
+                      <br key="break" />,
+                      "+7-918-076-14-65"
+                    ]}
                   />
                 </>
               ) : (
@@ -88,8 +92,12 @@ export default function Footer() {
                   />
                   <AdressComponent
                     type=""
-                    title="Номер телефона:"
-                    text="+7 918 076-14-65"
+                    title="Номер телефона"
+                    text={[
+                      "+7-918-076-14-64",
+                      <br key="break" />,
+                      "+7-918-076-14-65"
+                    ]}
                   />
                 </>
               )}
