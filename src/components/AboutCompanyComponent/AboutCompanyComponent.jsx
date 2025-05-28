@@ -12,7 +12,7 @@ export default function AboutCompanyComponent() {
         <span className={styles.about__wrapper__oneHalf}>
           <AboutCompanyBigBlock
             color={`$main-page-color`}
-            text="ООО «Полиграфпром» работает лишь с крупнейшими компаниями Европы и Азии, которые зарекомендовали себя на мировом рынке как стабильные, надёжные партнёры, поставляющие неизменно качественную продукцию"
+            text="ООО «Полиграфпром» работает лишь с крупнейшими зарубежными компаниями, которые зарекомендовали себя на мировом рынке как стабильные, надёжные партнёры, поставляющие неизменно качественную продукцию"
           />
           <span className={styles.about__wrapper__oneHalf__one}>
             <AboutCompanySmallBlock
