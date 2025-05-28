@@ -27,7 +27,7 @@ export default function TechnologieFileCard({ file, fileName }) {
     setActive(false);
   };
 
-  if (fileExtension === "pdf") {
+  if (fileExtension === "pdf" || "doc") {
     return (
       <a
         href={`${publicPath}/${file}`}
