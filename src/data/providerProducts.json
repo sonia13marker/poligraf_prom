@@ -8,6 +8,29 @@
                     "name": "PL ANTI-MIGRATION BASE",
                     "image": "images/inknovators/pl_antimig_base.jpg",
                     "file": "images/inknovators/PL_ANTIMIGR_BASE.pdf",
+                    "type":"bases",
+                    "tags": [
+        "Inknovators",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+                },
+                {
+                    "name": "PL MIXING WHITE",
+                    "image": "",
+                    "file": "",
+                    "type":"bases",
+                    "tags": [
+        "Inknovators",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+                },
+                {
+                    "name": "FOIL ADHESIVE",
+                    "image": "",
+                    "file": "",
+                    "type":"effects",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -18,6 +41,7 @@
                     "name": "PL BLACK",
                     "image": "images/inknovators/pl_black.jpg",
                     "file": "images/inknovators/PL_BLACK.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -28,6 +52,7 @@
                     "name": "PL BLUE",
                     "image": "images/inknovators/pl_blue.jpg",
                     "file": "images/inknovators/PL_BLUE.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -38,6 +63,7 @@
                     "name": "PL BROWN",
                     "image": "images/inknovators/pl_brown.jpg",
                     "file": "images/inknovators/PL_BROWN.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -48,6 +74,7 @@
                     "name": "PL CARMEN",
                     "image": "",
                     "file": "images/inknovators/PL_CARMEN.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -58,6 +85,7 @@
                     "name": "PL CLEAR BASE",
                     "image": "images/inknovators/pl_clear_base.jpg",
                     "file": "images/inknovators/PL_CLEAR_BASE.pdf",
+                    "type":"bases",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -68,6 +96,7 @@
                     "name": "PL CMYK BLACK",
                     "image": "images/inknovators/pl_cmyk_black.jpg",
                     "file": "images/inknovators/PL CMYK BLACK.pdf",
+                    "type":"cmyk colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -78,6 +107,7 @@
                     "name": "PL CMYK CYAN",
                     "image": "images/inknovators/pl_cmyk_cyan.jpg",
                     "file": "images/inknovators/PL CMYK CYAN.pdf",
+                    "type":"cmyk colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -88,6 +118,7 @@
                     "name": "PL CMYK MAGENTA",
                     "image": "images/inknovators/pl_cmyk_magenta.jpg",
                     "file": "images/inknovators/PL CMYK MAGENTA.pdf",
+                    "type":"cmyk colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -98,6 +129,7 @@
                     "name": "PL CMYK YELLOW",
                     "image": "images/inknovators/pl_cmyk_yellow.jpg",
                     "file": "images/inknovators/PL CMYK YELLOW.pdf",
+                    "type":"cmyk colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -108,6 +140,7 @@
                     "name": "PL DARK NAVY BLUE",
                     "image": "images/inknovators/pl_dark_navy_blue.jpg",
                     "file": "images/inknovators/PL DARK NAVY BLUE.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -118,6 +151,7 @@
                     "name": "PL FLU BLUE",
                     "image": "images/inknovators/pl_flu_blue.jpg",
                     "file": "images/inknovators/PL FLU BLUE.pdf",
+                    "type":"flu colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -128,6 +162,7 @@
                     "name": "PL FLU GREEN",
                     "image": "images/inknovators/pl_flu_green.jpg",
                     "file": "images/inknovators/PL FLU GREEN.pdf",
+                    "type":"flu colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -138,6 +173,7 @@
                     "name": "PL FLU ORANGE",
                     "image": "images/inknovators/pl_flu_orange.jpg",
                     "file": "images/inknovators/PL FLU ORANGE.pdf",
+                    "type":"flu colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -148,6 +184,7 @@
                     "name": "PL FLU PINK",
                     "image": "images/inknovators/pl_flu_pink.jpg",
                     "file": "images/inknovators/PL FLU PINK.pdf",
+                    "type":"flu colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -158,6 +195,7 @@
                     "name": "PL FLU RED",
                     "image": "images/inknovators/pl_flu_red.jpg",
                     "file": "images/inknovators/PL FLU RED.pdf",
+                    "type":"flu colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -168,6 +206,7 @@
                     "name": "PL FLU YELLOW",
                     "image": "images/inknovators/pl_flu_yellow.jpg",
                     "file": "images/inknovators/PL FLU YELLOW.pdf",
+                    "type":"flu colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -178,6 +217,7 @@
                     "name": "PL FUCHSIA",
                     "image": "images/inknovators/pl_fucshia.jpg",
                     "file": "images/inknovators/PL FUCHSIA.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -188,6 +228,7 @@
                     "name": "PL GLITTER BASE",
                     "image": "images/inknovators/pl_glitter_base.jpg",
                     "file": "images/inknovators/PL GLITTER BASE.pdf",
+                    "type":"effects",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -198,6 +239,7 @@
                     "name": "PL GOLD YELLOW",
                     "image": "images/inknovators/pl_gold_yellow.jpg",
                     "file": "images/inknovators/PL GOLD YELLOW.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -208,6 +250,7 @@
                     "name": "PL GREEN",
                     "image": "images/inknovators/pl_green.jpg",
                     "file": "images/inknovators/PL GREEN.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -217,6 +260,7 @@
                 {
                     "name": "PL HIGH DENSITY",
                     "image": "images/inknovators/pl_hight_density.jpg",
+                    "type":"bases",
                     "file": null,
                     "tags": [
         "Inknovators",
@@ -228,6 +272,7 @@
                     "name": "PL LIGHT RED",
                     "image": "images/inknovators/pl_light_red.jpg",
                     "file": "images/inknovators/PL LIGHT RED.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -238,6 +283,7 @@
                     "name": "PL LOW BLEED WHITE",
                     "image": "images/inknovators/pl_low_bleed_white.jpg",
                     "file": "images/inknovators/PL LOW BLEED WHITE.pdf",
+                    "type":"bases",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -248,6 +294,7 @@
                     "name": "PL MATT AGENT",
                     "image": "",
                     "file": "images/inknovators/PL MATT AGENT.pdf",
+                    "type":"effects",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -258,6 +305,7 @@
                     "name": "PL METALLIC GOLD",
                     "image": "images/inknovators/pl_metallic_gold.jpg",
                     "file": "images/inknovators/PL METALLIC GOLD.pdf",
+                    "type":"metallic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -268,6 +316,7 @@
                     "name": "PL METALLIC SILVER",
                     "image": "images/inknovators/pl_metallic_silver.jpg",
                     "file": "images/inknovators/PL METALLIC SILVER.pdf",
+                    "type":"metallic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -278,6 +327,7 @@
                     "name": "PL MIXING BASE",
                     "image": "images/inknovators/pl_mixing_base.jpg",
                     "file": "images/inknovators/PL MIXING BASE.pdf",
+                    "type":"bases",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -288,6 +338,7 @@
                     "name": "PL NAVY BLUE",
                     "image": "images/inknovators/pl_navy_blue.jpg",
                     "file": "images/inknovators/PL NAVY BLUE.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -298,6 +349,7 @@
                     "name": "PL ORANGE",
                     "image": "images/inknovators/pl_orange.jpg",
                     "file": "images/inknovators/PL ORANGE.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -308,6 +360,7 @@
                     "name": "PL POLY WHITE",
                     "image": "images/inknovators/pl_poly_white.jpg",
                     "file": "images/inknovators/PL POLYWHITE.pdf",
+                    "type":"bases",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -318,6 +371,7 @@
                     "name": "PL PUFF BASE",
                     "image": "images/inknovators/pl_puff_base.jpg",
                     "file": "images/inknovators/PL PUFF BASE.pdf",
+                    "type":"effects",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -328,6 +382,7 @@
                     "name": "PL SAX BLUE",
                     "image": "images/inknovators/pl_sax_blue.jpg",
                     "file": "images/inknovators/PL SAX BLUE.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -338,6 +393,7 @@
                     "name": "PL SCARLET",
                     "image": "images/inknovators/pl_scarlet.jpg",
                     "file": "images/inknovators/PL SCARLET.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -348,6 +404,7 @@
                     "name": "PL SKY BLUE",
                     "image": "images/inknovators/pl_sky_blue.jpg",
                     "file": "images/inknovators/PL SKY BLUE.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -358,6 +415,7 @@
                     "name": "PL SNOW WHITE",
                     "image": "images/inknovators/pl_snow_white.jpg",
                     "file": "images/inknovators/PL SNOW WHITE.pdf",
+                    "type":"bases",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -368,6 +426,7 @@
                     "name": "PL SOCKS BASE",
                     "image": "images/inknovators/pl_socks_base.jpg",
                     "file": "images/inknovators/PL SOCKS BASE.pdf",
+                    "type":"bases",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -378,6 +437,7 @@
                     "name": "PL TURQUOISE",
                     "image": "",
                     "file": "images/inknovators/PL TURQUOISE.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -388,6 +448,7 @@
                     "name": "PL ULTRA ELASTIC BASE",
                     "image": "images/inknovators/pl_ultra_elastic_base.jpg",
                     "file": "images/inknovators/PL ULTRA ELASTIC.pdf",
+                    "type":"bases",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -398,6 +459,7 @@
                     "name": "PL VIOLET",
                     "image": "images/inknovators/pl_violet.jpg",
                     "file": "images/inknovators/PL VIOLET.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -408,6 +470,7 @@
                     "name": "PL YELLOW",
                     "image": "images/inknovators/pl_yellow.jpg",
                     "file": "images/inknovators/PL YELLOW.pdf",
+                    "type":"basic colors",
                     "tags": [
         "Inknovators",
         "Пластизольные краски",
@@ -700,17 +763,190 @@
         ]
     },
     {
-        "id": 6,
-        "name": "Menphis"
-    },
-    {
         "id": 7,
         "name": "Saati",
         "products": [
+          {
+                "name": "Сетка 10,5 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 12 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 18 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 24 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 32 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 43 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 55 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 62 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 77 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 90 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 100 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 120 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 140 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 165 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 180 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Сетка 200 мм",
+                "image": "images/saati/saati_grids.jpg",
+                "file": "",
+                "type": "grids",
+                "tags": [
+        "Saati",
+        "Сетки",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
             {
                 "name": "Grafic HU",
                 "image": "images/saati/grafic_hu_violet_pair2.jpg",
                 "file": "images/saati/Эмульсия GRAF-HU.pdf",
+                "type":"emulsions",
                 "tags": [
         "Saati",
         "Эмульсии",
@@ -718,9 +954,10 @@
       ]
             },
             {
-                "name": "Textil HT",
+                "name": "SAATITEX HT",
                 "image": "",
                 "file": "images/saati/textil_ht.pdf",
+                "type":"emulsions",
                 "tags": [
         "Saati",
         "Эмульсии",
@@ -731,6 +968,29 @@
                 "name": "Textil PHW",
                 "image": "images/saati/textil_phw.jpg",
                 "file": "images/saati/textil_phw.pdf",
+                "type":"emulsions",
+                "tags": [
+        "Saati",
+        "Эмульсии",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "Grafic HU Violet",
+                "image": "",
+                "file": "",
+                "type":"emulsions",
+                "tags": [
+        "Saati",
+        "Эмульсии",
+        "Изготовление и регенерация ТПФ"
+      ]
+            },
+            {
+                "name": "SAATITEX PHU HR",
+                "image": "",
+                "file": "",
+                "type":"emulsions",
                 "tags": [
         "Saati",
         "Эмульсии",
@@ -741,6 +1001,7 @@
                 "name": "REMOVE HR Haze Removers",
                 "image": "",
                 "file": "images/saati/remove_hr.pdf",
+                "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -751,6 +1012,7 @@
                 "name": "REMOVE IR",
                 "image": "",
                 "file": "images/saati/remove_ir.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -761,9 +1023,10 @@
                 "name": "CERAMIC HHW1",
                 "image": "",
                 "file": "images/saati/ceramic_hhw1.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
-        "Эмульсии",
+        "Химия для изготовления и регенерации ТПФ",
         "Изготовление и регенерация ТПФ"
       ]
             },
@@ -771,9 +1034,10 @@
                 "name": "ceramic ht triple-cure ceramic emulsion",
                 "image": "",
                 "file": "images/saati/ceramic_ht.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
-        "Эмульсии",
+        "Химия для изготовления и регенерации ТПФ",
         "Изготовление и регенерация ТПФ"
       ]
             },
@@ -781,6 +1045,7 @@
                 "name": "direct prep 1 one step pretreatment",
                 "image": "images/saati/direct_prep_1.jpg",
                 "file": "images/saati/direct-prep-1.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -791,6 +1056,7 @@
                 "name": "direct prep 2 combined degreaser/wetting agent",
                 "image": "images/saati/direct_prep_2.jpg",
                 "file": "images/saati/direct-prep-2.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -801,6 +1067,7 @@
                 "name": "direct prep 3 concentrated degreaser/wetting agent",
                 "image": "",
                 "file": "images/saati/direct-prep-3.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -811,6 +1078,7 @@
                 "name": "finish s2",
                 "image": "images/saati/finish_s2.jpg",
                 "file": "images/saati/finish-s2.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -821,6 +1089,7 @@
                 "name": "finish w1",
                 "image": "",
                 "file": "images/saati/finish-w1.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -830,6 +1099,7 @@
             {
                 "name": "FIXER 1-2-6-9-10",
                 "image": "images/saati/fixer_1.jpg",
+                   "type":"chemical",
                 "file": "images/saati/Fiхеr 1-2-6-9-10_UK 2017_RUS_2019.pdf",
                 "tags": [
         "Saati",
@@ -840,6 +1110,7 @@
             {
                 "name": "REMOVE ER series",
                 "image": "",
+                   "type":"chemical",
                 "file": "images/saati/remove_er 25.pdf",
                 "tags": [
         "Saati",
@@ -851,6 +1122,7 @@
                 "name": "Remove hR5",
                 "image": "",
                 "file": "images/saati/remove_er1.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -861,6 +1133,7 @@
                 "name": "Remove eR2",
                 "image": "images/saati/remove_er2.jpg",
                 "file": "images/saati/remove_er2.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -871,6 +1144,7 @@
                 "name": "Remove hR1",
                 "image": "",
                 "file": "images/saati/remove_hr1.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -881,6 +1155,7 @@
                 "name": "Remove hR3",
                 "image": "images/saati/remove_hr3_pair.jpg",
                 "file": "images/saati/remove_hr3.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -891,56 +1166,7 @@
                 "name": "Remove hR5",
                 "image": "",
                 "file": "images/saati/remove_hr5.pdf",
-                "tags": [
-        "Saati",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "SAATIGRAF HS3",
-                "image": "",
-                "file": "images/saati/saatigraf-hs3.pdf",
-                "tags": [
-        "Saati",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "SAATIGRAF hsx blue",
-                "image": "",
-                "file": "images/saati/saatigraf-hsx-blue.pdf",
-                "tags": [
-        "Saati",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "Ultrafix remover",
-                "image": "",
-                "file": "images/saati/ultrafix_remover.pdf",
-                "tags": [
-        "Saati",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "Ultrafix sb2 PlUs",
-                "image": "images/saati/ultrafix_sb2_pair.jpg",
-                "file": "images/saati/ultrafix_sb2_plus.pdf",
-                "tags": [
-        "Saati",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "vitrum hu",
-                "image": "",
-                "file": "images/saati/vitrum_hu.pdf",
+                   "type":"chemical",
                 "tags": [
         "Saati",
         "Химия для изготовления и регенерации ТПФ",
@@ -958,6 +1184,7 @@
                 "name": "Proclaim",
                 "image": "",
                 "file": "images/ulano/Proclaim (2).pdf",
+                "type": "emulsions",
                 "tags": [
         "Ulano",
         "Эмульсии",
@@ -968,6 +1195,7 @@
                 "name": "Proclaim HR",
                 "image": "",
                 "file": "images/ulano/Proclaim HR (2).pdf",
+                "type": "emulsions",
                 "tags": [
         "Ulano",
         "Эмульсии",
@@ -978,16 +1206,7 @@
                 "name": "QLT™",
                 "image": "",
                 "file": "images/ulano/QLT (2).pdf",
-                "tags": [
-        "Ulano",
-        "Эмульсии",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "QT-Discharge",
-                "image": "",
-                "file": "images/ulano/QT-Discharge (2).pdf",
+                "type": "emulsions",
                 "tags": [
         "Ulano",
         "Эмульсии",
@@ -998,86 +1217,19 @@
                 "name": "QT-Thix",
                 "image": "",
                 "file": "images/ulano/QT-Thix (2).pdf",
+                "type": "emulsions",
                 "tags": [
         "Ulano",
         "Эмульсии",
         "Изготовление и регенерация ТПФ"
       ]
             },
-            {
-                "name": "Orange",
-                "image": "",
-                "file": "images/ulano/Orange.pdf",
-                "tags": [
-        "Ulano",
-        "Эмульсии",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "LX-892",
-                "image": "",
-                "file": "images/ulano/LX-892.pdf",
-                "tags": [
-        "Ulano",
-        "Эмульсии",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "CTS-HS",
-                "image": "",
-                "file": "images/ulano/CTS-HS (2).pdf",
-                "tags": [
-        "Ulano",
-        "Эмульсии",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "RLX",
-                "image": "",
-                "file": "images/ulano/RLX.pdf",
-                "tags": [
-        "Ulano",
-        "Эмульсии",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "EZ-Film",
-                "image": "",
-                "file": "images/ulano/EZ-FILM-50мкрн_rus.pdf",
-                "tags": [
-        "Ulano",
-        "Плёнки для фотоформ",
-        "Сопутствующие материалы"
-      ]
-            },
-            {
-                "name": "CDF/QT Thick-Films",
-                "image": "",
-                "file": "images/ulano/CDF-QT.pdf",
-                "tags": [
-        "Ulano",
-        "Плёнки для фотоформ",
-        "Сопутствующие материалы"
-      ]
-            },
-            {
-                "name": "CDF/Matrix 20",
-                "image": "",
-                "file": "images/ulano/CDF-Matrix.pdf",
-                "tags": [
-        "Ulano",
-        "Плёнки для фотоформ",
-        "Сопутствующие материалы"
-      ]
-            },
+            
             {
                 "name": "Frame Adhesive Extra Grip EG",
                 "image": "",
                 "file": "images/ulano/public/images/ulano/Frame Adhesive EG ред10092013.pdf.pdf",
+                "type": "glue",
                 "tags": [
         "Ulano",
         "Клеи для сеток",
@@ -1088,46 +1240,19 @@
                 "name": "Frame Adhesive Reducer",
                 "image": "",
                 "file": null,
+                "type": "glue",
                 "tags": [
         "Ulano",
         "Клеи для сеток",
         "Изготовление и регенерация ТПФ"
       ]
             },
-            {
-                "name": "Degreasing Gel #23",
-                "image": "",
-                "file": null,
-                "tags": [
-        "Ulano",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "Hardener D",
-                "image": "",
-                "file": "images/ulanno/Hardener D ред10092013.pdf",
-                "tags": [
-        "Ulano",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "Hardener TR",
-                "image": "",
-                "file": "images/ulanno/Hardener TR ред10092013.pdf",
-                "tags": [
-        "Ulano",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
+            
             {
                 "name": "Magic Mesh Prep",
                 "image": "",
                 "file": "images/ulanno/Magic Mesh Prep ред.171013.pdf",
+                "type": "chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1138,6 +1263,7 @@
                 "name": "Ulano Degreaser Conc. 1:50",
                 "image": "",
                 "file": null,
+                "type": "chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1148,26 +1274,19 @@
                 "name": "Screen Filler #60",
                 "image": "",
                 "file": "images/ulano/Screen Filler No. 60 ред21102013.pdf",
+                "type": "retouch",
                 "tags": [
         "Ulano",
         "Ретуши",
         "Изготовление и регенерация ТПФ"
       ]
             },
-            {
-                "name": "Extra Heavy Block-Out",
-                "image": "",
-                "file": "images/ulano/Extra Heavy Blockout № 10 ред21102013.pdf",
-                "tags": [
-        "Ulano",
-        "Ретуши",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
+            
             {
                 "name": "Ulano Stencil Remover Conc. 1:50",
                 "image": "",
                 "file": "images/ulano/Stencil Remover Concentrate_1_50 ред. от 171013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1178,6 +1297,7 @@
                 "name": "Ulano Stripmatic CF",
                 "image": "",
                 "file": null,
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1188,6 +1308,7 @@
                 "name": "Ulano Ghost Remover Advance",
                 "image": "",
                 "file": "images/ulano/GHOST REMOVER ADVANCE ред21102013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1197,6 +1318,7 @@
                 "name": "Actighost Rapid Gel",
                 "image": "",
                 "file": "images/ulano/Actighost Rapid Gel ред10092013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1207,6 +1329,7 @@
                 "name": "Ulano Ghost Remover Paste",
                 "image": "",
                 "file": "images/ulano/Ghost Remover Paste ред21102013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1217,6 +1340,7 @@
                 "name": "Ulano Cleanmatic MF 12-2",
                 "image": "",
                 "file": "images/ulano/CLEANMATICTMF12-2 ред10092013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1227,6 +1351,7 @@
                 "name": "Ulano SV 8",
                 "image": "",
                 "file": "images/ulano/ULANO SV 8 ред 21102013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1237,6 +1362,7 @@
                 "name": "Ulano SV 61",
                 "image": "",
                 "file": "images/ulano/Ulano SV 61 ред21102013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
@@ -1247,37 +1373,14 @@
                 "name": "Ulano Presswash",
                 "image": "",
                 "file": "images/ulano/Ulano SV 61 ред21102013.pdf",
+                "type":"chemical",
                 "tags": [
         "Ulano",
         "Химия для изготовления и регенерации ТПФ",
         "Изготовление и регенерация ТПФ"
       ]
-            },
-            {
-                "name": "PIJF241200",
-                "image": "",
-                "file": null,
-                "tags": [
-        "Ulano",
-        "Плёнки для фотоформ",
-        "Сопутствующие материалы"
-      ]
-            },
-            {
-                "name": "PIJF361200",
-                "image": "",
-                "file": null,
-                "tags": [
-        "Ulano",
-        "Плёнки для фотоформ",
-        "Сопутствующие материалы"
-      ]
             }
         ]
-    },
-    {
-        "id": 9,
-        "name": "Villa Industrie Chimiche"
     },
     {
         "id": 10,

@@ -74,16 +74,6 @@
       "colorMap": "images/magna_color_map.png"
     },
     {
-      "id": 6,
-      "name": "Menphis",
-      "image": "images/pr-logo-6.png",
-      "tags": [
-        "Фольга"
-      ],
-      "link": "https://www.menphis.eu/en/",
-      "colorMap": null
-    },
-    {
       "id": 7,
       "name": "Saati",
       "image": "images/pr-logo-7.png",
@@ -110,16 +100,6 @@
         "Пленки для изготовления фотоформ"
       ],
       "link": "https://www.ulano.com/",
-      "colorMap": null
-    },
-    {
-      "id": 9,
-      "name": "Villa Industrie Chimiche",
-      "image": "images/pr-logo-9.png",
-      "tags": [
-        "Клеи и аэрозоли"
-      ],
-      "link": null,
       "colorMap": null
     }
   ]

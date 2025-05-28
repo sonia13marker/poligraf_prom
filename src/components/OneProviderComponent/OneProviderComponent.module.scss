@@ -4,6 +4,21 @@
   @include flex-column;
   gap: $indent-65;
 
+  &__typeSection {
+    width: 100%;
+
+    &__title {
+      @include inter-medium-35;
+      margin-bottom: 25px;
+    }
+
+    &__description {
+      @include inter-regular-20;
+      max-width: 800px;
+      margin-bottom: 20px;
+    }
+  }
+
   &__cardsList {
     width: 100%;
     display: grid;
