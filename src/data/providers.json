@@ -33,17 +33,6 @@
       "colorMap": null
     },
     {
-      "id": 3,
-      "name": "Colors",
-      "image": "images/pr-logo-3.png",
-      "tags": [
-        "Сольвентная основа",
-        "УФ-отверждение"
-      ],
-      "link": null,
-      "colorMap": "images/creative/creative_colors_map.jpg"
-    },
-    {
       "id": 4,
       "name": "Creative",
       "image": "images/pr-logo-4.png",

@@ -882,17 +882,6 @@
         "supplierName": "Saati"
     },
     {
-        "name": "UNISPEED КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 43-00",
-        "image": "",
-        "file": "images/colors/UNISPEED_43-00_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Краски УФ-отверждения",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
-    },
-    {
         "name": "MagnaPrint® Bling Silver/Gold/Bronze",
         "image": "",
         "file": "images/magna/MagnaPrint Bling_may_2015(1).pdf",
@@ -1041,28 +1030,6 @@
             "Текстильная печать"
         ],
         "supplierName": "Magna"
-    },
-    {
-        "name": "КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ, СЕРИЯ CPUG",
-        "image": "",
-        "file": "images/colors/CPUG_TDS_PDF_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Сольвентные краски",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
-    },
-    {
-        "name": "КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ, СЕРИЯ CAR",
-        "image": "",
-        "file": "images/colors/CAR_TDS_PDF_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Сольвентные краски",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
     },
     {
         "name": "PL FUCHSIA",
@@ -1511,17 +1478,6 @@
         "supplierName": "Inknovators"
     },
     {
-        "name": "UNISPEED КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 43-00",
-        "image": "",
-        "file": "images/colors/UNISPEED_43-00_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Краски УФ-отверждения",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
-    },
-    {
         "name": "PL FLU PINK",
         "image": "images/inknovators/pl_flu_pink.jpg",
         "file": "images/inknovators/PL FLU PINK.pdf",
@@ -1590,17 +1546,6 @@
             "Текстильная печать"
         ],
         "supplierName": "Creative"
-    },
-    {
-        "name": "UNI-PG КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 12-00",
-        "image": "",
-        "file": "images/colors/UNI-PG_12-00_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Краски УФ-отверждения",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
     },
     {
         "name": "Proclaim",
@@ -1709,17 +1654,6 @@
         "supplierName": "Inknovators"
     },
     {
-        "name": "СОЛЬВЕНТНАЯ КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ, СЕРИЯ CQS",
-        "image": "",
-        "file": "images/colors/CQS_TDS_PDF_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Сольвентные краски",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
-    },
-    {
         "name": "CP 3030 ANTIMIGRATION",
         "image": "",
         "file": "images/creative/CP 3030 ANTIMIGRATION_PDF_RUS.pdf",
@@ -1765,17 +1699,6 @@
             "Изготовление и регенерация ТПФ"
         ],
         "supplierName": "Saati"
-    },
-    {
-        "name": "УФ-КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ SCREEN-UV PVC",
-        "image": "",
-        "file": "images/colors/SCREEN-UV_TDS_PDF_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Краски УФ-отверждения",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
     },
     {
         "name": "FOIL ADHESIVE",
@@ -1896,17 +1819,6 @@
         "supplierName": "Inknovators"
     },
     {
-        "name": "UVI-VINYL КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 70-00",
-        "image": "",
-        "file": "images/colors/UVI-VINYL_70-00_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Краски УФ-отверждения",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
-    },
-    {
         "name": "MagnaPrint Underbase Gray SL",
         "image": "",
         "file": "images/magna/Underbase_Grey_SL_rus.pdf",
@@ -1928,17 +1840,6 @@
             "Изготовление и регенерация ТПФ"
         ],
         "supplierName": "Saati"
-    },
-    {
-        "name": "UNI-PU КРАСКА ДЛЯ ТРАФАРЕТНОЙ ПЕЧАТИ СЕРИЯ 161-00",
-        "image": "",
-        "file": "images/colors/UNI-PU_161-00_RUS.pdf",
-        "tags": [
-            "Colors",
-            "Краски УФ-отверждения",
-            "Графическая печать"
-        ],
-        "supplierName": "Colors"
     },
     {
         "name": "Ulano Presswash",
