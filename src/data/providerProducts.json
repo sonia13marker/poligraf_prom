@@ -1747,8 +1747,470 @@
         "id": 10,
         "name": "Magna",
         "products": [
+          {
+                "name": "Magnaprint Detergent WB",
+                "image": "",
+                "file": "",
+                "type":"chemical",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
             {
-                "name": "MagnaPrint® AquaFlex White",
+                "name": "Magnaprint Discharge Super White AB AW NJ Вытравная краска, кроющий белый",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Discharge Base AB-AW Вытравная краска, прозрачная база",
+                "image": "images/magna/images/G941@25MP.jpg",
+                "file": "images/magna/Discharge AB AW_rus.pdf",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint ND Extra Краска на водной основе для светлых тканей, прозрачная база",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Transfer Bond База для флока и трансферной пленки",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Bling Silver Краска водная серебро",
+                "image": "",
+                "file": "",
+                "type":"metallic colors",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Reflective Ink Светоотражающая краска SB",
+                "image": "",
+                "file": "",
+                "type":"metallic colors",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Aquafast White Краска белая с низкой температурой полимеризации",
+                "image": "",
+                "file": "",
+                "type":"basic colors",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint HB База на водной основе для темных тканей",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint HB Opaque База на водной основе для темных тканей",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "MagnaPrint Reflective Silver 3R",
+                "image": "",
+                "file": "",
+                "type":"metallic colors",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Reflective Crystal Clear",
+                "image": "",
+                "file": "",
+                "type":"metallic colors",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "MagnaPrint Aquaflex V2 Neutral",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "MagnaPrint Aquaflex White V2",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Foil Resist Paste База-антифольга",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Expanding NF Вспенивающая база на водной основе",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Suede Foam NF Вспенивающаяся краска с эффектом замши на водной основе",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint  Retardent Gel Гель-замедлитель для водных красок",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "MAGNAPRINT KILLER BASE Грунт, кроющая водная краска",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "MagnaPrint DWR Primer",
+                "image": "",
+                "file": "",
+                "type":"effects",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Yellow HR",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Yellow HG",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Red HB",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Red HG",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Green HB",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Fluo yellow",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Black NGN",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Fluo Orange",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Fluo Red",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Fluo Pink",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Fluo Blue",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Fluo Green",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Fluo Violet HFV",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Violet H4B",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Blue HB",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Blue HG",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Navy HR",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Orange HO",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO Pink H5B",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "ECO White HW",
+                "image": "",
+                "file": "",
+                "type":"pigment",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Crosslinker 100 Добавка для снижения температуры полимеризации",
+                "image": "",
+                "file": "",
+                "type":"chemical",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Magnaprint Discharge Activator AB Активатор АВ для вытравных красок",
+                "image": "",
+                "file": "",
+                "type":"chemical",
+                "tags": [
+        "Magna",
+        "Водные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "MagnaPrint AquaFlex White",
                 "image": "images/magna/images/G6654@5MP.jpg",
                 "file": "images/magna/AquaFlex 1.pdf",
                 "tags": [
@@ -1778,7 +2240,7 @@
       ]
             },
             {
-                "name": "MagnaPrint® ND Extra",
+                "name": "MagnaPrint ND Extra",
                 "image": "",
                 "file": "images/magna/ND_Extra_rus.pdf",
                 "tags": [
@@ -1788,7 +2250,7 @@
       ]
             },
             {
-                "name": "Magnaprint® HB - Neutral(прозрачная) и Opaque(кроющая)",
+                "name": "Magnaprint HB - Neutral(прозрачная) и Opaque(кроющая)",
                 "image": "",
                 "file": "images/magna/Magnaprint HB 10_2015.pdf",
                 "tags": [
@@ -1807,28 +2269,10 @@
         "Текстильная печать"
       ]
             },
+          
+            
             {
-                "name": "MagnaPrint® Discharge AB AW Range",
-                "image": "images/magna/images/G941@25MP.jpg",
-                "file": "images/magna/Discharge AB AW_rus.pdf",
-                "tags": [
-        "Magna",
-        "Водные краски",
-        "Текстильная печать"
-      ]
-            },
-            {
-                "name": "MagnaPrint® Discharge ULF Ultra",
-                "image": "",
-                "file": "images/magna/Discharge_ULF_Ultra_rus.pdf",
-                "tags": [
-        "Magna",
-        "Водные краски",
-        "Текстильная печать"
-      ]
-            },
-            {
-                "name": "MagnaPrint® Plascharge",
+                "name": "MagnaPrint Plascharge",
                 "image": "images/magna/images/G5210@5MP.jpg",
                 "file": "images/magna/Plascharge_rus.pdf",
                 "tags": [
@@ -1838,7 +2282,7 @@
       ]
             },
             {
-                "name": "MagnaPrint® Expanding LT",
+                "name": "MagnaPrint Expanding LT",
                 "image": "",
                 "file": "images/magna/Magnaprint_Expanding_LT.pdf",
                 "tags": [
@@ -1848,7 +2292,7 @@
       ]
             },
             {
-                "name": "Magnaprint® Suede Foam",
+                "name": "Magnaprint Suede Foam",
                 "image": "images/magna/images/G6778@5MP.jpg",
                 "file": "images/magna/Magnaprint_Suede_Foam_rus.pdf",
                 "tags": [
@@ -1858,7 +2302,7 @@
       ]
             },
             {
-                "name": "Magnaprint® Eco Glitter Binder QPUK",
+                "name": "Magnaprint Eco Glitter Binder QPUK",
                 "image": "images/magna/images/G4949N@5MP.jpg",
                 "file": "images/magna/Eco_Glitter_Binder_QPUK_rus.pdf",
                 "tags": [
@@ -1940,7 +2384,7 @@
             {
                 "name": "Добавки",
                 "image": "",
-                "file": "images/magna/Добавки и присадки Магна 07_2015.pdf",
+                "file": "images/magna/Добавки и присадки Магна 08_2025.pdf",
                 "tags": [
         "Magna",
         "Водные краски",

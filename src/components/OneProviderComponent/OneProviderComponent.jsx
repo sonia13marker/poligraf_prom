@@ -15,6 +15,7 @@ export default function OneProviderComponent({ products }) {
     'emulsions': 'Эмульсии',
     'glue': 'Клеи для сеток',
     'retouch': 'Ретушь',    
+    'pigment': 'Пигменты'
   };
 
   // Проверяем и инициализируем products если он undefined/null
