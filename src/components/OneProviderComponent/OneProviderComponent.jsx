@@ -14,7 +14,7 @@ export default function OneProviderComponent({ products }) {
     'chemical': 'Химия для изготовления и регенерации ТПФ',
     'emulsions': 'Эмульсии',
     'glue': 'Клеи для сеток',
-    'retouch': 'Ретушь'
+    'retouch': 'Ретушь',    
   };
 
   // Проверяем и инициализируем products если он undefined/null

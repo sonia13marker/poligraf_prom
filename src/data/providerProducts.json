@@ -654,16 +654,6 @@
       ]
             },
             {
-                "name": "CP4060 SHINING BASE",
-                "image": "",
-                "file": "images/creative/CP 4060 SHINING BASE_PDF_RUS.pdf",
-                "tags": [
-        "Creative",
-        "Пластизольные краски",
-        "Текстильная печать"
-      ]
-            },
-            {
                 "name": "CP4080 SUPERGEL CLEAR BASE",
                 "image": "",
                 "file": "images/creative/CP 4080 SUPER GEL CLEAR_PDF_RUS.pdf",
@@ -722,8 +712,502 @@
         "Пластизольные краски",
         "Текстильная печать"
       ]
+            },
+            {
+                "name": "2MXP3100 Albany White",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+             {
+                "name": "2MXP3110 Citrine",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3120 Canary Yellow",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3130 Pumpkin",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3140 Candy Red",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3150 Cherry Red",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3160 Magenta",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3170 Violet",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3180 Indigo Blue",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3190 Cerulean Blue",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3200 French Blue",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3210 Emerald Green",
+                "image": "images/creative/creative_basic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3300 Dazzle Fluorescent Yellow",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3310 Dazzle Fluorescent Orange",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3320 Dazzle Fluorescent Red",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3330 Dazzle Fluorescent Magenta",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3340 Dazzle Fluorescent Pink",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3350 Dazzle Fluorescent Green",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3360 Dazzle Fluorescent Blue",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2MXP3370 Dazzle Fluorescent Violet",
+                "image": "images/creative/creative_flu_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"flu colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2PSP3010 Process Yellow",
+                "image": "images/creative/creative_cmyk_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"cmyk colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2PSP3020 Process Cyan",
+                "image": "images/creative/creative_cmyk_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"cmyk colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2PSP3030 Process Magenta",
+                "image": "images/creative/creative_cmyk_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"cmyk colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2PSP3040 Process Black",
+                "image": "images/creative/creative_cmyk_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"cmyk colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2RMP2674 COCOA",
+                "image": "",
+                "file": "",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2RMP2674 CHAMPAGNE",
+                "image": "",
+                "file": "",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2SFP3500 Glitz Silver Shimmer",
+                "image": "images/creative/creative_metallic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"metallic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2SFP3510 Glitz Gold Shimmer",
+                "image": "images/creative/creative_metallic_colors.jpg",
+                "file": "images/creative/creative_colors_map.jpg",
+                "type":"metallic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2WCF0040 Satin White FF",
+                "image": "",
+                "file": "",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "2WCP1040 Satin White",
+                "image": "",
+                "file": "",
+                "type":"basic colors",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 INK EXTENDER (ES0005) База-наполнитель для пластизольных красок",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP3030 ANTIMIGRATION (0266) База пластизольная ANTIMIGRATION",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP4010 HIGH STRETCH CLEAR (0031) Краска для эластичных тканей",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP4050 SPARKLE BASE (0221) База пластизольная для глиттеров",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP4060 SHINING BASE База пластизольная для глиттеров",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+             {
+                "name": "O2 CP4080 Super GelClear База пластизольная",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP4610 Soft Puff База вспенивающаяся",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 ULTRA MATTE BASE (0542) База пластизольная матовая",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP6010 CONCRETE BLACK (8033) Краска пластизольная цвет CONCRETE BLACK",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP8020 LOW BLEED WHITE (9073) Грунт пластизольный белый (блок мигр.) LB WHITE",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP9050 GLACIER WHITE (9072) Грунт пластизольный белый GLACIER WHITE",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "O2 CP9060 SWAN WHITE (9040) Краска пластизольная цвет белый SWAN",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "Ultra Soft Clear Base Краска на водной основе для печати по светлым тканям, прозрачная база",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "HD Foil Transfer Base База для текстильной трансферной пленки премиум",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
+            },
+            {
+                "name": "SF Foil Transfer Base База для текстильной трансферной пленки мягкая",
+                "image": "",
+                "file": "",
+                "type":"bases",
+                "tags": [
+        "Creative",
+        "Пластизольные краски",
+        "Текстильная печать"
+      ]
             }
-           
         ]
     },
     {
@@ -767,7 +1251,7 @@
         "name": "Saati",
         "products": [
           {
-                "name": "Сетка 10,5 мм",
+                "name": "Сетка 10,5 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -778,7 +1262,7 @@
       ]
             },
             {
-                "name": "Сетка 12 мм",
+                "name": "Сетка 12 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -789,7 +1273,7 @@
       ]
             },
             {
-                "name": "Сетка 18 мм",
+                "name": "Сетка 18 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -800,7 +1284,7 @@
       ]
             },
             {
-                "name": "Сетка 24 мм",
+                "name": "Сетка 24 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -811,7 +1295,7 @@
       ]
             },
             {
-                "name": "Сетка 32 мм",
+                "name": "Сетка 32 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -822,7 +1306,7 @@
       ]
             },
             {
-                "name": "Сетка 43 мм",
+                "name": "Сетка 43 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -833,7 +1317,7 @@
       ]
             },
             {
-                "name": "Сетка 55 мм",
+                "name": "Сетка 55 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -844,7 +1328,7 @@
       ]
             },
             {
-                "name": "Сетка 62 мм",
+                "name": "Сетка 62 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -855,7 +1339,7 @@
       ]
             },
             {
-                "name": "Сетка 77 мм",
+                "name": "Сетка 77 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -866,7 +1350,7 @@
       ]
             },
             {
-                "name": "Сетка 90 мм",
+                "name": "Сетка 90 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -877,7 +1361,7 @@
       ]
             },
             {
-                "name": "Сетка 100 мм",
+                "name": "Сетка 100 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -888,7 +1372,7 @@
       ]
             },
             {
-                "name": "Сетка 120 мм",
+                "name": "Сетка 120 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -899,7 +1383,7 @@
       ]
             },
             {
-                "name": "Сетка 140 мм",
+                "name": "Сетка 140 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -910,7 +1394,7 @@
       ]
             },
             {
-                "name": "Сетка 165 мм",
+                "name": "Сетка 165 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -921,7 +1405,7 @@
       ]
             },
             {
-                "name": "Сетка 180 мм",
+                "name": "Сетка 180 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -932,7 +1416,7 @@
       ]
             },
             {
-                "name": "Сетка 200 мм",
+                "name": "Сетка 200 ",
                 "image": "images/saati/saati_grids.jpg",
                 "file": "",
                 "type": "grids",
@@ -944,7 +1428,7 @@
             },
             {
                 "name": "Grafic HU",
-                "image": "images/saati/grafic_hu_violet_pair2.jpg",
+                "image": "",
                 "file": "images/saati/Эмульсия GRAF-HU.pdf",
                 "type":"emulsions",
                 "tags": [
@@ -955,7 +1439,7 @@
             },
             {
                 "name": "SAATITEX HT",
-                "image": "",
+                "image": "images/saati/saatitex_ht_pair.jpg",
                 "file": "images/saati/textil_ht.pdf",
                 "type":"emulsions",
                 "tags": [
@@ -977,7 +1461,7 @@
             },
             {
                 "name": "Grafic HU Violet",
-                "image": "",
+                "image": "images/saati/grafic_hu_violet_pair.jpg",
                 "file": "",
                 "type":"emulsions",
                 "tags": [
@@ -988,7 +1472,7 @@
             },
             {
                 "name": "SAATITEX PHU HR",
-                "image": "",
+                "image": "images/saati/saatitex_phu_hr.jpg",
                 "file": "",
                 "type":"emulsions",
                 "tags": [
@@ -1109,7 +1593,7 @@
             },
             {
                 "name": "REMOVE ER series",
-                "image": "",
+                "image": "images/saati/remove_er2.jpg",
                    "type":"chemical",
                 "file": "images/saati/remove_er 25.pdf",
                 "tags": [
@@ -1120,7 +1604,7 @@
             },
             {
                 "name": "Remove hR5",
-                "image": "",
+                "image": "images/saati/remove_hr3_pair.jpg",
                 "file": "images/saati/remove_er1.pdf",
                    "type":"chemical",
                 "tags": [
@@ -1142,7 +1626,7 @@
             },
             {
                 "name": "Remove hR1",
-                "image": "",
+                "image": "images/saati/remove_hr3_pair.jpg",
                 "file": "images/saati/remove_hr1.pdf",
                    "type":"chemical",
                 "tags": [
@@ -1155,17 +1639,6 @@
                 "name": "Remove hR3",
                 "image": "images/saati/remove_hr3_pair.jpg",
                 "file": "images/saati/remove_hr3.pdf",
-                   "type":"chemical",
-                "tags": [
-        "Saati",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
-                "name": "Remove hR5",
-                "image": "",
-                "file": "images/saati/remove_hr5.pdf",
                    "type":"chemical",
                 "tags": [
         "Saati",
@@ -1215,7 +1688,7 @@
             },
             {
                 "name": "QT-Thix",
-                "image": "",
+                "image": "images/ulano/qt_thix.jpg",
                 "file": "images/ulano/QT-Thix (2).pdf",
                 "type": "emulsions",
                 "tags": [
@@ -1250,7 +1723,7 @@
             
             {
                 "name": "Magic Mesh Prep",
-                "image": "",
+                "image": "images/ulano/magic_mesh_prep.jpg",
                 "file": "images/ulanno/Magic Mesh Prep ред.171013.pdf",
                 "type": "chemical",
                 "tags": [
@@ -1295,7 +1768,7 @@
             },
             {
                 "name": "Ulano Stripmatic CF",
-                "image": "",
+                "image":  "images/ulano/strip-matic_cf.jpg",
                 "file": null,
                 "type":"chemical",
                 "tags": [
@@ -1306,7 +1779,7 @@
             },
             {
                 "name": "Ulano Ghost Remover Advance",
-                "image": "",
+                "image": "images/ulano/ghost_remover_paste.jpg",
                 "file": "images/ulano/GHOST REMOVER ADVANCE ред21102013.pdf",
                 "type":"chemical",
                 "tags": [
@@ -1316,7 +1789,7 @@
       ]
             },  {
                 "name": "Actighost Rapid Gel",
-                "image": "",
+                "image": "images/ulano/actighost_rapid_gel.jpg",
                 "file": "images/ulano/Actighost Rapid Gel ред10092013.pdf",
                 "type":"chemical",
                 "tags": [
@@ -1327,7 +1800,7 @@
             },
             {
                 "name": "Ulano Ghost Remover Paste",
-                "image": "",
+                "image": "images/ulano/ghost_remover_paste.jpg",
                 "file": "images/ulano/Ghost Remover Paste ред21102013.pdf",
                 "type":"chemical",
                 "tags": [
@@ -1348,17 +1821,6 @@
       ]
             },
             {
-                "name": "Ulano SV 8",
-                "image": "",
-                "file": "images/ulano/ULANO SV 8 ред 21102013.pdf",
-                "type":"chemical",
-                "tags": [
-        "Ulano",
-        "Химия для изготовления и регенерации ТПФ",
-        "Изготовление и регенерация ТПФ"
-      ]
-            },
-            {
                 "name": "Ulano SV 61",
                 "image": "",
                 "file": "images/ulano/Ulano SV 61 ред21102013.pdf",
@@ -1371,7 +1833,7 @@
             },
             {
                 "name": "Ulano Presswash",
-                "image": "",
+                "image": "images/ulano/press_wash.jpg",
                 "file": "images/ulano/Ulano SV 61 ред21102013.pdf",
                 "type":"chemical",
                 "tags": [
